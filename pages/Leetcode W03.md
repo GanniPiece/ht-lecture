@@ -1,0 +1,30 @@
+- Status
+	- Period: [[Aug 28th, 2022]] - [[Sep 3rd, 2022]]
+	- Solved: 7
+		- Hard: 0
+		- Medium: 4
+		- Easy: 3
+	- Unsolved: 0
+- Problem 6 #medium
+	- link: [Zigzag Conversion - LeetCode](https://leetcode.com/problems/zigzag-conversion/)
+	- Solution and Analyze
+		- 1. 找到規律，依次取直
+		- O(n)
+- Problem 11 #Medium
+	- link: [Container With Most Water - LeetCode](https://leetcode.com/problems/container-with-most-water/)
+	- Solution and Analyze
+		- 1. two pointer
+		  2. 每次移動比較低的那邊 ($$\because Volume = Width \times LowestHeight$$ )
+- Problem 151 #Medium
+	- link: [Reverse Words in a String - LeetCode](https://leetcode.com/problems/reverse-words-in-a-string/)
+	- Solution and Analyze
+		- 1. 使用一個指標從句子尾端開始，將當前文字記錄於字串來進行反轉
+-
+- Problem 28 #Easy
+	- link: [Implement strStr() - LeetCode](https://leetcode.com/problems/implement-strstr/)
+	- Solution and Analyze
+		- 1. Two pointer
+- Problem 191 #Easy
+	- link: [Number of 1 Bits - LeetCode](https://leetcode.com/problems/number-of-1-bits/)
+	- Solution and Analyze
+		- loop over 32 times and get the bit in each iteration

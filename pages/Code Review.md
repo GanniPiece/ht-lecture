@@ -1,0 +1,12 @@
+- [[Reviewer]]
+	- Code Review 的標準
+		- 目標：讓整體 codebase 的品質隨時間改進
+		- 三大面向
+			- Mentoring：積極作為
+				- Developer 程式碼的啟發
+				- 技術分享
+			- Principles：基本遵守原則
+			- Resolving Conflicts：解決衝突
+		-
+	-
+- Developer

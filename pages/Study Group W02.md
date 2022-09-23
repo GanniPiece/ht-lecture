@@ -1,0 +1,16 @@
+- Status
+	- Date: [[Aug 27th, 2022]]
+	- Participants: 梵宇、學姊、昱雯
+	- Time: 15:00
+- Problems
+	- 43. Multiply Strings
+		- table?
+		- transfer into ASCII code
+	- 278. First Bad Version
+		- Binary search
+	- 977. Squares of a Sorted Array
+		- Two pointers
+	- 206. Reverse Linked List
+	- 109. Convert Sorted List to Binary Search Tree
+		- 快慢指針找中間 (fast *2, slow *1)
+		-

@@ -1,0 +1,11 @@
+- Status
+	- Date: [[Aug 21st, 2022]]
+	- Participants: 梵宇、學姊、popo
+	- Time: 15:00
+- Problems
+	- 101. Symmetric Tree
+		- tree traversal: preorder, inorder, postorder
+		- 對左子樹做 preorder, 右子樹做 postorder
+		- L->R->M vs R->L->M
+	- 104. Maximum depth of Binary Tree
+		-

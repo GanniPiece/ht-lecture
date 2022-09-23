@@ -1,0 +1,19 @@
+public:: true
+
+- ## Lecture
+- [[Lecture 01: Basic Concept]]
+- [[Lecture 02: Version Control using Git]]
+- [[Lecture 03: Linux and Basic Manipulation]]
+- [[Lecture 04: Network Programming]]
+- [[Lecture 05: Basic Compiling Process]]
+- [[Lecture 06: Assembler, Linker, Compiler]]
+- [[Lecture 07: Regular Expression]]
+- [[Lecture 08: Multi-threading Programming]]
+- [[Lecture 09: Multi-processing Programming]]
+- [[Lecture 10: Parallel Programming]]
+- [[Lecture 11: Design Pattern (1)]]
+- [[Lecture 12: Design Pattern (2)]]
+- [[Lecture 13: Design Pattern (3)]]
+- ## Homework
+- [[Project 1: 1A2B]]
+- [[Project 2: 1A2B (TCP version)]]

@@ -1,0 +1,46 @@
+- Status
+	- Period: [[Aug 14th, 2022]] - [[Aug 21st, 2022]]
+	- Solved: 6
+		- Hard: 0
+		- Medium: 3
+		- Easy: 3
+	- Unsolved: 1
+- Problem 19 #Medium
+	- link: [Remove Nth Node From End of List - LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+	- Solution and Analyze
+		- 1. 使用額外的陣列 `vector<ListNode*> buf` 來儲存 Linked List
+		  2. 建立兩個差距 N 個距離的指標，並將後項移至 Linked list 尾端
+		-
+- Problem 24 #Medium
+	- link: [Swap Nodes in Pairs - LeetCode](https://leetcode.com/problems/swap-nodes-in-pairs/)
+	- Solution and Analyze
+		- 1. 建立一個 temp 來進行 swap，並將 pair 指向下個 pair 的頭
+		  2. 毋須 temp，將原 pair 的頭指向尾的 next，再將尾的 next 指向原先的頭即可
+-
+- Problem 29
+	- link: [Divide Two Integers - LeetCode](https://leetcode.com/problems/divide-two-integers/)
+	- level: #Medium
+	- Solution and Analyze
+		- 1. 本題要求不可使用乘法、除法與 mod 三種運算元進行運算 -> 使用 bitwise 的操作完成
+		-
+		-
+- Problem 27
+	- link: [Remove Element - LeetCode](https://leetcode.com/problems/remove-element/)
+	- level: #Easy
+	- Solution and Analyze
+		- 使用 queue 來紀錄空缺的位置
+-
+- Problem 58
+	- link: [Length of Last Word - LeetCode](https://leetcode.com/problems/length-of-last-word/)
+	- level: #Easy
+	- Solution and Analyze
+		- 1. 使用指標來檢索字串
+		  2. 減少分支 branch 的使用
+		-
+- Problem 66
+	- link:[Plus One - LeetCode](https://leetcode.com/problems/plus-one/)
+	- level: #Easy
+	- Solution and Analyze
+		- 注意 carry 可能超出 array 範圍的情況
+		-
+-

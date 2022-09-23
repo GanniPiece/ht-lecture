@@ -1,0 +1,9 @@
+- 定義
+	- Supply Chain Management
+	- 供應鏈管理的基本定義為將產品交付給客戶時幕後發生的所有一切，包括採購、下單、製造、運輸、庫存管理等。這個過程始於聆聽市場，瞭解客戶的需求、適當的時間點以及產品的數量。接著是處理包括尋找貨源、生產到物流的所有步驟。這個旅程無比複雜，為了盡可能提高效率，必須將這條供應鏈中的每個合作夥伴或是「環節」，整合到緊密合作且靈活的系統中。([什麼是供應鏈管理（SCM）與其重要性？| 定義與基本概念 | SAP Insights](https://www.sap.com/taiwan/insights/what-is-supply-chain-management-scm.html))
+- [5 Strategies for Building a Resilient Supply Chain in Turbulent Times (oracle.com)](https://blogs.oracle.com/scm/post/5-strategies-for-building-a-resilient-supply-chain-in-turbulent-times)
+	- Build a resilient and agile supply chain
+	- Plan (and execute) continuously
+	- Innovate (and scale) faster
+	- Gain total visibility (and trust)
+	- Build in sustainability

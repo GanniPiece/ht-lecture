@@ -1,0 +1,29 @@
+- ## Definitions
+	- 1. "Avoid analyses with very small groups – the smaller, the less preferable."
+	- 2. (Proximity) Consider a sequence of four notes, n1–n4, the transition n2–n3 may be heard as a group boundary if:
+		- a.(slur/rest) the interval of time from the end of n2 is greater than that from the end of n1 to the beginning of n2 and that from the end of n3 to the beginning of n4
+		- b.(attack/point) the interval of time between the attack points of n2 and n3 is greater than between those of n1 and n2 and between those of n3 and n4.
+	- 3. (Change) Consider a sequence of four notes, n1–n4. The transition n2–n3 may be heard as a group boundary if marked by
+		- a. register
+		- b. dynamics
+		- c. articulation
+		- d. length.
+	- 4. (Intensification) A larger-level group may be placed where the effects picked out by GPRs 2 and 3 are more pronounced.
+	- 5. (Symmetry) "Prefer grouping analyses that most closely approach the ideal subdivision of groups into two parts of equal length."
+	- 6. (Parallelism) "Where two or more segments of music can be construed as parallel, they preferably form parallel parts of groups."
+	- 7. (Time-span and prolongational stability) "Prefer a grouping structure that results in more stable time-span and/or prolongational reductions."
+-
+	- ![image.png](../assets/image_1663664065309_0.png)
+-
+- ## GPR 2
+	- ![GPR2png](../assets/GPR2a_1663645425017_0.png){:height 428, :width 747}
+	- 2a. OOI (Slur/Rest)
+	- 2b. IOI
+		-
+- ## GPR 3
+	- ![GPR3.png](../assets/GPR3_1663663472601_0.png)
+	- 3a. Register
+	- 3b. Dynamics
+	- 3c. Articulations
+	- 3d. Length
+- ## GPR 6
