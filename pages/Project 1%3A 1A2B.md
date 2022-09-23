@@ -1,7 +1,6 @@
+public:: true
 title:: Project 1: 1A2B
 
-- title:: Project 1: 1A2B
-  public:: true
 - [1A2B - 維基百科，自由的百科全書 (wikipedia.org)](https://zh.m.wikipedia.org/zh-tw/1A2B)
 - ## 題目描述
 - 由一方出題，一方解題。出題方根據解題方的回答，提供 `XAYB` 的提示給出題方線索。

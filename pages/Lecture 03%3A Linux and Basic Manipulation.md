@@ -1,7 +1,6 @@
+public:: true
 title:: Lecture 03: Linux and Basic Manipulation
 
-- title:: Lecture 03: Linux and Basic Manipulation
-  public:: true
 - ![](https://logodownload.org/wp-content/uploads/2022/05/linux-logo-0.png){:height 221, :width 236}
 - ## Linux 是什麼？
 	- ### 你怎麼可以不知道 Linux ?!
