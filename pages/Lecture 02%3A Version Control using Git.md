@@ -1,7 +1,6 @@
+public:: true
 title:: Lecture 02: Version Control using Git
 
-- title:: Lecture 02: Version Control using Git
-  public:: true
 - ## 為什麼要使用 Git？
 	- ### 背景
 		- ![](https://backlog.com/git-tutorial/tw/img/post/intro/capture_intro1_1_1.png)

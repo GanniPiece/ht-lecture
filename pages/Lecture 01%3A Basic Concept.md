@@ -1,7 +1,6 @@
+public:: true
 title:: Lecture 01: Basic Concept
 
-- title:: Lecture 01: Basic Concept
-  public:: true
 - ## 課程大綱
 	- 連結
 		- https://www.notion.so/ginedoc/ff671e5008aa4a6e82e676abe619f0f7?v=5287929ff6f94f5fa1252a6bd476206d
