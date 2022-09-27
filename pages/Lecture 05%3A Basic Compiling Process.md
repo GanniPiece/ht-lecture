@@ -17,7 +17,10 @@ title:: Lecture 05: Basic Compiling Process
 		  #include "my_header_include_file.h"
 		  ```
 	- 巨集定義：Macro Definition
-		-
+		- Simple Macros
+			- ```c
+			  #define 
+			  ```
 	- 條件式編譯：Conditional Compilation
 -
 - ## Practice
