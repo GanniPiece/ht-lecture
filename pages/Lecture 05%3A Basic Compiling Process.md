@@ -11,4 +11,9 @@ title:: Lecture 05: Basic Compiling Process
 	- 檔案引入：File Inclusion
 	- 條件式編譯：Conditional Compilation
 -
+- ## Practice
+	- Preprocessor 的三項主要指令練習
+	- 透過 gcc 參數觀察 Source code 的變化
+-
+-
 - 下一章節： [[Lecture 06: Assembler, Linker, Compiler]]
