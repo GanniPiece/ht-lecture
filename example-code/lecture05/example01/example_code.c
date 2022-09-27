@@ -1,3 +1,4 @@
+#pragma once
 #include "example_code.h"
 
 void myFunc1 (int num) {
