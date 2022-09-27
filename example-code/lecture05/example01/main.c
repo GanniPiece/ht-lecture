@@ -2,7 +2,7 @@
 
 #ifndef EXAMPLE_HEADER_H_
     #define EXAMPLE_HEADER_H_
-    #include "example_header.h"
+    #include "example_header.c"
     #include <stdio.h>
 #endif
 
