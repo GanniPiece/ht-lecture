@@ -6,7 +6,7 @@ title:: Lecture 05: Basic Compiling Process
 -
 - ## Compilation
 	- | ![](https://static.javatpoint.com/cpages/images/compilation-process-in-c2.png){:height 551, :width 482} | ![](https://static.javatpoint.com/cpages/images/compilation-process-in-c3.png){:height 983, :width 170} |
-	- ### Preprocessing
+	- ### Preprocessor
 		-
 	- ### Compiler
 	- ### Assembler
