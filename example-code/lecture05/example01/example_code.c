@@ -9,5 +9,5 @@ void myFunc2 (int num) {
 }
 
 void printVariables () {
-    printf("Var: %d %d\n", m_var1, m_var2)
+    printf("Var: %d %d\n", m_var1, m_var2);
 }

@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "example_code.h": "c"
+        "example_code.h": "c",
+        "example_header.h": "c"
     }
 }
