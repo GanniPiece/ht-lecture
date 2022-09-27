@@ -1,4 +1,5 @@
-#pragma once
+#ifndef EXAMPLE_CODE_H_
+
 #include "example_code.h"
 
 int main () {
