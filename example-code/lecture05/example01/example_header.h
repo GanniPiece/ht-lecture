@@ -1,5 +1,5 @@
-#ifndef EXAMPLE_HEADER_H
-    #define EXAMPLE_HEADER_H
+#ifndef EXAMPLE_HEADER_H_
+    #define EXAMPLE_HEADER_H_
 #endif
 
 const int m_var1 = 5;
