@@ -1,5 +1,6 @@
-#include "example_header.h"
-#pragma once
+#ifndef _EXAMPLE_HEADER_H
+    #include "example_header.h"
+#endif
 
 void myFunc1 (int);
 void myFunc2 (int);

@@ -1,5 +1,5 @@
-#include "example_code.h"
 #pragma once
+#include "example_code.h"
 
 int main () {
     myFunc1(2);
