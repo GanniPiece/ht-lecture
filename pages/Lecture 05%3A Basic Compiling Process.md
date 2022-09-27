@@ -7,6 +7,11 @@ title:: Lecture 05: Basic Compiling Process
 - ## Compilation Process
 	- | ![](https://static.javatpoint.com/cpages/images/compilation-process-in-c2.png){:height 551, :width 482} | ![](https://static.javatpoint.com/cpages/images/compilation-process-in-c3.png){:height 983, :width 170} |
 - ## Preprocessor
--
+	- 巨集定義：Macro Definition
+	- 檔案引入：File Inclusion
+	-
+- ## Compiler
+- ## Assembler
+- ## Linker
 -
 - 下一章節： [[Lecture 06: Assembler, Linker, Compiler]]
