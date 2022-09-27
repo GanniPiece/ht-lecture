@@ -10,8 +10,5 @@ title:: Lecture 05: Basic Compiling Process
 	- 巨集定義：Macro Definition
 	- 檔案引入：File Inclusion
 	- 條件式編譯：Conditional Compilation
-- ## Compiler
-- ## Assembler
-- ## Linker
 -
 - 下一章節： [[Lecture 06: Assembler, Linker, Compiler]]
