@@ -1,7 +1,15 @@
-#pragma once
-#include "example_header.c"
-#include <stdio.h>
-#include "example_code.h"
+#ifndef EXAMPLE_HEADER_H_
+    #define EXAMPLE_HEADER_H_
+    #include "example_header.c"
+#endif
+#ifndef STDIO_H_
+    #define STDIO_H_
+    #include <stdio.h>
+#endif
+#ifndef EXAMPLE_CODE_H_
+    #define EXAMPLE_CODE_H_
+    #include "example_code.h"
+#endif
 
 int main () {
     myFunc1(2);
