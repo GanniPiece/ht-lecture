@@ -9,7 +9,7 @@ title:: Lecture 05: Basic Compiling Process
 - ## Preprocessor
 	- 巨集定義：Macro Definition
 	- 檔案引入：File Inclusion
-	-
+	- 條件式編譯：Conditional Compilation
 - ## Compiler
 - ## Assembler
 - ## Linker
