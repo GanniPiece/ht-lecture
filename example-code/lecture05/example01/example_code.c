@@ -7,3 +7,5 @@ void myFunc1 (int num) {
 void myFunc2 (int num) {
     printf("Func2: %d\n", num);
 }
+
+void printVariables ()
