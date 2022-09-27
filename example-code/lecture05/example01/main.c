@@ -1,4 +1,3 @@
-#pragma once
 #include <stdio.h>
 #include "example_code.h"
 
