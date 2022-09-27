@@ -1,3 +1,4 @@
-#include <iostream>
+#include <stdio.h>
 
-void print_
+void myFunc1 (int);
+void myFunc2 (int);
