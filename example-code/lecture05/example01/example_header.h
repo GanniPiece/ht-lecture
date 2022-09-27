@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "example_code.h"
 
 const int m_var1 = 5;
