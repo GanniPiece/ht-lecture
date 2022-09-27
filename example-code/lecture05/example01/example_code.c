@@ -1,5 +1,7 @@
 #include "example_code.h"
 
+extern int m_var1;
+extern int m_var2;
 
 void myFunc1 (int num) {
     printf("Func1: %d\n", num);
