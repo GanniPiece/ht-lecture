@@ -1,5 +1,4 @@
 #include "example_code.h"
-#pragma once
 
 void myFunc1 (int num) {
     printf("Func1: %d\n", num);
