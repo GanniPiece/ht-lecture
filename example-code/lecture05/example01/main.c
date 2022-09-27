@@ -1,9 +1,9 @@
-#include <stdio.h>
 #include "example_code.h"
 
 #ifndef EXAMPLE_HEADER_H
     #define EXAMPLE_HEADER_H
     #include "example_header.h"
+    #include <stdio.h>
 #endif
 
 int main () {
