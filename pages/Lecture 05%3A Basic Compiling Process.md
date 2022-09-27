@@ -11,3 +11,6 @@ title:: Lecture 05: Basic Compiling Process
 	- ### Compiler
 	- ### Assembler
 	- ### Linker
+-
+-
+- 下一章節： [[Lecture 06: Assembler, Linker, Compiler]]
