@@ -1,6 +1,6 @@
 #ifndef EXAMPLE_HEADER_H_
     #define EXAMPLE_HEADER_H_
-    #include "example_header.c"
+    #include "example_header.h"
 #endif
 #ifndef STDIO_H_
     #define STDIO_H_
