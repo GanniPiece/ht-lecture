@@ -3,9 +3,7 @@ title:: Lecture 04: Network Programming
 - public:: false
   title:: Lecture 04: Network Programming
 - ## What is Internet？
-  collapsed:: true
 	- ### 網路的組成元件
-	  collapsed:: true
 		- Node : 具有網路位置 (IP) 的設備
 		- Server : 提供資料回應用戶主機的機器
 		- Workstation / Client : 發起連線請求的機器
@@ -16,7 +14,6 @@ title:: Lecture 04: Network Programming
 			- e.g. router
 		- https://linux.vbird.org/linux_server/centos6/0110network_basic//components.png
 	- ### 網路的區域範圍
-	  collapsed:: true
 		- Local Area Network, LAN
 		- Wide Area Network, WAN
 		- old
@@ -28,7 +25,6 @@ title:: Lecture 04: Network Programming
 		  | 應用 | 分散式系統、雲端負荷分擔系統 | FTP, WWW |
 		- 若從速度來看。TANET 臺灣學術網路，亦可視作是一個區域網路！ (100Mbps)
 	- ### 網路通訊協定 : [[OSI]] 七層協定
-	  collapsed:: true
 		- | https://linux.vbird.org/linux_server/centos6/0110network_basic//osi_layer_to_layer.gif | https://linux.vbird.org/linux_server/centos6/0110network_basic//osi_packet.gif |
 		- | 分層 | 負責內容 |
 		  | Layer 1  實體層 <br><br/> **Physical Layer** | 由於網路媒體只能傳送 0 與 1 這種位元串，因此實體層必須定義所使用的媒體設備之電壓與訊號等， 同時還必須瞭解資料訊框轉成位元串的編碼方式，最後連接實體媒體並傳送/接收位元串。 |
@@ -40,14 +36,13 @@ title:: Lecture 04: Network Programming
 		  | Layer 7  應用層 <br><br/> **Application Layer** | 應用層本身並不屬於應用程式所有，而是在定義應用程式如何進入此層的溝通介面，以將資料接收或傳送給應用程式，最終展示給使用者。 |
 - ## TCP/IP
 	- ### IP 封包與封裝
-	  collapsed:: true
 		- IP = Internet Protocol
 			- IPv4 : 32 bits
 			- IPv6 : 128 bits
 		- IP 封包的標頭資料
+		  collapsed:: true
 			- ![image.png](../assets/image_1663913766646_0.png)
 	- ### IP 位置
-	  collapsed:: true
 		- IPv4 : 32 bits
 			- 00000000.00000000.00000000.00000000(2) = 0.0.0.0 (10)
 			- 11111111.11111111.11111111.11111111(2) = 255.255.255.255 (10)
