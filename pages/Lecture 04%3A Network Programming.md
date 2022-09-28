@@ -179,6 +179,7 @@ title:: Lecture 04: Network Programming
 		  print(f"Received {data!r}")
 		  ```
 - ## It's Your Turn!
+  collapsed:: true
 	- 將範例 code 改寫
 		- TODO  進行五次收送後關閉伺服器
 		- TODO 改成 UDP 傳送，看看傳送 100, 1000... 次時封包遺失的比例
