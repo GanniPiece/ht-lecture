@@ -3,6 +3,7 @@ title:: Lecture 04: Network Programming
 - public:: true
   title:: Lecture 04: Network Programming
 - ## What is Internet？
+  collapsed:: true
 	- ### 網路的組成元件
 		- Node : 具有網路位置 (IP) 的設備
 		- Server : 提供資料回應用戶主機的機器
@@ -35,6 +36,7 @@ title:: Lecture 04: Network Programming
 		  | Layer 6  表現層 <br><br/> **Presentation Layer** | 我們在應用程式上面所製作出來的資料格式不一定符合網路傳輸的標準編碼格式的！ 所以，在這個層級當中，主要的動作就是：將來自本地端應用程式的資料格式轉換(或者是重新編碼)成為網路的標準格式， 然後再交給底下傳送層等的協定來進行處理。所以，在這個層級上面主要定義的是網路服務(或程式)之間的資料格式的轉換， 包括資料的加解密也是在這個分層上面處理。 |
 		  | Layer 7  應用層 <br><br/> **Application Layer** | 應用層本身並不屬於應用程式所有，而是在定義應用程式如何進入此層的溝通介面，以將資料接收或傳送給應用程式，最終展示給使用者。 |
 - ## TCP/IP
+  collapsed:: true
 	- ### IP 封包與封裝
 		- IP = Internet Protocol
 			- IPv4 : 32 bits
@@ -122,6 +124,7 @@ title:: Lecture 04: Network Programming
 		- ![](https://cdn2.ettoday.net/images/345/345446.jpg){:height 407, :width 326}
 		- ![](https://linux.vbird.org/linux_server/centos6/0110network_basic//3_hand_shak.png){:height 489, :width 675}
 - ## UDP
+  collapsed:: true
 	- UDP 的標頭資料
 		- ![image.png](../assets/image_1663916720554_0.png)
 	- 非連接導向的協定
@@ -135,10 +138,12 @@ title:: Lecture 04: Network Programming
 		  | 資料傳輸量 | 較小 | 較大 | 
 		  | 應用 | 瀏覽網頁 | 網路攝影機、串流 |
 - ## Socket Programming
+  collapsed:: true
 	- TCP Socket Flow
 	  collapsed:: true
 		- ![](https://upload.wikimedia.org/wikipedia/commons/a/a1/InternetSocketBasicDiagram_zhtw.png){:height 916, :width 626}
 	- Server
+	  collapsed:: true
 		- ```python
 		  # echo-server.py
 		  
