@@ -1,6 +1,6 @@
 title:: Lecture 04: Network Programming
 
-- public:: false
+- public:: true
   title:: Lecture 04: Network Programming
 - ## What is Internet？
 	- ### 網路的組成元件
