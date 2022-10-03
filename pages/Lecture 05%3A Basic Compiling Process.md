@@ -70,7 +70,9 @@ title:: Lecture 05: Basic Compiling Process
 			  // int MakeVar(1) -> int var1
 			  // int MakeVar(2) -> int var2
 			  ```
-			- 透過 `##` 運算子
+			- 透過 `##` 運算子生成不同型態的 template
+				- ```C
+				  ```
 	- 條件式編譯：Conditional Compilation
 -
 - ## Practice
