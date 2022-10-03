@@ -34,7 +34,11 @@ title:: Lecture 05: Basic Compiling Process
 			  // (X) #define PI 3.1415; // 多了分號
 			  // (O) #define PI 3.1415
 			  ```
-		-
+			- ```c
+			  #define Begin {
+			  #define End }
+			  #define BOOL int
+			  ```
 	- 條件式編譯：Conditional Compilation
 -
 - ## Practice
