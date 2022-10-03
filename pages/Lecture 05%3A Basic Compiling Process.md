@@ -59,6 +59,8 @@ title:: Lecture 05: Basic Compiling Process
 			- Operator `#`
 				- [Stringizing (The C Preprocessor) (gnu.org)](https://gcc.gnu.org/onlinedocs/cpp/Stringizing.html)
 				- ```c
+				  #define PRINT_FLOAT(n) printf(#n "=%f", n)
+				  // PRINT_FLOAT (3/5) => "3/5 = 0.6f"
 				  ```
 	- 條件式編譯：Conditional Compilation
 -
