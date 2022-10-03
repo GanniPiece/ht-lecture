@@ -61,7 +61,14 @@ title:: Lecture 05: Basic Compiling Process
 	- Practice 2: What is the output of the following code?
 	  id:: 633a56e5-aa22-4231-9a09-6781a5467ac4
 		- ```C
+		  #define MIN(x, y) x < y ? x : y
 		  
+		  int main () {
+		    int i = 2;
+		    int j = 3;
+		    int m = MIN (i--, j);
+		    printf("i=%d, j=%d\n m=%d\n", i, j, m);
+		  }
 		  ```
 	-
 	- Preprocessor 的三項主要指令練習
