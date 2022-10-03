@@ -86,6 +86,14 @@ title:: Lecture 05: Basic Compiling Process
 				-
 		- 取消
 	- 條件式編譯：Conditional Compilation
+		- ```C
+		  #define DEBUG 1
+		  // ...
+		  #if DEBUG
+		  printf("value of x = %d\n", x);
+		  printf("value of y = %d\n", y);
+		  #endif
+		  ```
 		-
 - ## Practice
 	- Practice 1: Can you write a macro that check if the input is an even?
