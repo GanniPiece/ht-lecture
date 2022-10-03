@@ -51,10 +51,12 @@ title:: Lecture 05: Basic Compiling Process
 			  #define MAX(x, y) ((x)>(y)?(x):(y))
 			  #define TOUPPER(c) (('a'<(c) && (c) < 'z'?))
 			  ```
-		-
+			- Practice:
 	- 條件式編譯：Conditional Compilation
 -
 - ## Practice
+	- 1. Can you write a macro that
+	-
 	- Preprocessor 的三項主要指令練習
 	- 透過 gcc 參數觀察 Source code 的變化
 -
