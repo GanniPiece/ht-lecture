@@ -15,6 +15,7 @@ title:: Lecture 05: Basic Compiling Process
 		  #include <stdio.h>
 		  ```
 		- ```c
+		  // example 01
 		  #include "my_header_include_file.h"
 		  ```
 	- 巨集定義：Macro Definition
@@ -35,6 +36,8 @@ title:: Lecture 05: Basic Compiling Process
 			  // (O) #define PI 3.1415
 			  ```
 			- ```c
+			  // example02
+			  
 			  #define Begin {
 			  #define End }
 			  #define BOOL int
