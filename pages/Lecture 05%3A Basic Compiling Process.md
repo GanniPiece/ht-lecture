@@ -62,7 +62,8 @@ title:: Lecture 05: Basic Compiling Process
 			  // PRINT_FLOAT ((float) 3/5) => "3/5 = 0.600000"
 			  ```
 		- Operator `##`
-			- token-
+			- [Concatenation (The C Preprocessor) (gnu.org)](https://gcc.gnu.org/onlinedocs/cpp/Concatenation.html)
+			- token-pasting
 	- 條件式編譯：Conditional Compilation
 -
 - ## Practice
