@@ -22,7 +22,8 @@ title:: Lecture 05: Basic Compiling Process
 			- ```c
 			  #define identifier replacement-list
 			  ```
-			-
+			- ```c
+			  ```
 	- 條件式編譯：Conditional Compilation
 -
 - ## Practice
