@@ -124,7 +124,7 @@ title:: Lecture 05: Basic Compiling Process
 	  }
 	  ```
 - ## Inline 與 Macro 的比較
-	-
+-
 - ## Practice
 	- Practice 1: Can you write a macro that check if the input is an even?
 	  id:: 633a56b9-8e2f-4b06-b521-738855b314d3
