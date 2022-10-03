@@ -21,7 +21,9 @@ title:: Lecture 05: Basic Compiling Process
 		- Simple Macros
 			- 此種巨集形式大多用來代替具有物理意義的名稱數值，因此又可稱為「manifest constant (具意義得常數)」，或是「常數定義」。
 				- 程式可讀性提升
-				-
+				- 程式更容易修改
+				- 避免不一致的情形 e.g. PI = 3.14 / PI = 3.1415
+				- 修改 C 語言的語法
 			- ```c
 			  #define identifier replacement-list
 			  ```
