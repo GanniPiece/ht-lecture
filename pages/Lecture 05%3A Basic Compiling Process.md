@@ -124,78 +124,86 @@ title:: Lecture 05: Basic Compiling Process
 	  }
 	  ```
 - ## Inline 與 Macro 的比較
-- <table class="tg">
-  <thead>
-    <tr>
-      <th class="tg-0lax"></th>
-      <th class="tg-0lax">Function</th>
-      <th class="tg-0lax">Macro</th>
-      <th class="tg-0lax">Inline</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="tg-0lax">執行時期</td>
-      <td class="tg-0lax">Runtime</td>
-      <td class="tg-0lax">Preprocessing</td>
-      <td class="tg-0lax">Compiling</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">使用方式</td>
-      <td class="tg-0lax">type function (arguments)</td>
-      <td class="tg-0lax">#define</td>
-      <td class="tg-0lax">inline</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">宣告位置</td>
-      <td class="tg-0lax">任何</td>
-      <td class="tg-0lax"><span style="font-weight:400;font-style:normal">須在程式的開頭宣告</span></td>
-      <td class="tg-0lax"><span style="font-weight:400;font-style:normal">可在 class 中，或外面</span></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">終止時機</td>
-      <td class="tg-0lax">大括號 }</td>
-      <td class="tg-0lax"><span style="font-weight:400;font-style:normal">無，以 newline 作為終止</span></td>
-      <td class="tg-0lax"><span style="font-weight:400;font-style:normal">大括號 }</span></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">作法</td>
-      <td class="tg-0lax">push / pop </td>
-      <td class="tg-0lax">text substitue</td>
-      <td class="tg-0lax">function substitue</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">Debugging </td>
-      <td class="tg-0lax">容易</td>
-      <td class="tg-0lax">困難</td>
-      <td class="tg-0lax">容易</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">Automation</td>
-      <td class="tg-0lax">No</td>
-      <td class="tg-0lax">須明確定義</td>
-      <td class="tg-0lax">class 中較短的 function 會被 Compiler <br>自動 inline</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">Expansion</td>
-      <td class="tg-0lax">No</td>
-      <td class="tg-0lax">Always</td>
-      <td class="tg-0lax"><span style="font-weight:400;font-style:normal">可下參數停止 function 展開</span></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">速度</td>
-      <td class="tg-0lax">較慢</td>
-      <td class="tg-0lax">較快</td>
-      <td class="tg-0lax">較快</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">空間使用</td>
-      <td class="tg-0lax">較小</td>
-      <td class="tg-0lax">較多</td>
-      <td class="tg-0lax">較多</td>
-    </tr>
-  </tbody>
-  </table>
+	- <style type="text/css">
+	  .tg  {border-collapse:collapse;border-spacing:0;}
+	  .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+	    overflow:hidden;padding:10px 5px;word-break:normal;}
+	  .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+	    font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+	  .tg .tg-0lax{text-align:left;vertical-align:top}
+	  </style>
+	  <table class="tg">
+	  <thead>
+	    <tr>
+	      <th class="tg-0lax"></th>
+	      <th class="tg-0lax">Function</th>
+	      <th class="tg-0lax">Macro</th>
+	      <th class="tg-0lax">Inline</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <td class="tg-0lax">執行時期</td>
+	      <td class="tg-0lax">Runtime</td>
+	      <td class="tg-0lax">Preprocessing</td>
+	      <td class="tg-0lax">Compiling</td>
+	    </tr>
+	    <tr>
+	      <td class="tg-0lax">使用方式</td>
+	      <td class="tg-0lax">type function (arguments)</td>
+	      <td class="tg-0lax">#define</td>
+	      <td class="tg-0lax">inline</td>
+	    </tr>
+	    <tr>
+	      <td class="tg-0lax">宣告位置</td>
+	      <td class="tg-0lax">任何</td>
+	      <td class="tg-0lax"><span style="font-weight:400;font-style:normal">須在程式的開頭宣告</span></td>
+	      <td class="tg-0lax"><span style="font-weight:400;font-style:normal">可在 class 中，或外面</span></td>
+	    </tr>
+	    <tr>
+	      <td class="tg-0lax">終止時機</td>
+	      <td class="tg-0lax">大括號 }</td>
+	      <td class="tg-0lax"><span style="font-weight:400;font-style:normal">無，以 newline 作為終止</span></td>
+	      <td class="tg-0lax"><span style="font-weight:400;font-style:normal">大括號 }</span></td>
+	    </tr>
+	    <tr>
+	      <td class="tg-0lax">作法</td>
+	      <td class="tg-0lax">push / pop </td>
+	      <td class="tg-0lax">text substitue</td>
+	      <td class="tg-0lax">function substitue</td>
+	    </tr>
+	    <tr>
+	      <td class="tg-0lax">Debugging </td>
+	      <td class="tg-0lax">容易</td>
+	      <td class="tg-0lax">困難</td>
+	      <td class="tg-0lax">容易</td>
+	    </tr>
+	    <tr>
+	      <td class="tg-0lax">Automation</td>
+	      <td class="tg-0lax">No</td>
+	      <td class="tg-0lax">須明確定義</td>
+	      <td class="tg-0lax">class 中較短的 function 會被 Compiler <br>自動 inline</td>
+	    </tr>
+	    <tr>
+	      <td class="tg-0lax">Expansion</td>
+	      <td class="tg-0lax">No</td>
+	      <td class="tg-0lax">Always</td>
+	      <td class="tg-0lax"><span style="font-weight:400;font-style:normal">可下參數停止 function 展開</span></td>
+	    </tr>
+	    <tr>
+	      <td class="tg-0lax">速度</td>
+	      <td class="tg-0lax">較慢</td>
+	      <td class="tg-0lax">較快</td>
+	      <td class="tg-0lax">較快</td>
+	    </tr>
+	    <tr>
+	      <td class="tg-0lax">空間使用</td>
+	      <td class="tg-0lax">較小</td>
+	      <td class="tg-0lax">較多</td>
+	      <td class="tg-0lax">較多</td>
+	    </tr>
+	  </tbody>
+	  </table>
 - ## Practice
 	- Practice 1: Can you write a macro that check if the input is an even?
 	  id:: 633a56b9-8e2f-4b06-b521-738855b314d3
