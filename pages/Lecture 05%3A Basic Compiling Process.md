@@ -23,7 +23,13 @@ title:: Lecture 05: Basic Compiling Process
 			  #define identifier replacement-list
 			  ```
 			- ```c
+			  #define PI 3.1415
+			  // 注意格式
+			  // (X) #define PI=3.1415  // 多了等號
+			  // (X) #define PI 3.1415; // 多了分號
+			  // (O) #define PI 3.1415
 			  ```
+		-
 	- 條件式編譯：Conditional Compilation
 -
 - ## Practice
