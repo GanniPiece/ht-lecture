@@ -60,7 +60,7 @@ title:: Lecture 05: Basic Compiling Process
 				- [Stringizing (The C Preprocessor) (gnu.org)](https://gcc.gnu.org/onlinedocs/cpp/Stringizing.html)
 				- ```c
 				  #define PRINT_FLOAT(n) printf(#n "=%f", n)
-				  // PRINT_FLOAT (3/5) => "3/5 = 0.6f"
+				  // PRINT_FLOAT ((float) 3/5) => "3/5 = 0.600000"
 				  ```
 	- 條件式編譯：Conditional Compilation
 -
