@@ -97,6 +97,8 @@ title:: Lecture 05: Basic Compiling Process
 		- `defined` operator
 			- ```C
 			  /*
+			  搭配 `-D` 參數使用
+			  e.g. [user@home]$ gcc -DDEBUG someprog.c
 			  */
 			  #if defined (DEBUG)
 			  
@@ -104,6 +106,7 @@ title:: Lecture 05: Basic Compiling Process
 			  
 			  #if defined DEBUG
 			  ```
+	- ### inline function
 - ## Practice
 	- Practice 1: Can you write a macro that check if the input is an even?
 	  id:: 633a56b9-8e2f-4b06-b521-738855b314d3
