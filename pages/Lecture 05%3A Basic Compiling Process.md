@@ -55,7 +55,9 @@ title:: Lecture 05: Basic Compiling Process
 			  ```
 			- ((633a56b9-8e2f-4b06-b521-738855b314d3))
 			- ((633a56e5-aa22-4231-9a09-6781a5467ac4))
-		- Operator `#`
+		- Operator
+			- Operator `#`
+				- Stringizing[Stringizing (The C Preprocessor) (gnu.org)](https://gcc.gnu.org/onlinedocs/cpp/Stringizing.html)
 	- 條件式編譯：Conditional Compilation
 -
 - ## Practice
