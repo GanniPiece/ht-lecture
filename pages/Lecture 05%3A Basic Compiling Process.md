@@ -110,7 +110,7 @@ title:: Lecture 05: Basic Compiling Process
 			  #if defined DEBUG
 			  ```
 - ## inline function
-	- 在 function 宣告前加上 `inline` 關鍵字後，編譯時期就會將該 function 內容替代，讓執行時減少呼叫的跳躍與返回的成本。
+	- 在 function 宣告前加上 `inline` 關鍵字後，編譯時期 (compile) 就會將該 function 內容替代，讓執行時減少呼叫的跳躍與返回的成本。
 	- ```C
 	  #include <stdio.h>
 	  
