@@ -2,11 +2,13 @@ title:: Lecture 05: Basic Compiling Process
 
 - title:: Lecture 05: Basic Compiling Process
 - ## Code Review
+  collapsed:: true
 	- [[Project 1: 1A2B]]
--
 - ## Compilation Process
+  collapsed:: true
 	- | ![](https://static.javatpoint.com/cpages/images/compilation-process-in-c2.png){:height 551, :width 482} | ![](https://static.javatpoint.com/cpages/images/compilation-process-in-c3.png){:height 983, :width 170} |
 - ## Preprocessor
+  collapsed:: true
 	- | https://junwu.nptu.edu.tw/dokuwiki/lib/exe/fetch.php?media=c:preprocessor.png |
 	- ### 前置處理的指令
 	- Documentation: [Replacing text macros - cppreference.com](https://en.cppreference.com/w/cpp/preprocessor/replace)
@@ -110,6 +112,7 @@ title:: Lecture 05: Basic Compiling Process
 			  #if defined DEBUG
 			  ```
 - ## inline function
+  collapsed:: true
 	- 在 function 宣告前加上 `inline` 關鍵字後，編譯時期 (compile) 就會將該 function 內容替代，讓執行時減少呼叫的跳躍與返回的成本。
 	- ```C
 	  #include <stdio.h>
@@ -124,6 +127,7 @@ title:: Lecture 05: Basic Compiling Process
 	  }
 	  ```
 - ## Inline 與 Macro 的比較
+  collapsed:: true
 	- <style type="text/css">
 	  .tg  {border-collapse:collapse;border-spacing:0;}
 	  .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -209,6 +213,7 @@ title:: Lecture 05: Basic Compiling Process
 	  id:: 633a56b9-8e2f-4b06-b521-738855b314d3
 	- Practice 2: What is the output of the following code?
 	  id:: 633a56e5-aa22-4231-9a09-6781a5467ac4
+	  collapsed:: true
 		- ```C
 		  #define MIN(x, y) x < y ? x : y
 		  
@@ -219,9 +224,7 @@ title:: Lecture 05: Basic Compiling Process
 		    printf("i=%d, j=%d\n m=%d\n", i, j, m);
 		  }
 		  ```
-	-
-	- Preprocessor 的三項主要指令練習
-	- 透過 gcc 參數觀察 Source code 的變化
+	- Practice 3: 透過 gcc 參數觀察 Source code 的變化
 -
 -
 - 下一章節： [[Lecture 06: Assembler, Linker, Compiler]]
