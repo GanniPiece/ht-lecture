@@ -109,21 +109,20 @@ title:: Lecture 05: Basic Compiling Process
 			  
 			  #if defined DEBUG
 			  ```
-- ### inline function
-  collapsed:: true
-	- 在 function 宣告前加上 `inline` 關鍵字後，編譯時期就會將該 function 內容替代，讓執行時減少呼叫的跳躍與返回的成本。
-	- ```C
-	  #include <stdio.h>
-	  
-	  inline int foo (int x, int y) {
-	    return (x > y)? (x*y):(x+y);
-	  }
-	  
-	  int main () {
-	    printf("%d\n", foo(1, 3));
-	    return 0;
-	  }
-	  ```
+	- ### inline function
+		- 在 function 宣告前加上 `inline` 關鍵字後，編譯時期就會將該 function 內容替代，讓執行時減少呼叫的跳躍與返回的成本。
+		- ```C
+		  #include <stdio.h>
+		  
+		  inline int foo (int x, int y) {
+		    return (x > y)? (x*y):(x+y);
+		  }
+		  
+		  int main () {
+		    printf("%d\n", foo(1, 3));
+		    return 0;
+		  }
+		  ```
 - ## Inline 與 Macro 的比較
 -
 - ## Practice
