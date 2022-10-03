@@ -11,6 +11,7 @@ title:: Lecture 05: Basic Compiling Process
 	- ### 前置處理的指令
 	- Documentation: [Replacing text macros - cppreference.com](https://en.cppreference.com/w/cpp/preprocessor/replace)
 	- 檔案引入：File Inclusion
+	  collapsed:: true
 		- ```C
 		  #include <stdio.h>
 		  ```
@@ -19,6 +20,7 @@ title:: Lecture 05: Basic Compiling Process
 		  #include "my_header_include_file.h"
 		  ```
 	- 巨集定義：Macro Definition
+	  collapsed:: true
 		- Simple Macros
 		  collapsed:: true
 			- 此種巨集形式大多用來代替具有物理意義的名稱數值，因此又可稱為「manifest constant (具意義得常數)」，或是「常數定義」。
@@ -86,6 +88,7 @@ title:: Lecture 05: Basic Compiling Process
 				-
 		- 取消
 	- 條件式編譯：Conditional Compilation
+	  collapsed:: true
 		- ```C
 		  #define DEBUG 1
 		  // ...
@@ -106,21 +109,23 @@ title:: Lecture 05: Basic Compiling Process
 			  
 			  #if defined DEBUG
 			  ```
-	- ### inline function
-		- 在 function 宣告前加上 `inline` 關鍵字後，編譯時期就會將該 function 內容替代，讓執行時減少呼叫的跳躍與返回的成本。
-		- ```C
-		  #include <stdio.h>
-		  
-		  inline int foo (int x, int y) {
-		    return (x > y)? (x*y):(x+y);
-		  }
-		  
-		  int main () {
-		    printf("%d\n", foo(1, 3));
-		    return 0;
-		  }
-		  ```
+- ### inline function
+  collapsed:: true
+	- 在 function 宣告前加上 `inline` 關鍵字後，編譯時期就會將該 function 內容替代，讓執行時減少呼叫的跳躍與返回的成本。
+	- ```C
+	  #include <stdio.h>
+	  
+	  inline int foo (int x, int y) {
+	    return (x > y)? (x*y):(x+y);
+	  }
+	  
+	  int main () {
+	    printf("%d\n", foo(1, 3));
+	    return 0;
+	  }
+	  ```
 - ## Inline 與 Macro 的比較
+-
 - ## Practice
 	- Practice 1: Can you write a macro that check if the input is an even?
 	  id:: 633a56b9-8e2f-4b06-b521-738855b314d3
