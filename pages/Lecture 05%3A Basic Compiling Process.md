@@ -20,6 +20,7 @@ title:: Lecture 05: Basic Compiling Process
 		  ```
 	- 巨集定義：Macro Definition
 		- Simple Macros
+		  collapsed:: true
 			- 此種巨集形式大多用來代替具有物理意義的名稱數值，因此又可稱為「manifest constant (具意義得常數)」，或是「常數定義」。
 				- 程式可讀性提升
 				- 程式更容易修改
@@ -43,6 +44,7 @@ title:: Lecture 05: Basic Compiling Process
 			  #define BOOL int
 			  ```
 		- Parameterized Macros
+		  collapsed:: true
 			- 可接收參數的巨集形式
 			- ```c
 			  #define identifier(x1, x2, ..., xn) (replacement-list)
@@ -53,6 +55,7 @@ title:: Lecture 05: Basic Compiling Process
 			  ```
 			- ((633a56b9-8e2f-4b06-b521-738855b314d3))
 			- ((633a56e5-aa22-4231-9a09-6781a5467ac4))
+		- Operator `#`
 	- 條件式編譯：Conditional Compilation
 -
 - ## Practice
