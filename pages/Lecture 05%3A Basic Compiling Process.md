@@ -51,7 +51,7 @@ title:: Lecture 05: Basic Compiling Process
 			  #define MAX(x, y) ((x)>(y)?(x):(y))
 			  #define TOUPPER(c) (('a'<(c) && (c) < 'z'?))
 			  ```
-		- /
+		-
 	- 條件式編譯：Conditional Compilation
 -
 - ## Practice
