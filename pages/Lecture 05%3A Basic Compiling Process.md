@@ -123,7 +123,7 @@ title:: Lecture 05: Basic Compiling Process
 	    return 0;
 	  }
 	  ```
-	- ### Inline 與 Macro 的比較
+- ## Inline 與 Macro 的比較
 	-
 - ## Practice
 	- Practice 1: Can you write a macro that check if the input is an even?
