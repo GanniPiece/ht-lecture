@@ -84,7 +84,7 @@ title:: Lecture 05: Basic Compiling Process
 				  // double double_max(double x, double y) {return (x) > (y)? (x) : (y); }
 				  ```
 				-
-		-
+		- 取消
 	- 條件式編譯：Conditional Compilation
 -
 - ## Practice
