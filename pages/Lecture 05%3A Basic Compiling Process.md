@@ -64,6 +64,13 @@ title:: Lecture 05: Basic Compiling Process
 		- Operator `##`
 			- [Concatenation (The C Preprocessor) (gnu.org)](https://gcc.gnu.org/onlinedocs/cpp/Concatenation.html)
 			- token-pasting
+			- ```C
+			  #define MakeVar(n) var##n
+			  
+			  // int MakeVar(1) -> int var1
+			  // int MakeVar(2) -> int var2
+			  ```
+			-
 	- 條件式編譯：Conditional Compilation
 -
 - ## Practice
