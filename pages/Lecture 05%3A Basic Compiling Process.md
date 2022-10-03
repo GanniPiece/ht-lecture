@@ -9,6 +9,7 @@ title:: Lecture 05: Basic Compiling Process
 - ## Preprocessor
 	- | https://junwu.nptu.edu.tw/dokuwiki/lib/exe/fetch.php?media=c:preprocessor.png |
 	- ### 前置處理的指令
+	- Documentation: [Replacing text macros - cppreference.com](https://en.cppreference.com/w/cpp/preprocessor/replace)
 	- 檔案引入：File Inclusion
 		- ```C
 		  #include <stdio.h>
