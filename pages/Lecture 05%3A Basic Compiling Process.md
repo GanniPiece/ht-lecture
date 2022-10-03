@@ -19,6 +19,7 @@ title:: Lecture 05: Basic Compiling Process
 		  ```
 	- 巨集定義：Macro Definition
 		- Simple Macros
+			- 此種巨集形式大多用來代替具有物理意義的名稱數值，
 			- ```c
 			  #define identifier replacement-list
 			  ```
