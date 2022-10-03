@@ -107,7 +107,7 @@ title:: Lecture 05: Basic Compiling Process
 			  #if defined DEBUG
 			  ```
 	- ### inline function
-	-
+		- 在 function 宣告前加上 `inline` 關鍵字後，編譯時期就會將該 function 內容替代，讓執行時減少
 - ## Practice
 	- Practice 1: Can you write a macro that check if the input is an even?
 	  id:: 633a56b9-8e2f-4b06-b521-738855b314d3
