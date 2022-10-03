@@ -86,7 +86,7 @@ title:: Lecture 05: Basic Compiling Process
 				-
 		- 取消
 	- 條件式編譯：Conditional Compilation
--
+		-
 - ## Practice
 	- Practice 1: Can you write a macro that check if the input is an even?
 	  id:: 633a56b9-8e2f-4b06-b521-738855b314d3
