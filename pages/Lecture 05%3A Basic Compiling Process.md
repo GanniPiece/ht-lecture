@@ -42,6 +42,8 @@ title:: Lecture 05: Basic Compiling Process
 			  #define End }
 			  #define BOOL int
 			  ```
+		- Parameterized Macros
+			-
 	- 條件式編譯：Conditional Compilation
 -
 - ## Practice
