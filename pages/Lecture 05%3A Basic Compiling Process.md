@@ -19,8 +19,9 @@ title:: Lecture 05: Basic Compiling Process
 	- 巨集定義：Macro Definition
 		- Simple Macros
 			- ```c
-			  #define 
+			  #define identifier replacement-list
 			  ```
+			-
 	- 條件式編譯：Conditional Compilation
 -
 - ## Practice
