@@ -212,13 +212,11 @@ title:: Lecture 05: Basic Compiling Process
 	  id:: 633a56e5-aa22-4231-9a09-6781a5467ac4
 	  collapsed:: true
 		- ```C
-		  #define MIN(x, y) x < y ? x : y
+		  #define TWICE(x) 2 * x
 		  
 		  int main () {
-		    int i = 2;
-		    int j = 3;
-		    int m = MIN (i--, j);
-		    printf("i=%d, j=%d\n m=%d\n", i, j, m);
+		    int m = TWICE (3 + 5);
+		    printf("m = %d\n", m);
 		  }
 		  ```
 	- Practice 3: 透過 gcc 參數觀察 Source code 的變化
