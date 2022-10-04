@@ -124,7 +124,6 @@ title:: Lecture 05: Basic Compiling Process
 	  }
 	  ```
 - ## Inline 與 Macro 的比較
-  collapsed:: true
 	- <style type="text/css">
 	  .tg  {border-collapse:collapse;border-spacing:0;}
 	  .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
