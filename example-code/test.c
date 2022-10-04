@@ -5,6 +5,6 @@
 int main () {
 	int i = 5;
 	int j = 4;
-	int M = MMAX(i++, j);
+	int M = MAX(i++, j);
 	printf("%d\n", M);
 }
