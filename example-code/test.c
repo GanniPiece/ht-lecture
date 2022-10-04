@@ -3,6 +3,8 @@
 #define MMAX(x, y) x > y ? x : y
 
 int main () {
-	int M = MMAX(5, 4);
+	int i = 5;
+	int j = 4;
+	int M = MMAX(i++, j);
 	printf("%d\n", M);
 }
