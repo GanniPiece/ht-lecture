@@ -6,6 +6,6 @@
 int main () {
 	int i = 2;
 	int j = 3;
-	int M = MIN(i++, j);
-	printf("%d\n", M);
+	int M = MIN(i--, j);
+	printf("%d %d %d\n", i, j, M);
 }
