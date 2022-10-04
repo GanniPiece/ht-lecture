@@ -220,7 +220,7 @@ title:: Lecture 05: Basic Compiling Process
 		  ```
 	- Practice 3: 透過 gcc 參數觀察 Source code 的變化
 		- `gcc -E` (.i file)
-		-
+		- `gcc -S` (.s file)
 -
 -
 - 上一章節： [[Lecture 04: Network Programming]]
