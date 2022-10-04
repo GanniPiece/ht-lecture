@@ -1,10 +1,11 @@
 #include <stdio.h>
 #define MAX(x, y) (x) > (y) ? (x) : (y)
 #define MMAX(x, y) x > y ? x : y
+#define MIN(x, y) x < y ? x : y
 
 int main () {
-	int i = 5;
-	int j = 4;
-	int M = MAX(i++, j);
+	int i = 2;
+	int j = 3;
+	int M = MIN(i++, j);
 	printf("%d\n", M);
 }
