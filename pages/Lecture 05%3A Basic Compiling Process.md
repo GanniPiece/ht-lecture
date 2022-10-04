@@ -205,7 +205,6 @@ title:: Lecture 05: Basic Compiling Process
 	  </tbody>
 	  </table>
 - ## Practice
-  collapsed:: true
 	- Practice 1: Can you write a macro that check if the input is an even?
 	  id:: 633a56b9-8e2f-4b06-b521-738855b314d3
 	- Practice 2: What is the output of the following code?
@@ -220,6 +219,8 @@ title:: Lecture 05: Basic Compiling Process
 		  }
 		  ```
 	- Practice 3: 透過 gcc 參數觀察 Source code 的變化
+		- `gcc -E` (.i file)
+		-
 -
 -
 - 上一章節： [[Lecture 04: Network Programming]]
