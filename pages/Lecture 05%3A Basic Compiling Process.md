@@ -45,7 +45,6 @@ title:: Lecture 05: Basic Compiling Process
 			  #define BOOL int
 			  ```
 		- Parameterized Macros
-		  collapsed:: true
 			- 可接收參數的巨集形式
 			- ```c
 			  #define identifier(x1, x2, ..., xn) (replacement-list)
