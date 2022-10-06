@@ -6,6 +6,19 @@ title:: Exam 1: Mail Server
 -
 - ## 檔案結構
 	- ```
+	  MailServerExam
+	    |__ Documentations
+	    |
+	    |__ MailServer
+	    |	  |__ Data
+	    |	  |__ Bin
+	    |	  |__ Src
+	    |
+	    |__ Client
+	    |     |__ Data
+	    |     |__ Bin
+	    |     |__ Src
+	    | 
 	  ```
 -
 - 進階功能：
