@@ -6,7 +6,6 @@ title:: Lecture 05: Basic Compiling Process
 - ## Compilation Process
 	- | ![](https://static.javatpoint.com/cpages/images/compilation-process-in-c2.png){:height 551, :width 482} | ![](https://static.javatpoint.com/cpages/images/compilation-process-in-c3.png){:height 983, :width 170} |
 - ## Preprocessor
-  collapsed:: true
 	- | https://junwu.nptu.edu.tw/dokuwiki/lib/exe/fetch.php?media=c:preprocessor.png |
 	- ### 前置處理的指令
 	- Documentation: [Replacing text macros - cppreference.com](https://en.cppreference.com/w/cpp/preprocessor/replace)
@@ -107,7 +106,6 @@ title:: Lecture 05: Basic Compiling Process
 			  #if defined DEBUG
 			  ```
 - ## Inline function
-  collapsed:: true
 	- 在 function 宣告前加上 `inline` 關鍵字後，編譯時期 (compile) 就會將該 function 內容替代，讓執行時減少呼叫的跳躍與返回的成本。
 	- ```C
 	  #include <stdio.h>
