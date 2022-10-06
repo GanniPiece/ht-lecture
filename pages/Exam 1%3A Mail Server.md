@@ -5,4 +5,5 @@ title:: Exam 1: Mail Server
 - Client A 登入後，指定收件者為 Client B 後發送郵件。伺服器端接收到 Client A 收到的信件後，會先將郵件儲存在該伺服器的 database 之中，等到下次 Client B 登入再與其進行同步更新。
 -
 -
--
+- 進階功能：
+- 1. 修改程式讓伺服器同時服務多個 clients
