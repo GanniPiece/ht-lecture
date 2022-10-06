@@ -79,9 +79,8 @@ title:: Lecture 05: Basic Compiling Process
 				  // double double_max(double x, double y) {return (x) > (y)? (x) : (y); }
 				  ```
 				-
-		- 取消
+		- 取消 `#undef`
 	- 條件式編譯：Conditional Compilation
-	  collapsed:: true
 		- ```C
 		  #define DEBUG 1
 		  // ...
@@ -117,7 +116,6 @@ title:: Lecture 05: Basic Compiling Process
 	  }
 	  ```
 - ## Inline 與 Macro 的比較
-  collapsed:: true
 	- <style type="text/css">
 	  .tg  {border-collapse:collapse;border-spacing:0;}
 	  .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -199,7 +197,6 @@ title:: Lecture 05: Basic Compiling Process
 	  </tbody>
 	  </table>
 - ## Practice
-  collapsed:: true
 	- Practice 1: Can you write a macro that check if the input is an even?
 	  id:: 633a56b9-8e2f-4b06-b521-738855b314d3
 	- Practice 2: What is the output of the following code?
@@ -214,6 +211,7 @@ title:: Lecture 05: Basic Compiling Process
 		  }
 		  ```
 	- Practice 3: 透過 gcc 參數觀察 Source code 的變化
+	  collapsed:: true
 		- `gcc -E` (.i file)
 		- `gcc -S` (.s file)
 -
