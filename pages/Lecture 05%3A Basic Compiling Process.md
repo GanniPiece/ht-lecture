@@ -109,7 +109,7 @@ title:: Lecture 05: Basic Compiling Process
 	- ```C
 	  #include <stdio.h>
 	  
-	  inline int foo (int x, int y) {
+	  int foo (int x, int y) {
 	    return (x > y)? (x*y):(x+y);
 	  }
 	  
