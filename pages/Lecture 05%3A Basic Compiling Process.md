@@ -19,6 +19,7 @@ title:: Lecture 05: Basic Compiling Process
 		  #include "my_header_include_file.h"
 		  ```
 	- 巨集定義：Macro Definition
+	  collapsed:: true
 		- Simple Macros
 			- 此種巨集形式大多用來代替具有物理意義的名稱數值，因此又可稱為「manifest constant (具意義得常數)」，或是「常數定義」。
 				- 程式可讀性提升
@@ -82,7 +83,6 @@ title:: Lecture 05: Basic Compiling Process
 				-
 		- 取消 `#undef`
 	- 條件式編譯：Conditional Compilation
-	  collapsed:: true
 		- ```C
 		  #define DEBUG 1
 		  // ...
