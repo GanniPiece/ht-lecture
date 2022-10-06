@@ -71,6 +71,9 @@
  {:block/name "essay",
   :block/created-at 1663943433244,
   :block/updated-at 1663943433244}
+ {:block/name "exam 1: mail server",
+  :block/created-at 1665048445157,
+  :block/updated-at 1665048445157}
  {:block/name "favorites",
   :block/created-at 1663943156584,
   :block/updated-at 1663943156584}
@@ -121,7 +124,7 @@
   :block/updated-at 1663943432206}
  {:block/name "lecture 05: basic compiling process",
   :block/created-at 1663943432207,
-  :block/updated-at 1664872063853}
+  :block/updated-at 1665048472903}
  {:block/name "lecture 06: assembler, linker, compiler",
   :block/created-at 1663943432208,
   :block/updated-at 1663943432208}
