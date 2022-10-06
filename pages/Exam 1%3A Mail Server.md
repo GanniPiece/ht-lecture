@@ -10,6 +10,7 @@ title:: Exam 1: Mail Server
 	    |__ Documentations
 	    |
 	    |__ MailServer
+	    |	  |__ Log
 	    |	  |__ Data
 	    |	  |__ Bin
 	    |	  |__ Src
@@ -18,7 +19,8 @@ title:: Exam 1: Mail Server
 	    |     |__ Data
 	    |     |__ Bin
 	    |     |__ Src
-	    | 
+	    |
+	    |__ Readme.txt
 	  ```
 -
 - 進階功能：
