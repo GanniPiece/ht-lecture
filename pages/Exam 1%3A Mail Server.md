@@ -16,6 +16,7 @@ title:: Exam 1: Mail Server
 	    |	  |__ Src
 	    |
 	    |__ Client
+	    |		|__ Log
 	    |     |__ Data
 	    |     |__ Bin
 	    |     |__ Src
