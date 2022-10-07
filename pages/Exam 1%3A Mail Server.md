@@ -10,10 +10,10 @@ title:: Exam 1: Mail Server
 	    |__ Documentations
 	    |
 	    |__ MailServer
-	    |	  |__ Log
-	    |	  |__ Data
-	    |	  |__ Bin
-	    |	  |__ Src
+	    |	  	|__ Log
+	    |	  	|__ Data
+	    |	  	|__ Bin
+	    |	  	|__ Src
 	    |
 	    |__ Client
 	    |		|__ Log
