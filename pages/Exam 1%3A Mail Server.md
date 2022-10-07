@@ -30,4 +30,4 @@ title:: Exam 1: Mail Server
 -
 -
 - Notes:
-	- Login -> send / checkmail ->
+	- Login -> send / checkmail -> Logout
