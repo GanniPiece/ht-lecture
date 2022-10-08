@@ -102,7 +102,7 @@ title:: Exam 1: Mail Server
 	  ```
 -
 - ## 進階功能：
-- 1. 修改程式讓伺服器可以註冊新的用戶 **easy**
-  2. 將 Client 收到的信件儲存於本地端 **medium**
-  3. 修改程式讓伺服器同時服務多個 clients **hard**
+- 1. **easy** 修改程式讓伺服器可以註冊新的用戶 
+  2. **medium** 將 Client 收到的信件儲存於本地端 
+  3. **hard** 修改程式讓伺服器同時服務多個 clients
 -
