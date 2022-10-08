@@ -24,7 +24,12 @@ title:: Exam 1: Mail Server
 	    |__ Readme.txt
 	  ```
 -
+- ## 流程示意圖
 -
+- ## 執行方式
+- ### Server
+- ```bash
+  ```
 -
 - 進階功能：
 - 1. 修改程式讓伺服器可以註冊新的用戶
