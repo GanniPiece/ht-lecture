@@ -28,4 +28,4 @@ title:: Exam 1: Mail Server
 - 1. 修改程式讓伺服器可以註冊新的用戶
   2. 將 Client 收到的信件儲存於本地端
   3. 修改程式讓伺服器同時服務多個 clients
--
+- ![HT-Exam.drawio.png](../assets/HT-Exam.drawio_1665191168120_0.png)
