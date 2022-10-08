@@ -41,6 +41,7 @@ title:: Exam 1: Mail Server
 - ## 流程示意圖
 	- 1. 開啟 server
 		- ```
+		  Popo-MacBook-Pro:SimpleMailService popo$ cd Server
 		  Popo-MacBook-Pro:Server popo$ python3 Bin/run.py 
 		  Socket successfully created
 		  socket bind to 9999
