@@ -29,8 +29,15 @@ title:: Exam 1: Mail Server
 - ## 執行方式
 - ### Server
 - ```bash
+  cd Server
+  python3 Bin/run.py
   ```
--
+- ### client
+- 進入 Client 資料中
+- ```bash
+  cd Client
+  python3 Bin/run.py
+  ```
 - 進階功能：
 - 1. 修改程式讓伺服器可以註冊新的用戶
   2. 將 Client 收到的信件儲存於本地端
