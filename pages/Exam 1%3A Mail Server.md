@@ -28,12 +28,13 @@ title:: Exam 1: Mail Server
 -
 - ## 執行方式
 - ### Server
+- 進入 `Server/` 資料中，執行 `Bin/` 底下的 `run.py`
 - ```bash
   cd Server
   python3 Bin/run.py
   ```
 - ### client
-- 進入 Client 資料中
+- 進入 `Client/` 資料中，執行 `Bin/` 底下的 `run.py`
 - ```bash
   cd Client
   python3 Bin/run.py
