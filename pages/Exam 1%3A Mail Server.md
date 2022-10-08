@@ -59,13 +59,15 @@ title:: Exam 1: Mail Server
 		  ```
 	- 5. 輸入姓名後立即登入（無需密碼）
 		- ```bash
-		- ==========
+		  ==========
 		  Function list:
 		  1. send mail
 		  2. list inbox
 		  3. Logout
-		- Please enter mode:
-		- ````
+		  Please enter mode:
+		  ```
+	- 6. 輸入模式 (1-3)
+	- 7. 進入
 - 進階功能：
 - 1. 修改程式讓伺服器可以註冊新的用戶
   2. 將 Client 收到的信件儲存於本地端
