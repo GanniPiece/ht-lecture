@@ -107,7 +107,7 @@ title:: Exam 1: Mail Server
 	  ```
 -
 - ## 測試
-- ### test case: 1 系統運作
+- ### test case 1: 系統運作
 - 1. 創立新的使用者 `user1`、`user2`
   2. 登入 `user1`
   3. 測試寄信給 `user2`
@@ -116,7 +116,10 @@ title:: Exam 1: Mail Server
   6. 顯示所有信件
   確認是否收到 user1 的信件
 -
-- ### test case 2:
+- ### test case 2: 重複使用者註冊
+- 1. 延續 test case 1 的情況
+  2. 輸入一個尚未註冊的使用者名稱
+  3.
 -
 - ## 進階功能：
 - 1. **easy** 修改程式讓伺服器可以註冊新的用戶 
