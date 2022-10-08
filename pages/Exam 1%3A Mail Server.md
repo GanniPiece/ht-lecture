@@ -106,6 +106,9 @@ title:: Exam 1: Mail Server
 	  {'from': 'popo', 'to': 'p', 'timestamp': '1665192045.509682', 'title': '123', 'content': 'adfij iajdfie ej'}
 	  ```
 -
+- ## 測試
+- 1. 創立新的使用者 `user1`
+-
 - ## 進階功能：
 - 1. **easy** 修改程式讓伺服器可以註冊新的用戶 
   2. **medium** 將 Client 收到的信件儲存於本地端 
