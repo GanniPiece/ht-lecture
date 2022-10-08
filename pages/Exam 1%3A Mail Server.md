@@ -108,7 +108,7 @@ title:: Exam 1: Mail Server
 -
 - ## 測試
 - #+BEGIN_NOTE
-  系統中已經存在 `user1`, `user2`
+  系統中已經存在 `user1`, `user2` 兩個預設的使用者
   #+END_NOTE
 - ### test case 1: 系統基本功能
 - 1. 登入
