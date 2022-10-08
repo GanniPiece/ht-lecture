@@ -111,7 +111,12 @@ title:: Exam 1: Mail Server
 - 1. 創立新的使用者 `user1`、`user2`
   2. 登入 `user1`
   3. 測試寄信給 `user2`
-  4.
+  4. 登出 `user1`
+  5. 登入 `user2`
+  6. 顯示所有信件
+  確認是否收到 user1 的信件
+-
+- ### test case 2:
 -
 - ## 進階功能：
 - 1. **easy** 修改程式讓伺服器可以註冊新的用戶 
