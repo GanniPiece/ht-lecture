@@ -70,7 +70,8 @@ title:: Exam 1: Mail Server
 	- 7. 進入模式服務
 - ### 功能介紹
 - ### Login 介面
-	- 定義於 ``
+	- 定義兩個類別，分別是 `LoginService` 和 `LogoutService`。用於處理登入與登出功能。
+	- 當 `Login` 時，若發現
 - ### 傳送郵件
 - ### 顯示郵件
 -
