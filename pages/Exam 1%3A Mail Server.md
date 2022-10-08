@@ -107,7 +107,15 @@ title:: Exam 1: Mail Server
 	  ```
 -
 - ## 測試
-- ### test case 1: 系統運作
+- #+BEGIN_NOTE
+  系統中已經存在 `user1`, `user2`
+  #+END_NOTE
+- ### test case 1: 系統基本功能
+- 1. 登入
+  2. 寄發信件
+  3. 顯示信件
+  4. 登出
+- ### test case 2: 寄發信件
   1. 登入 `user1`
   2. 測試寄信給 `user2`
   3. 登出 `user1`
