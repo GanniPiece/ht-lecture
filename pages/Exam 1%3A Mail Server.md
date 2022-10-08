@@ -53,7 +53,19 @@ title:: Exam 1: Mail Server
 		  Popo-MacBook-Pro:SimpleMailService popo$ cd Client
 		  Popo-MacBook-Pro:Client popo$ python3 Bin/run.py 
 		  ```
-	- 4.
+	- 4. Client 端顯示輸入使用者姓名
+		- ```
+		  Please enter your name:
+		  ```
+	- 5. 輸入姓名後立即登入（無需密碼）
+		- ```bash
+		- ==========
+		  Function list:
+		  1. send mail
+		  2. list inbox
+		  3. Logout
+		- Please enter mode:
+		- ````
 - 進階功能：
 - 1. 修改程式讓伺服器可以註冊新的用戶
   2. 將 Client 收到的信件儲存於本地端
