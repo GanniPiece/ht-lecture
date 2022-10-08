@@ -24,8 +24,6 @@ title:: Exam 1: Mail Server
 	    |__ Readme.txt
 	  ```
 -
-- ## 流程示意圖
--
 - ## 執行方式
 - ### Server
 - 進入 `Server/` 資料中，執行 `Bin/` 底下的 `run.py`
@@ -39,6 +37,12 @@ title:: Exam 1: Mail Server
   cd Client
   python3 Bin/run.py
   ```
+-
+- ## 流程示意圖
+	- 1. 開啟 server
+		- ![image.png](../assets/image_1665191498741_0.png)
+	- 2.
+-
 - 進階功能：
 - 1. 修改程式讓伺服器可以註冊新的用戶
   2. 將 Client 收到的信件儲存於本地端
