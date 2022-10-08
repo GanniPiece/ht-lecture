@@ -100,8 +100,9 @@ title:: Exam 1: Mail Server
 	  {'from': 'p', 'to': 'p', 'timestamp': '1665154275.251765', 'title': 'aodfj', 'content': 'paodjoj poajdf'}
 	  {'from': 'popo', 'to': 'p', 'timestamp': '1665192045.509682', 'title': '123', 'content': 'adfij iajdfie ej'}
 	  ```
-- 進階功能：
-- 1. 修改程式讓伺服器可以註冊新的用戶
-  2. 將 Client 收到的信件儲存於本地端
-  3. 修改程式讓伺服器同時服務多個 clients
+-
+- ## 進階功能：
+- 1. 修改程式讓伺服器可以註冊新的用戶 **easy**
+  2. 將 Client 收到的信件儲存於本地端 **medium**
+  3. 修改程式讓伺服器同時服務多個 clients **hard**
 -
