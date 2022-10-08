@@ -48,8 +48,12 @@ title:: Exam 1: Mail Server
 		  socket bind to 9999  
 		  Wait for new connection.
 		  ```
-	- 3.
--
+	- 3. 開啟 Client
+		- ```bash
+		  Popo-MacBook-Pro:SimpleMailService popo$ cd Client
+		  Popo-MacBook-Pro:Client popo$ python3 Bin/run.py 
+		  ```
+	- 4.
 - 進階功能：
 - 1. 修改程式讓伺服器可以註冊新的用戶
   2. 將 Client 收到的信件儲存於本地端
