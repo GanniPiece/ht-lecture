@@ -74,11 +74,32 @@ title:: Exam 1: Mail Server
 	- 當 `Login` 時，若發現該使用者尚未註冊，會先要求註冊新的使用者。
 - ### 傳送郵件
 	- 選擇郵件傳送模式後，會依序填入 `recipient` 收件者的名字、`title` 郵件名稱、`content` 郵件內容。結束後信件即寄出
+	- ```
+	  ====================
+	  Function list:
+	  1. send mail
+	  2. list inbox
+	  3. Logout
+	  
+	  Please enter mode: 
+	  1
+	  
+	  Enter recipient name: 
+	  popo
+	  
+	  Enter mail title: 
+	  123trest
+	  
+	  Enter content: 
+	  Today is a nice day.
+	  ```
 - ### 顯示郵件
 	- 選擇顯示郵件功能後，系統會將所有收到的郵件列出。
 	- ```
+	  {'from': 'popo', 'to': 'p', 'timestamp': '1665154064.2740211', 'title': 'iii', 'content': 'adfjadifj'}
+	  {'from': 'p', 'to': 'p', 'timestamp': '1665154275.251765', 'title': 'aodfj', 'content': 'paodjoj poajdf'}
+	  {'from': 'popo', 'to': 'p', 'timestamp': '1665192045.509682', 'title': '123', 'content': 'adfij iajdfie ej'}
 	  ```
--
 - 進階功能：
 - 1. 修改程式讓伺服器可以註冊新的用戶
   2. 將 Client 收到的信件儲存於本地端
