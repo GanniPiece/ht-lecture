@@ -41,7 +41,14 @@ title:: Exam 1: Mail Server
 - ## 流程示意圖
 	- 1. 開啟 server
 		- ![image.png](../assets/image_1665191498741_0.png)
-	- 2.
+	- 2. Server 等待連線
+		- ```bash
+		  Popo-MacBook-Pro:Server popo$ python3 Bin/run.py 
+		  Socket successfully created  
+		  socket bind to 9999  
+		  Wait for new connection.
+		  ```
+	- 3.
 -
 - 進階功能：
 - 1. 修改程式讓伺服器可以註冊新的用戶
