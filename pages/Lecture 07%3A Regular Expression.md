@@ -9,7 +9,7 @@ title:: Lecture 07: Regular Expression
 			- e.g. colou?r : color, colour
 		- `\d`: [0-9] 的簡寫
 			- e.g. 09\\d\\d-?\\d\\d\\d?\\d\\d\\d
-		-
+		- `[A-Z]`
 - ## 常見的 RE 符號
 ## Python 上的 RE
 - ## C 上的 RE
