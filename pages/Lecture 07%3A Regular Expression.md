@@ -9,7 +9,9 @@ title:: Lecture 07: Regular Expression
 			- e.g. colou?r : color, colour
 		- `\d`: [0-9] 的簡寫
 			- e.g. 09\\d\\d-?\\d\\d\\d?\\d\\d\\d
-		- `[A-Z]`
+		- `\b`: 文字與數字的邊界，`\b` 旁邊不可有文字或數字
+			- e.g.
+		-
 - ## 常見的 RE 符號
 ## Python 上的 RE
 - ## C 上的 RE
