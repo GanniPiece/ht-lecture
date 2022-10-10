@@ -8,7 +8,7 @@ title:: Lecture 07: Regular Expression
 		- `?`: 問號前方字元可有可無
 			- e.g. colou?r : color, colour
 		- `\d`: [0-9] 的簡寫
-			- e.g. 09\d\d-?\d\d\d?\d\d\d
+			- e.g. 09\\d\\d-?\\d\\d\\d?\\d\\d\\d
 		-
 - ## 常見的 RE 符號
 ## Python 上的 RE
