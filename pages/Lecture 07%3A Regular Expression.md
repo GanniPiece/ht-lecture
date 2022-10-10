@@ -4,6 +4,8 @@ title:: Lecture 07: Regular Expression
 	- [[regular expression]] (regexp, RE)，常規表示式 / 字串樣板
 	- 由 30 - 40 個符號的集合構成
 		- [perlre - Perl regular expressions - Perldoc Browser](https://perldoc.perl.org/perlre)
+	- 可以有效的用在字串比對、字串處理
+		- `?`:
 - ## 常見的 RE 符號
 ## Python 上的 RE
 - ## C 上的 RE
