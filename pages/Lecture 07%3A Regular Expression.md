@@ -10,7 +10,9 @@ title:: Lecture 07: Regular Expression
 		- `\d`: [0-9] 的簡寫
 			- e.g. 09\\d\\d-?\\d\\d\\d?\\d\\d\\d
 		- `\b`: 文字與數字的邊界，`\b` 旁邊不可有文字或數字
-			- e.g. \b[A-Z][A-Z][A-Z]\b : TPE, LAX, HKG, S
+			- e.g. \b[A-Z][A-Z][A-Z]\b : TPE, LAX, HKG, SGP
+		-
+		-
 		-
 - ## 常見的 RE 符號
 ## Python 上的 RE
