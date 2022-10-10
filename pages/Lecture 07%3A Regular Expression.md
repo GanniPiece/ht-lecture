@@ -8,7 +8,7 @@ title:: Lecture 07: Regular Expression
 		- `?`: 問號前方字元可有可無
 			- e.g. colou?r : color, colour
 		- `\d`: [0-9] 的簡寫
-			- e.g. 09\\d\\d-?\\d\\d\\d?\\d\\d\\d
+			- e.g. 09\d\d-?\\d\\d\\d?\\d\\d\\d
 		- `\b`: 文字與數字的邊界，`\b` 旁邊不可有文字或數字
 			- e.g. \b[A-Z][A-Z][A-Z]\b : TPE, LAX, HKG, SGP
 		-
