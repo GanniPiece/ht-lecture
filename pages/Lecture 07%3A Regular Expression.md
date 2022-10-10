@@ -6,11 +6,11 @@ title:: Lecture 07: Regular Expression
 		- [perlre - Perl regular expressions - Perldoc Browser](https://perldoc.perl.org/perlre)
 	- 可以有效的用在字串比對、字串處理
 		- `?`: 問號前方字元可有可無
-			- e.g. colou?r : color, colour
+			- e.g. `colou?r` : color, colour
 		- `\d`: [0-9] 的簡寫
-			- e.g. 09\d\d-?\\d\\d\\d?\\d\\d\\d
+			- e.g.`09\d\d-?\d\d\d?\d\d\d`
 		- `\b`: 文字與數字的邊界，`\b` 旁邊不可有文字或數字
-			- e.g. \b[A-Z][A-Z][A-Z]\b : TPE, LAX, HKG, SGP
+			- e.g. `\b[A-Z][A-Z][A-Z]\b` : TPE, LAX, HKG, SGP
 		-
 		-
 		-
