@@ -5,7 +5,9 @@ title:: Lecture 07: Regular Expression
 	- 由 30 - 40 個符號的集合構成
 		- [perlre - Perl regular expressions - Perldoc Browser](https://perldoc.perl.org/perlre)
 	- 可以有效的用在字串比對、字串處理
-		- `?`:
+		- `?`: 問號前方字元可有可無
+			- e.g. colou?r : color, colour
+		-
 - ## 常見的 RE 符號
 ## Python 上的 RE
 - ## C 上的 RE
