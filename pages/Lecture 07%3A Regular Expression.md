@@ -45,6 +45,9 @@ title:: Lecture 07: Regular Expression
 	- `a{m, n}`: 至少 m 個但至多 n 個 a
 - ### Special notation with `\`
 - 單一字元
+	- `\t`: tab
+	- `\n`: newline
+	- `\r`:
 ## Python 上的 RE
 - ## C 上的 RE
 - ## 回家作業
