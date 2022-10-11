@@ -44,10 +44,15 @@ title:: Lecture 07: Regular Expression
 	- `a{m, }`: 至少 m 個 a
 	- `a{m, n}`: 至少 m 個但至多 n 個 a
 - ### Special notation with `\`
-- 單一字元
+- Single characters
 	- `\t`: tab
 	- `\n`: newline
-	- `\r`:
+	- `\r`: return (CR)
+	- `\xhh`: character with hex. code hh
+- Zero-width assertions
+	- `\b`: "word" boundary
+	- `\B`: not a "word" bounday
+	-
 ## Python 上的 RE
 - ## C 上的 RE
 - ## 回家作業
