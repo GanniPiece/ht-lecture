@@ -51,8 +51,9 @@ title:: Lecture 07: Regular Expression
 	- `\xhh`: character with hex. code hh
 - Zero-width assertions
 	- `\b`: "word" boundary
-	- `\B`: not a "word" bounday
-	-
+	- `\B`: not a "word" boundary
+- Matching
+-
 ## Python 上的 RE
 - ## C 上的 RE
 - ## 回家作業
