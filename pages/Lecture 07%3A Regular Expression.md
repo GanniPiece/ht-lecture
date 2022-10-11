@@ -14,7 +14,7 @@ title:: Lecture 07: Regular Expression
 	-
 - ## 常見的 RE 符號
 - | Metacharacter | Description |
-  |  `^`  | Matches the starting position within the string. In line-based tools, it matches the starting position of any line. |
+  |  `^`  | 對應字串的開頭 |
   |  `.`  | Matches any single character (many applications exclude [newlines](https://en.wikipedia.org/wiki/Newline), and exactly which characters are considered newlines is flavor-, character-encoding-, and platform-specific, but it is safe to assume that the line feed character is included). Within POSIX bracket expressions, the dot character matches a literal dot. For example,  `a.c`  matches "abc", etc., but  `[a.c]`  matches only "a", ".", or "c". |
   |  `[ ]`  | A bracket expression. Matches a single character that is contained within the brackets. For example,  `[abc]`  matches "a", "b", or "c".  `[a-z]`  specifies a range which matches any lowercase letter from "a" to "z". These forms can be mixed:  `[abcx-z]`  matches "a", "b", "c", "x", "y", or "z", as does  `[a-cx-z]` .The  `-`  character is treated as a literal character if it is the last or the first (after the  `^` , if present) character within the brackets:  `[abc-]` ,  `[-abc]` . Note that backslash escapes are not allowed. The  `]`  character can be included in a bracket expression if it is the first (after the  `^` ) character:  `[]abc]` . |
   |  `[^ ]`  | Matches a single character that is not contained within the brackets. For example,  `[^abc]`  matches any character other than "a", "b", or "c".  `[^a-z]`  matches any single character that is not a lowercase letter from "a" to "z". Likewise, literal characters and ranges can be mixed. |
