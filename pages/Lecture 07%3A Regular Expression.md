@@ -14,7 +14,8 @@ title:: Lecture 07: Regular Expression
 	-
 - ## 常見的 RE 符號
 - `^`: 字串之開頭
-- `.`: 單一字元，不包含保留字
+- `.`: 單一字元，不包含保留字。若在 `[ ]` (bracket expressions) 中，則代表文字上的點
+	- e.g. a.b 符合 acb，但是
 -
 ## Python 上的 RE
 - ## C 上的 RE
