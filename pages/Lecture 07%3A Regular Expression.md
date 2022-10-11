@@ -44,7 +44,7 @@ title:: Lecture 07: Regular Expression
 	- `a{m, }`: 至少 m 個 a
 	- `a{m, n}`: 至少 m 個但至多 n 個 a
 - ### Special notation with `\`
--
+- 單一字元
 ## Python 上的 RE
 - ## C 上的 RE
 - ## 回家作業
