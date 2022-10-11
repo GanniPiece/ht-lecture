@@ -20,7 +20,9 @@ title:: Lecture 07: Regular Expression
 	- e.g. `[a-z]`: `a`, `b`, ..., `z`
 	- e.g. `[abcx-z]`: `a`, `b`, `c`, `x`, `y`, `z`
 - `[^ ]`: 不包含中括弧中的任何單一字元
-	- e.g. []
+	- e.g. `[^abc]`: 不包含 `a`, `b`, `c` 的任何單一字元，好比說 `d`
+- `$`: 字串的結尾
+- `( )`
 ## Python 上的 RE
 - ## C 上的 RE
 - ## 回家作業
