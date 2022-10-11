@@ -19,7 +19,8 @@ title:: Lecture 07: Regular Expression
 - `[ ]`: bracket expression。代表中括弧中出現的任一單一字元
 	- e.g. `[a-z]`: `a`, `b`, ..., `z`
 	- e.g. `[abcx-z]`: `a`, `b`, `c`, `x`, `y`, `z`
--
+- `[^ ]`: 不包含中括弧中的任何單一字元
+	- e.g. []
 ## Python 上的 RE
 - ## C 上的 RE
 - ## 回家作業
