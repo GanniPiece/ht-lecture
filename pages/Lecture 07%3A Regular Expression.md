@@ -13,16 +13,8 @@ title:: Lecture 07: Regular Expression
 			- e.g. `\b[A-Z][A-Z][A-Z]\b` : TPE, LAX, HKG, SGP
 	-
 - ## 常見的 RE 符號
-- | Metacharacter | Description |
-  |  `^`  | 字串的開頭 |
-  |  `.`  | 任何單一字元（不包含換行或保留字）|
-  |  `[ ]`  | A bracket expression. Matches a single character that is contained within the brackets. For example,  `[abc]`  matches "a", "b", or "c".  `[a-z]`  specifies a range which matches any lowercase letter from "a" to "z". These forms can be mixed:  `[abcx-z]`  matches "a", "b", "c", "x", "y", or "z", as does  `[a-cx-z]` .The  `-`  character is treated as a literal character if it is the last or the first (after the  `^` , if present) character within the brackets:  `[abc-]` ,  `[-abc]` . Note that backslash escapes are not allowed. The  `]`  character can be included in a bracket expression if it is the first (after the  `^` ) character:  `[]abc]` . |
-  |  `[^ ]`  | Matches a single character that is not contained within the brackets. For example,  `[^abc]`  matches any character other than "a", "b", or "c".  `[^a-z]`  matches any single character that is not a lowercase letter from "a" to "z". Likewise, literal characters and ranges can be mixed. |
-  |  `$`  | Matches the ending position of the string or the position just before a string-ending newline. In line-based tools, it matches the ending position of any line. |
-  |  `( )`  | Defines a marked subexpression. The string matched within the parentheses can be recalled later (see the next entry,  `\` ). A marked subexpression is also called a block or capturing group. **BRE mode requires  `\( \)` **. |
-  |  `\`  | Matches what the *n*th marked subexpression matched, where *n* is a digit from 1 to 9. This construct is vaguely defined in the POSIX.2 standard. Some tools allow referencing more than nine capturing groups. Also known as a backreference. **backreferences are only supported in BRE mode** |
-  |  `*`  | Matches the preceding element zero or more times. For example,  `ab*c`  matches "ac", "abc", "abbbc", etc.  `[xyz]*`  matches "", "x", "y", "z", "zx", "zyx", "xyzzy", and so on.  `(ab)*`  matches "", "ab", "abab", "ababab", and so on. |
-  |  `{`  | Matches the preceding element at least *m* and not more than *n* times. For example,  `a{3,5}`  matches only "aaa", "aaaa", and "aaaaa". This is not found in a few older instances of regexes. **BRE mode requires \{*m*,*n*\}**. |
+- `^`: 字串之開頭
+- `.`: 單一字元，不包含保留字
 -
 ## Python 上的 RE
 - ## C 上的 RE
