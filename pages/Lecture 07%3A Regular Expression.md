@@ -26,7 +26,8 @@ title:: Lecture 07: Regular Expression
 		- e.g. `[a-z]`: `a`, `b`, ..., `z`
 		- e.g. `[abcx-z]`: `a`, `b`, `c`, `x`, `y`, `z`
 	- `( )`: marked subexpression / block / capturing group。可重複利用的字元組合
-	- `{ }`: 反覆
+	- `{ }`: repetition modifier，重複出現的字元數量
+		- e.g. `a{3, 6}`: `aaa`, `aaaa`, `aaaaa`
 	- `[^ ]`: 不包含中括弧中的任何單一字元
 		- e.g. `[^abc]`: 不包含 `a`, `b`, `c` 的任何單一字元，好比說 `d`
 	-
