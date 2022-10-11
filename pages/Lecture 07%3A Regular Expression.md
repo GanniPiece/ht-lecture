@@ -22,7 +22,7 @@ title:: Lecture 07: Regular Expression
 - `[^ ]`: 不包含中括弧中的任何單一字元
 	- e.g. `[^abc]`: 不包含 `a`, `b`, `c` 的任何單一字元，好比說 `d`
 - `$`: 字串的結尾
-- `( )`: marked subexpression。
+- `( )`: marked subexpression / block / capturing group。
 ## Python 上的 RE
 - ## C 上的 RE
 - ## 回家作業
