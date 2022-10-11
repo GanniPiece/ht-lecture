@@ -13,16 +13,18 @@ title:: Lecture 07: Regular Expression
 			- e.g. `\b[A-Z][A-Z][A-Z]\b` : TPE, LAX, HKG, SGP
 	-
 - ## 常見的 RE 符號
-- `^`: 字串之開頭
-- `.`: 單一字元，不包含保留字。若在 `[ ]` (bracket expressions) 中，則代表文字上的點
-	- e.g. 符合 a.b 的字串有 acb，但是 [a.b] 符合字串的只有 `a`, `b`, `.`
-- `[ ]`: bracket expression。代表中括弧中出現的任一單一字元
-	- e.g. `[a-z]`: `a`, `b`, ..., `z`
-	- e.g. `[abcx-z]`: `a`, `b`, `c`, `x`, `y`, `z`
-- `[^ ]`: 不包含中括弧中的任何單一字元
-	- e.g. `[^abc]`: 不包含 `a`, `b`, `c` 的任何單一字元，好比說 `d`
-- `$`: 字串的結尾
-- `( )`: marked subexpression / block / capturing group。
+- metacharacters
+	- `^`: 字串之開頭
+	- `$`: 字串的結尾
+	- `.`: 單一字元，不包含保留字。若在 `[ ]` (bracket expressions) 中，則代表文字上的點
+		- e.g. 符合 a.b 的字串有 acb，但是 [a.b] 符合字串的只有 `a`, `b`, `.`
+	- `*`: 符合
+	- `[ ]`: bracket expression。代表中括弧中出現的任一單一字元
+		- e.g. `[a-z]`: `a`, `b`, ..., `z`
+		- e.g. `[abcx-z]`: `a`, `b`, `c`, `x`, `y`, `z`
+	- `[^ ]`: 不包含中括弧中的任何單一字元
+		- e.g. `[^abc]`: 不包含 `a`, `b`, `c` 的任何單一字元，好比說 `d`
+	- `( )`: marked subexpression / block / capturing group。
 ## Python 上的 RE
 - ## C 上的 RE
 - ## 回家作業
