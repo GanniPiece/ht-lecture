@@ -16,7 +16,9 @@ title:: Lecture 07: Regular Expression
 - `^`: 字串之開頭
 - `.`: 單一字元，不包含保留字。若在 `[ ]` (bracket expressions) 中，則代表文字上的點
 	- e.g. 符合 a.b 的字串有 acb，但是 [a.b] 符合字串的只有 "a", "." 或 "b"
-- `[ ]`: bracket expression。
+- `[ ]`: bracket expression。代表中括弧中出現的任一單一字元
+	- e.g. `[a-z]`: "a", "b", ... "z"
+	- e.g. `[abcx-z]`: "a", "b", "C"
 -
 ## Python 上的 RE
 - ## C 上的 RE
