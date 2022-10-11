@@ -18,7 +18,10 @@ title:: Lecture 07: Regular Expression
 	- `$`: 字串的結尾
 	- `.`: 單一字元，不包含保留字。若在 `[ ]` (bracket expressions) 中，則代表文字上的點
 		- e.g. 符合 a.b 的字串有 acb，但是 [a.b] 符合字串的只有 `a`, `b`, `.`
-	- `*`: 符合
+	- `*`: 符合 0 至多次
+	- `+`: 符合 1 至多次
+	- `?`: 符合 0 或 1 次
+	- `|`: 或
 	- `[ ]`: bracket expression。代表中括弧中出現的任一單一字元
 		- e.g. `[a-z]`: `a`, `b`, ..., `z`
 		- e.g. `[abcx-z]`: `a`, `b`, `c`, `x`, `y`, `z`
