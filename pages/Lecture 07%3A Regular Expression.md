@@ -17,22 +17,28 @@ title:: Lecture 07: Regular Expression
 	- `^`: 字串之開頭
 	- `$`: 字串的結尾
 	- `.`: 單一字元，不包含保留字。若在 `[ ]` (bracket expressions) 中，則代表文字上的點
+	  collapsed:: true
 		- e.g. 符合 a.b 的字串有 acb，但是 [a.b] 符合字串的只有 `a`, `b`, `.`
 	- `*`: 符合 0 至多次
+	  collapsed:: true
 		- e.g. `(ab)*`: ` `, `ab`, `abab`, `ababab`, ...
-		- e.g. `[ab]*`
+		- e.g. `[ab]+`: `ab`, `a`, `b`, `ba`
 	- `+`: 符合 1 至多次
 	- `?`: 符合 0 或 1 次
 	- `|`: 或
 	- `[ ]`: bracket expression。字元集合，代表中括弧中出現的任一單一字元
+	  collapsed:: true
 		- e.g. `[a-z]`: `a`, `b`, ..., `z`
 		- e.g. `[abcx-z]`: `a`, `b`, `c`, `x`, `y`, `z`
 	- `( )`: marked subexpression / block / capturing group。可重複利用的字元組合
 	- `{ }`: repetition modifier，重複出現的字元數量
+	  collapsed:: true
 		- e.g. `a{3, 6}`: `aaa`, `aaaa`, `aaaaa`
 	- `[^ ]`: 不包含中括弧中的任何單一字元
+	  collapsed:: true
 		- e.g. `[^abc]`: 不包含 `a`, `b`, `c` 的任何單一字元，好比說 `d`
-	-
+-
+-
 ## Python 上的 RE
 - ## C 上的 RE
 - ## 回家作業
