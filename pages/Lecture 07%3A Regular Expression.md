@@ -19,6 +19,7 @@ title:: Lecture 07: Regular Expression
 	- `.`: 單一字元，不包含保留字。若在 `[ ]` (bracket expressions) 中，則代表文字上的點
 		- e.g. 符合 a.b 的字串有 acb，但是 [a.b] 符合字串的只有 `a`, `b`, `.`
 	- `*`: 符合 0 至多次
+		- e.g. `(ab)*`: ` `, `ab`, `abab`, `ababab`, ...
 	- `+`: 符合 1 至多次
 	- `?`: 符合 0 或 1 次
 	- `|`: 或
