@@ -32,7 +32,7 @@ title:: Lecture 07: Regular Expression
 		- e.g. `[abcx-z]`: `a`, `b`, `c`, `x`, `y`, `z`
 	- `( )`: marked subexpression / block / capturing group。可重複利用的字元組合
 	- `{ }`: repetition modifier，重複出現的字元數量
-		- e.g. `a{3, 6}`: `aaa`, `aaaa`, `aaaaa`
+		- e.g. `a{3, 6}`: `aaa`, `aaaa`, `aaaaa`, `aaaaaa`
 	- `[^ ]`: 不包含中括弧中的任何單一字元
 	  collapsed:: true
 		- e.g. `[^abc]`: 不包含 `a`, `b`, `c` 的任何單一字元，好比說 `d`
@@ -43,6 +43,8 @@ title:: Lecture 07: Regular Expression
 	- `a{m}`: m 個 a
 	- `a{m, }`: 至少 m 個 a
 	- `a{m, n}`: 至少 m 個但至多 n 個 a
+- ### Special notation with `\`
+-
 ## Python 上的 RE
 - ## C 上的 RE
 - ## 回家作業
