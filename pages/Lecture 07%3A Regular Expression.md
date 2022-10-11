@@ -13,7 +13,7 @@ title:: Lecture 07: Regular Expression
 			- e.g. `\b[A-Z][A-Z][A-Z]\b` : TPE, LAX, HKG, SGP
 	-
 - ## 常見的 RE 符號
-- metacharacters
+- ### metacharacters
 	- `^`: 字串之開頭
 	- `$`: 字串的結尾
 	- `.`: 單一字元，不包含保留字。若在 `[ ]` (bracket expressions) 中，則代表文字上的點
@@ -37,8 +37,10 @@ title:: Lecture 07: Regular Expression
 	- `[^ ]`: 不包含中括弧中的任何單一字元
 	  collapsed:: true
 		- e.g. `[^abc]`: 不包含 `a`, `b`, `c` 的任何單一字元，好比說 `d`
--
--
+- ### Repetition
+	- `a*`: 0 個或 0 個以上的 a
+	- `a+`: 1 個或 1 個以上的 a
+	- `a?`: 0 個或 1 個 a
 ## Python 上的 RE
 - ## C 上的 RE
 - ## 回家作業
