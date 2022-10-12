@@ -115,6 +115,7 @@ title:: Lecture 07: Regular Expression
 		-
 		-
 	- ### Python 上的 RE
+	  collapsed:: true
 		- 切字串，實作 `str.split()` 的功能
 			- ```python
 			  # split a sentence into a list of words, removing all punctuation marks and spaces
@@ -136,12 +137,11 @@ title:: Lecture 07: Regular Expression
 			  print(y) #outputs "hello this is amazing what"
 			  ```
 	- ### C 語言上的 RE
+	  collapsed:: true
 		- 定義於 `<regex.h>`，C 的標準函式庫並無支援 RE
 		- `regcomp()`, `regexe()`, `regfree()`, `regerror()`
+		- [【C 語言】使用 Regular Expressions | 辛西亞的技能樹 (cynthiachuang.github.io)](https://cynthiachuang.github.io/Regular-Expressions-in-C/#comments)
 		-
 		-
-		-
 -
--
--
--
+- 上一章節：
