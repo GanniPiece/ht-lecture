@@ -53,6 +53,7 @@ title:: Lecture 07: Regular Expression
 	- `\b`: "word" boundary
 	- `\B`: not a "word" boundary
 - Matching
+	- `\w`: 所有符合 "word
 -
 ## Python 上的 RE
 - ## C 上的 RE
