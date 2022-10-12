@@ -135,9 +135,8 @@ title:: Lecture 07: Regular Expression
 			  
 			  print(y) #outputs "hello this is amazing what"
 			  ```
+	- ### C 語言上的 RE
 -
-- ## C 上的 RE
-- ## 回家作業
 -
 -
 -
