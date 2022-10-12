@@ -144,4 +144,5 @@ title:: Lecture 07: Regular Expression
 		-
 		-
 -
-- 上一章節：
+- 上一章節： [[Lecture 06: Assembler, Linker, Compiler]]
+- 下一章節： [[Lecture 08: Multi-threading Programming]]
