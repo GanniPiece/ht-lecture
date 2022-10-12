@@ -51,7 +51,6 @@ title:: Lecture 07: Regular Expression
 		- `\b`: "word" boundary
 		- `\B`: not a "word" boundary
 		- `\b[A-Z]\b`
-		-
 	- Matching
 		- `\w`: 所有符合 "word" 的字元 (數字、字母或是 `_`)
 		- `\W`: 所有非 "word" 的字元
