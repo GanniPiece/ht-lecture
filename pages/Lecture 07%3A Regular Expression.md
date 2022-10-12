@@ -1,7 +1,6 @@
 title:: Lecture 07: Regular Expression
 
 - ## 什麼是 RE?
-  collapsed:: true
 	- [[regular expression]] (regexp, RE)，常規表示式 / 字串樣板
 	- 由 30 - 40 個符號的集合構成
 		- [perlre - Perl regular expressions - Perldoc Browser](https://perldoc.perl.org/perlre)
@@ -12,7 +11,7 @@ title:: Lecture 07: Regular Expression
 			- e.g.`09\d\d-?\d\d\d?\d\d\d`
 		- `\b`: 文字與數字的邊界，`\b` 旁邊不可有文字或數字
 			- e.g. `\b[A-Z][A-Z][A-Z]\b` : TPE, LAX, HKG, SGP
-	- 掌握數十來個符號便能有效的運用在字串比對的任務之中，諸如搜尋、修改、拆解字串。
+	- 掌握數十來個符號便能有效的運用在字串比對的任務之中，諸如搜尋、修改、拆解字串，並且精簡程式碼數量。
 - ## 常見的 RE 符號
 - ### metacharacters
   collapsed:: true
