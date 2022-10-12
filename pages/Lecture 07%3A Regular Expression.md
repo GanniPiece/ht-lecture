@@ -1,6 +1,7 @@
 title:: Lecture 07: Regular Expression
 
 - ## 什麼是 RE?
+  collapsed:: true
 	- [[regular expression]] (regexp, RE)，常規表示式 / 字串樣板
 	- 由 30 - 40 個符號的集合構成
 		- [perlre - Perl regular expressions - Perldoc Browser](https://perldoc.perl.org/perlre)
@@ -14,6 +15,7 @@ title:: Lecture 07: Regular Expression
 	- 掌握數十來個符號便能有效的運用在字串比對的任務之中，諸如搜尋、修改、拆解字串。
 - ## 常見的 RE 符號
 - ### metacharacters
+  collapsed:: true
 	- `^`: 字串之開頭
 	- `$`: 字串的結尾
 	- `.`: 單一字元，不包含保留字。若在 `[ ]` (bracket expressions) 中，則代表文字上的點
@@ -37,6 +39,7 @@ title:: Lecture 07: Regular Expression
 	  collapsed:: true
 		- e.g. `[^abc]`: 不包含 `a`, `b`, `c` 的任何單一字元，好比說 `d`
 - ### Repetition
+  collapsed:: true
 	- `a*`: 0 個或 0 個以上的 a
 	- `a+`: 1 個或 1 個以上的 a
 	- `a?`: 0 個或 1 個 a (optional a)
@@ -44,22 +47,22 @@ title:: Lecture 07: Regular Expression
 	- `a{m, }`: 至少 m 個 a
 	- `a{m, n}`: 至少 m 個但至多 n 個 a
 - ### Special notation with `\`
-- Single characters
-	- `\t`: tab
-	- `\n`: newline
-	- `\r`: return (CR)
-	- `\xhh`: character with hex. code hh
-- Zero-width assertions
-	- `\b`: "word" boundary
-	- `\B`: not a "word" boundary
-- Matching
-	- `\w`: 所有符合 "word" 的字元 (數字、字母或是 `_`)
-	- `\W`: 所有非 "word" 的字元
-	- `\s`: 對應所有空白字元 (e.g. space, tab, newline)
-	- `\S`: 對應所有非空白字元
-	- `\d`: 對應任何數字字元 `[0-9]`
-	- `\D`: 對應任何非數字字元
--
+  collapsed:: true
+	- Single characters
+		- `\t`: tab
+		- `\n`: newline
+		- `\r`: return (CR)
+		- `\xhh`: character with hex. code hh
+	- Zero-width assertions
+		- `\b`: "word" boundary
+		- `\B`: not a "word" boundary
+	- Matching
+		- `\w`: 所有符合 "word" 的字元 (數字、字母或是 `_`)
+		- `\W`: 所有非 "word" 的字元
+		- `\s`: 對應所有空白字元 (e.g. space, tab, newline)
+		- `\S`: 對應所有非空白字元
+		- `\d`: 對應任何數字字元 `[0-9]`
+		- `\D`: 對應任何非數字字元
 - ## 範例練習
 	- ### 基礎練習
 	  collapsed:: true
@@ -111,8 +114,16 @@ title:: Lecture 07: Regular Expression
 			- YYYY-MM-DD
 		-
 		-
-	-
-	- ## Python 上的 RE
+	- ### Python 上的 RE
+		- ```python
+		  # split a sentence into a list of words, removing all punctuation marks and spaces
+		  
+		  import re
+		  x = "hello!!! this is amazing? what."
+		  y = re.split("[ .,?!'\";:-]+", x)
+		  
+		  print(y) #outputs ["hello", "this", "is", "amazing", "what"]
+		  ```
 - ## C 上的 RE
 - ## 回家作業
 -
