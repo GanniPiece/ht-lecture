@@ -34,7 +34,6 @@ title:: Lecture 07: Regular Expression
 	- `{ }`: repetition modifier，重複出現的字元數量
 		- e.g. `a{3, 6}`: `aaa`, `aaaa`, `aaaaa`, `aaaaaa`
 	- `[^ ]`: 不包含中括弧中的任何單一字元
-	  collapsed:: true
 		- e.g. `[^abc]`: 不包含 `a`, `b`, `c` 的任何單一字元，好比說 `d`
 - ### Repetition
   collapsed:: true
