@@ -68,7 +68,13 @@ title:: Lecture 07: Regular Expression
 	- 5. `^abc|abc$`
 	- 6. `ab{2, 4}c`
 	- 7. `ab{2, }c`
-	- 8. ab*c
+	- 8. `ab*c`
+	- 9. `ab+c`
+	- 10. `ab?c`
+	- 11. `a.c`
+	- 12. `a\.c`
+	- 13. `[abc]`
+	- 14.
 -
 ## Python 上的 RE
 - ## C 上的 RE
