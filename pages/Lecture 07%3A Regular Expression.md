@@ -84,7 +84,10 @@ title:: Lecture 07: Regular Expression
 		- 20. `abc\b`
 		- 21. `perl\B`
 	- ### 進階：常見的 RE
-		- `. `
+		- `./^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6})*$/`
+		  collapsed:: true
+			- Common Email IDs
+		-
 ## Python 上的 RE
 - ## C 上的 RE
 - ## 回家作業
