@@ -74,8 +74,10 @@ title:: Lecture 07: Regular Expression
 	- 11. `a.c`
 	- 12. `a\.c`
 	- 13. `[abc]`
-	- 14.
--
+	- 14. `[Aa]bc`
+	- 15. `[abc]+`
+	- 16. `[^abc]+`
+	- 17.
 ## Python 上的 RE
 - ## C 上的 RE
 - ## 回家作業
