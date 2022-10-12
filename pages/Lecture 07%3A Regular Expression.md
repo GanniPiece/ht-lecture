@@ -9,7 +9,7 @@ title:: Lecture 07: Regular Expression
 		- `?`: 問號前方字元可有可無
 			- e.g. `colou?r` : color, colour
 		- `\d`: [0-9] 的簡寫
-			- e.g.`09\d\d-?\d\d\d?\d\d\d`
+			- e.g.`09\d\d-?\d\d\d-?\d\d\d`
 		- `\b`: 文字與數字的邊界，`\b` 旁邊不可有文字或數字
 			- e.g. `\b[A-Z][A-Z][A-Z]\b` : TPE, LAX, HKG, SGP
 	- 掌握數十來個符號便能有效的運用在字串比對的任務之中，諸如搜尋、修改、拆解字串，並且精簡程式碼數量。
