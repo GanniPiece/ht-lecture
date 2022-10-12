@@ -21,7 +21,6 @@ title:: Lecture 07: Regular Expression
 	  collapsed:: true
 		- e.g. 符合 a.b 的字串有 acb，但是 [a.b] 符合字串的只有 `a`, `b`, `.`
 	- `*`: 符合 0 至多次
-	  collapsed:: true
 		- e.g. `(ab)*`: ` `, `ab`, `abab`, `ababab`, ...
 		- e.g. `[ab]+`: `ab`, `a`, `b`, `ba`
 	- `+`: 符合 1 至多次
