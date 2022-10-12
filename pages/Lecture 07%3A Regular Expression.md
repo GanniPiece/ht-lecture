@@ -53,7 +53,10 @@ title:: Lecture 07: Regular Expression
 	- `\b`: "word" boundary
 	- `\B`: not a "word" boundary
 - Matching
-	- `\w`: 所有符合 "word
+	- `\w`: 所有符合 "word" 的字元 (數字、字母或是 `_`)
+	- `\W`: 所有非 "word" 的字元
+	- `\s`: 對應所有空白字元 (e.g. space, tab, newline)
+	- `\S`
 -
 ## Python 上的 RE
 - ## C 上的 RE
