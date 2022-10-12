@@ -75,7 +75,7 @@ title:: Lecture 07: Regular Expression
 		- 13. `[abc]`
 		- 14. `[Aa]bc`
 		- 15. `[abc]+`
-		- 16. `[^abc]+`
+		- 16. `[^abc]+` `a[bc]`
 		- 17. `\d\d`
 		- 18. `\w+`
 		- 19. `100\s*mk`
