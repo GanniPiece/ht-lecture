@@ -83,7 +83,8 @@ title:: Lecture 07: Regular Expression
 		- 19. `100\s*mk`
 		- 20. `abc\b`
 		- 21. `perl\B`
-	-
+	- ### 進階：常見的 RE
+		- `. `
 ## Python 上的 RE
 - ## C 上的 RE
 - ## 回家作業
