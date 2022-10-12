@@ -115,15 +115,18 @@ title:: Lecture 07: Regular Expression
 		-
 		-
 	- ### Python 上的 RE
-		- ```python
-		  # split a sentence into a list of words, removing all punctuation marks and spaces
-		  
-		  import re
-		  x = "hello!!! this is amazing? what."
-		  y = re.split("[ .,?!'\";:-]+", x)
-		  
-		  print(y) #outputs ["hello", "this", "is", "amazing", "what"]
-		  ```
+		- 切字串，實作 `str.split()` 的功能
+			- ```python
+			  # split a sentence into a list of words, removing all punctuation marks and spaces
+			  
+			  import re
+			  x = "hello!!! this is amazing? what."
+			  y = re.split("[ .,?!'\";:-]+", x)
+			  
+			  print(y) #outputs ["hello", "this", "is", "amazing", "what"]
+			  ```
+		- 移除
+-
 - ## C 上的 RE
 - ## 回家作業
 -
