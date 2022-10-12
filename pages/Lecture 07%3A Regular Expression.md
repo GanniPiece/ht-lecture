@@ -135,7 +135,6 @@ title:: Lecture 07: Regular Expression
 			  
 			  print(y) #outputs "hello this is amazing what"
 			  ```
-	- ### 爬蟲
 	- ### C 語言上的 RE
 	  collapsed:: true
 		- 定義於 `<regex.h>`，C 的標準函式庫並無支援 RE
@@ -143,6 +142,8 @@ title:: Lecture 07: Regular Expression
 		- [【C 語言】使用 Regular Expressions | 辛西亞的技能樹 (cynthiachuang.github.io)](https://cynthiachuang.github.io/Regular-Expressions-in-C/#comments)
 		-
 		-
+- ## 回家作業
+	- 網路爬蟲
 -
 - 上一章節： [[Lecture 06: Assembler, Linker, Compiler]]
 - 下一章節： [[Lecture 08: Multi-threading Programming]]
