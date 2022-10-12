@@ -77,7 +77,9 @@ title:: Lecture 07: Regular Expression
 	- 14. `[Aa]bc`
 	- 15. `[abc]+`
 	- 16. `[^abc]+`
-	- 17.
+	- 17. `\d\d`
+	- 18. `\w+`
+	- 19. `100\s*mk`
 ## Python 上的 RE
 - ## C 上的 RE
 - ## 回家作業
