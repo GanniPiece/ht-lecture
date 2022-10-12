@@ -41,7 +41,6 @@ title:: Lecture 07: Regular Expression
 	- `a{m, }`: 至少 m 個 a
 	- `a{m, n}`: 至少 m 個但至多 n 個 a
 - ### Special notation with `\`
-  collapsed:: true
 	- Single characters
 		- `\t`: tab
 		- `\n`: newline
