@@ -15,7 +15,6 @@ title:: Lecture 07: Regular Expression
 	- 掌握數十來個符號便能有效的運用在字串比對的任務之中，諸如搜尋、修改、拆解字串，並且精簡程式碼數量。
 - ## 常見的 RE 符號
 - ### metacharacters
-  collapsed:: true
 	- `^`: 字串之開頭
 	- `$`: 字串的結尾
 	- `.`: 單一字元，不包含保留字。若在 `[ ]` (bracket expressions) 中，則代表文字上的點
