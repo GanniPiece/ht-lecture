@@ -87,6 +87,8 @@ title:: Lecture 07: Regular Expression
 		- `./^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6})*$/`
 		  collapsed:: true
 			- Common Email IDs
+		- ```
+		  ```/(?=(.*[0-9]))(?=.*[\!@#$%^&*()\\[\]{}\-_+=~`|:;"'<>,./?])(?=.*[a-z])(?=(.*[A-Z]))(?=(.*)).{8,}/`
 		-
 ## Python 上的 RE
 - ## C 上的 RE
