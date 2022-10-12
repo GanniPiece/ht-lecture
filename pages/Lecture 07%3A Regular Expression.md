@@ -87,8 +87,21 @@ title:: Lecture 07: Regular Expression
 		- `./^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6})*$/`
 		  collapsed:: true
 			- Common Email IDs
-		- /(?=(.*[0-9]))(?=.*[\!@#$%^&*()\\[\]{}\-_+=~`|:;"'<>,./?])(?=.*[a-z])(?=(.*[A-Z]))(?=(.*)).{8,}/
+		- collapsed:: true
+		  ```
+		  /(?=(.*[0-9]))(?=.*[\!@#$%^&*()\\[\]{}\-_+=~`|:;"'<>,./?])(?=.*[a-z])(?=(.*[A-Z]))(?=(.*)).{8,}/
+		  ```
+			- Password Strength
 		- `/^[a-z0-9_-]{3,16}$/`
+		  collapsed:: true
+			- Username
+		- collapsed:: true
+		  
+		  ```
+		  /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#()?&//=]*)/
+		  ```
+			- URL
+		-
 		-
 ## Python 上的 RE
 - ## C 上的 RE
