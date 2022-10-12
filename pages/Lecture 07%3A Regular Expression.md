@@ -83,7 +83,6 @@ title:: Lecture 07: Regular Expression
 		- 21. `perl\B`
 	- ### 進階：常見的應用
 		- `./^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6})*$/`
-		  collapsed:: true
 			- Common Email IDs
 		- collapsed:: true
 		  ```
