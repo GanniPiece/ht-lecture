@@ -62,6 +62,7 @@ title:: Lecture 07: Regular Expression
 -
 - ## 範例練習
 	- ### 基礎練習
+	  collapsed:: true
 		- 1. `abc`
 		- 2. `^abc`
 		- 3. `abc$`
@@ -84,6 +85,7 @@ title:: Lecture 07: Regular Expression
 		- 20. `abc\b`
 		- 21. `perl\B`
 	- ### 進階：常見的 RE
+	  collapsed:: true
 		- `./^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6})*$/`
 		  collapsed:: true
 			- Common Email IDs
@@ -109,6 +111,7 @@ title:: Lecture 07: Regular Expression
 			- YYYY-MM-DD
 		-
 		-
+	-
 ## Python 上的 RE
 - ## C 上的 RE
 - ## 回家作業
