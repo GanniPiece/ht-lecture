@@ -135,6 +135,7 @@ title:: Lecture 07: Regular Expression
 			  
 			  print(y) #outputs "hello this is amazing what"
 			  ```
+	- ### 爬蟲
 	- ### C 語言上的 RE
 	  collapsed:: true
 		- 定義於 `<regex.h>`，C 的標準函式庫並無支援 RE
