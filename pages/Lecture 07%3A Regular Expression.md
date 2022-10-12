@@ -78,7 +78,7 @@ title:: Lecture 07: Regular Expression
 		- 16. `[^abc]+` `a[bc]`
 		- 17. `\d\d`
 		- 18. `\w+`
-		- 19. `100\s*mk`
+		- 19. `100\s+mk`
 		- 20. `abc\b`
 		- 21. `perl\B`
 	- ### 進階：常見的應用
