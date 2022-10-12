@@ -56,7 +56,9 @@ title:: Lecture 07: Regular Expression
 	- `\w`: 所有符合 "word" 的字元 (數字、字母或是 `_`)
 	- `\W`: 所有非 "word" 的字元
 	- `\s`: 對應所有空白字元 (e.g. space, tab, newline)
-	- `\S`
+	- `\S`: 對應所有非空白字元
+	- `\d`: 對應任何數字字元 `[0-9]`
+	- `\D`: 對應任何非數字字元
 -
 ## Python 上的 RE
 - ## C 上的 RE
