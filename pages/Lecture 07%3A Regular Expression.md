@@ -60,6 +60,9 @@ title:: Lecture 07: Regular Expression
 	- `\d`: 對應任何數字字元 `[0-9]`
 	- `\D`: 對應任何非數字字元
 -
+- ## 範例練習
+	-
+-
 ## Python 上的 RE
 - ## C 上的 RE
 - ## 回家作業
