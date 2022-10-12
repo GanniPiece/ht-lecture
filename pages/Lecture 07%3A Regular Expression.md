@@ -61,7 +61,11 @@ title:: Lecture 07: Regular Expression
 	- `\D`: 對應任何非數字字元
 -
 - ## 範例練習
-	-
+	- 1. `abc`
+	- 2. `^abc`
+	- 3. `abc$`
+	- 4. `a|b`
+	- 5. `^abc|abc$`
 -
 ## Python 上的 RE
 - ## C 上的 RE
