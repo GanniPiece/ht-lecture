@@ -125,7 +125,16 @@ title:: Lecture 07: Regular Expression
 			  
 			  print(y) #outputs ["hello", "this", "is", "amazing", "what"]
 			  ```
-		- 移除
+		- 移除標點符號
+			- ```python
+			  #remove punctuation marks using the re module
+			  
+			  import re
+			  x = "hello!!! this is amazing? what."
+			  y = re.sub("[.,?!'\";:-]", "", x)
+			  
+			  print(y) #outputs "hello this is amazing what"
+			  ```
 -
 - ## C 上的 RE
 - ## 回家作業
