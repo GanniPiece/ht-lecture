@@ -137,6 +137,8 @@ title:: Lecture 07: Regular Expression
 			  ```
 	- ### C 語言上的 RE
 		- 定義於 `<regex.h>`，C 的標準函式庫並無支援 RE
+		- `regcomp()`, `regexe()`, `regfree()`, `regerror()`
+		-
 		-
 		-
 -
