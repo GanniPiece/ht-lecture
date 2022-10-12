@@ -46,6 +46,7 @@ title:: Lecture 07: Regular Expression
 		- `\n`: newline
 		- `\r`: return (CR)
 		- `\xhh`: character with hex. code hh
+		- 0xFF(16)
 	- Zero-width assertions
 		- `\b`: "word" boundary
 		- `\B`: not a "word" boundary
