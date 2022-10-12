@@ -109,7 +109,6 @@ title:: Lecture 07: Regular Expression
 		-
 		-
 	- ### Python 上的 RE
-	  collapsed:: true
 		- 切字串，實作 `str.split()` 的功能
 			- ```python
 			  # split a sentence into a list of words, removing all punctuation marks and spaces
