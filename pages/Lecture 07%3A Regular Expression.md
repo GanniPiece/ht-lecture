@@ -84,16 +84,15 @@ title:: Lecture 07: Regular Expression
 	- ### 進階：常見的應用
 		- `./^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6})*$/`
 			- Common Email IDs
-		- ```
+		- collapsed:: true
+		  ```
 		  /(?=(.*[0-9]))(?=.*[\!@#$%^&*()\\[\]{}\-_+=~`|:;"'<>,./?])(?=.*[a-z])(?=(.*[A-Z]))(?=(.*)).{8,}/
 		  ```
 			- Password Strength
 		- `/^[a-z0-9_-]{3,16}$/`
 		  collapsed:: true
 			- Username
-		- collapsed:: true
-		  
-		  ```
+		- ```
 		  /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#()?&//=]*)/
 		  ```
 			- URL
