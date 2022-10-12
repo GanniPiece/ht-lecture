@@ -11,7 +11,7 @@ title:: Lecture 07: Regular Expression
 			- e.g.`09\d\d-?\d\d\d?\d\d\d`
 		- `\b`: 文字與數字的邊界，`\b` 旁邊不可有文字或數字
 			- e.g. `\b[A-Z][A-Z][A-Z]\b` : TPE, LAX, HKG, SGP
-	-
+	- 掌握數十來個符號便能有效的運用在字串比對的任務之中，
 - ## 常見的 RE 符號
 - ### metacharacters
 	- `^`: 字串之開頭
