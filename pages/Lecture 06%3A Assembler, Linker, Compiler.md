@@ -18,15 +18,18 @@ title:: Lecture 06: Assembler, Linker, Compiler
 		- ![](https://www.spreered.com/content/images/2020/09/lexer.png)
 	- #### 語法分析：Syntax Analyzer / Parser
 		- 輸入：Token
-		- 輸出：Abstract syntax tree, AST
+		- 輸出：Syntax tree
 		- 說明：透過定義好的上下文無關文法 (Context Free Grammar, CFG)，經由 Parser 檢查我們輸入的 token 順序是否符合
 		- 作法：LL Parser / LR Parser
 			- Top-down parsing: LL Paser
 			- Button-up parsing: LR Parser
 		- ![](https://www.spreered.com/content/images/2020/09/parser.png)
 		- #### 語意分析：Semantic Analyzer
+		- 輸入：Syntax tree
+		-
 		- 說明：變數宣告、重複宣告、型別檢查等等任務
 		- 作法：建立 **Symbol table**
+		- ![](https://www.spreered.com/content/images/2020/09/symbol_table.jpg)
 - ### Middle-end
 	- #### Intermedia code generator
 	- #### Intermedia code optimizer
