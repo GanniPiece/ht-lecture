@@ -31,8 +31,8 @@ title:: Lecture 06: Assembler, Linker, Compiler
 		- 作法：建立 **Symbol table**
 		- ![](https://www.spreered.com/content/images/2020/09/symbol_table.jpg)
 - ### Middle-end
-	- #### Intermedia code generator
-	- #### Intermedia code optimizer
+	- #### Intermedia code generator / optimizer
+	-
 - ### Back-end
 	- #### code generator & optimizer
 -
