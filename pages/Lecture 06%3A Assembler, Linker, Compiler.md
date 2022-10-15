@@ -31,7 +31,7 @@ title:: Lecture 06: Assembler, Linker, Compiler
 		- 作法：建立 **Symbol table**
 		- ![](https://www.spreered.com/content/images/2020/09/symbol_table.jpg)
 - ### Middle-end / Back-end
-	- 為什麼需要先轉 IR，再轉 o
+	- 為什麼需要先轉 IR，再轉 object code 呢？
 	- #### Intermedia code generator / optimizer
 	- #### code generator & optimizer
 -
