@@ -11,12 +11,12 @@ title:: Lecture 06: Assembler, Linker, Compiler
 - ### Front-end
 	- #### 詞法分析：Lexer
 	- #### 語法分析：Syntax Analyzer
-	- ### 語意分析：Semantic Analyzer
-- ## Middle-end
-- ### Intermedia code generator
-- ### Intermedia code optimizer
-- ## Back-end
-- ### code generator & optimizer
+	- #### 語意分析：Semantic Analyzer
+- ### Middle-end
+	- #### Intermedia code generator
+	- #### Intermedia code optimizer
+- ### Back-end
+	- #### code generator & optimizer
 -
 - ##
 -
