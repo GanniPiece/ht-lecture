@@ -12,7 +12,7 @@ title:: Lecture 06: Assembler, Linker, Compiler
 	- #### 詞法分析：Lexer
 		- 輸入：原始碼
 		- 輸出：Token
-		- 說明：
+		- 說明：拆解原始程式碼的字串，並將他
 	- #### 語法分析：Syntax Analyzer
 	- #### 語意分析：Semantic Analyzer
 - ### Middle-end
