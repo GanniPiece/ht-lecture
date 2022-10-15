@@ -32,7 +32,10 @@ title:: Lecture 06: Assembler, Linker, Compiler
 		- ![](https://www.spreered.com/content/images/2020/09/symbol_table.jpg)
 - ### Middle-end / Back-end
 	- 為什麼需要 Intermedia Representation (IR)?
-		- ![](https://i.stack.imgur.com/PnWnp.png
+		- ![](https://i.stack.imgur.com/PnWnp.png)
+			- [Source: CS320](https://www.cs.princeton.edu/courses/archive/spr03/cs320/notes/IR-trans1.pdf)
+	-
+		-
 	- #### Intermedia code generator / optimizer
 	- #### code generator & optimizer
 -
