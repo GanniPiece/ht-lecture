@@ -31,7 +31,7 @@ title:: Lecture 06: Assembler, Linker, Compiler
 		- 作法：建立 **Symbol table**
 		- ![](https://www.spreered.com/content/images/2020/09/symbol_table.jpg)
 - ### Middle-end / Back-end
-	- 為什麼需要先轉 IR
+	- 為什麼需要
 	- #### Intermedia code generator / optimizer
 	- #### code generator & optimizer
 -
@@ -46,5 +46,5 @@ title:: Lecture 06: Assembler, Linker, Compiler
 -
 - 上一章節： [[Lecture 05: Basic Compiling Process]]
 - 下一章節： [[Lecture 07: Regular Expression]]
-- Other Links : [[Project 03: A Simple C Interpreter using Python]]
+- Other Links : [[Project 03: A Simple C Parser in Python]]
 -
