@@ -31,7 +31,8 @@ title:: Lecture 06: Assembler, Linker, Compiler
 		- 作法：建立 **Symbol table**
 		- ![](https://www.spreered.com/content/images/2020/09/symbol_table.jpg)
 - ### Middle-end / Back-end
-	- 為什麼需要
+	- 為什麼需要 Intermedia Representation (IR)?
+		- ![](https://i.stack.imgur.com/PnWnp.png
 	- #### Intermedia code generator / optimizer
 	- #### code generator & optimizer
 -
