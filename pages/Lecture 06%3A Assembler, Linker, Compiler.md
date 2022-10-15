@@ -13,7 +13,8 @@ title:: Lecture 06: Assembler, Linker, Compiler
 		- 輸入：原始碼
 		- 輸出：Token
 		- 說明：拆解原始程式碼的字串，並將其各自標上「詞性」。
-		-
+		- 作法：透過 RE 來定義狀態機 (state-machine)，近一步進行「tokenize」。
+			- e.g. id
 		- ![](https://www.spreered.com/content/images/2020/09/lexer.png){:height 331, :width 716}
 		-
 	- #### 語法分析：Syntax Analyzer
