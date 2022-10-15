@@ -7,7 +7,6 @@ public:: true
 - [[Lecture 04: Network Programming]]
 - [[Lecture 05: Basic Compiling Process]]
 - [[Lecture 06: Assembler, Linker, Compiler]]
--
 - [[Lecture 07: Regular Expression]]
 - [[Lecture 08: Multi-threading Programming]]
 - [[Lecture 09: Multi-processing Programming]]
