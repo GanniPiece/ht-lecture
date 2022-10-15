@@ -21,6 +21,7 @@ title:: Lecture 06: Assembler, Linker, Compiler
 		- 輸出：Abstract syntax tree, AST
 		- 說明：透過定義好的上下文無關文法 (Context Free Grammar, CFG)，經由 Parser 檢查我們輸入的 token 順序是否符合
 		- 作法：LL Parser / LR Parser
+		- ![](https://www.spreered.com/content/images/2020/09/parser.png)
 	- #### 語意分析：Semantic Analyzer
 - ### Middle-end
 	- #### Intermedia code generator
