@@ -30,10 +30,9 @@ title:: Lecture 06: Assembler, Linker, Compiler
 		- 說明：變數宣告、重複宣告、型別檢查等等任務
 		- 作法：建立 **Symbol table**
 		- ![](https://www.spreered.com/content/images/2020/09/symbol_table.jpg)
-- ### Middle-end
+- ### Middle-end / Back-end
+	- 為什麼需要先轉 IR，再轉 o
 	- #### Intermedia code generator / optimizer
-	-
-- ### Back-end
 	- #### code generator & optimizer
 -
 - ##
