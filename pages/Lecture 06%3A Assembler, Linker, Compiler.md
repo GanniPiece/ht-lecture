@@ -8,12 +8,16 @@ title:: Lecture 06: Assembler, Linker, Compiler
 	- ![](https://ruslanspivak.com/lsbasi-part1/lsbasi_part1_compiler_interpreter.png) [1](logseq://graph/ht-lecture?block-id=632dc308-2665-4b01-aa5d-d5c1ddc26f78)
 - ## 從 Source code 到 Object code
 	- ![](https://www.spreered.com/content/images/2021/02/compiler_flow_fix.png)
-- ## Front-end
-- ### 詞法分析：Lexer
-- ### 語法分析：Syntax Analyzer
-- ### 語意分析：Semantic Analyzer
+- ### Front-end
+	- #### 詞法分析：Lexer
+	- #### 語法分析：Syntax Analyzer
+	- ### 語意分析：Semantic Analyzer
 - ## Middle-end
-- ### Interme
+- ### Intermedia code generator
+- ### Intermedia code optimizer
+- ## Back-end
+- ### code generator & optimizer
+-
 - ##
 -
 -
