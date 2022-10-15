@@ -43,6 +43,7 @@ title:: Lecture 06: Assembler, Linker, Compiler
 -
 - ## References
   id:: 632dc308-2665-4b01-aa5d-d5c1ddc26f78
+  collapsed:: true
 	- [1]: [Let’s Build A Simple Interpreter. Part 1. - Ruslan's Blog (ruslanspivak.com)](https://ruslanspivak.com/lsbasi-part1/)
 	- [2]: [【深入淺出教你寫編譯器（Compiler）】一、簡介 by Dukeland | InspireGate 派克空間](http://inspiregate.com/programming/other/471-compiler-1.html)
 	- [3]: [eliben/pycparser: Complete C99 parser in pure Python (github.com)](https://github.com/eliben/pycparser)
