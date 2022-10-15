@@ -26,7 +26,7 @@ title:: Lecture 06: Assembler, Linker, Compiler
 		- ![](https://www.spreered.com/content/images/2020/09/parser.png)
 		- #### 語意分析：Semantic Analyzer
 		- 輸入：Syntax tree
-		-
+		- 輸出：Abstract Syntax Tree, AST
 		- 說明：變數宣告、重複宣告、型別檢查等等任務
 		- 作法：建立 **Symbol table**
 		- ![](https://www.spreered.com/content/images/2020/09/symbol_table.jpg)
