@@ -15,12 +15,14 @@ title:: Lecture 06: Assembler, Linker, Compiler
 		- 說明：拆解原始程式碼的字串，並將其各自標上「詞性」。
 		- 作法：透過 RE 來定義狀態機 (state-machine)，近一步進行「tokenize」。
 			- 舉理來說， id 可以寫成 `[a-zA-Z]+[0-9_a-zA-Z]*\b`，基本的 arithmetic operator 可以表示成 `\+\-\*\/`
-		- ![](https://www.spreered.com/content/images/2020/09/lexer.png){:height 331, :width 716}
+		- ![](https://www.spreered.com/content/images/2020/09/lexer.png)
 	- #### 語法分析：Syntax Analyzer / Parser
 		- 輸入：Token
 		- 輸出：Abstract syntax tree, AST
 		- 說明：透過定義好的上下文無關文法 (Context Free Grammar, CFG)，經由 Parser 檢查我們輸入的 token 順序是否符合
 		- 作法：LL Parser / LR Parser
+			- Top-down parsing: LL Paser
+			- Button-up parsing: RL
 		- ![](https://www.spreered.com/content/images/2020/09/parser.png)
 	- #### 語意分析：Semantic Analyzer
 - ### Middle-end
