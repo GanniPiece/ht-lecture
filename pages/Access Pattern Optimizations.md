@@ -74,5 +74,20 @@
   }
   ```
 - ## Function Inlining
-- 若函示被頻繁的呼叫，可以考慮將其展開到呼叫端
+- 若函示被頻繁的呼叫，可以考慮將其展開到呼叫端，像巨集一般展開
+- ### Before
+- ```C
+  int add (int x, int y) {
+  	return x + y;
+  }
+  int sub (int x, int y) {
+    	return add (x, -y);
+  }
+  ```
+- ### After
+- ```C
+  int sub (int x, int y) {
+    	return x
+  }
+  ```
 -
