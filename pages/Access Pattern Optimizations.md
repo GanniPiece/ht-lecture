@@ -34,5 +34,12 @@
   ```
 - ### After
 - ```C
+  int f (int x, int y) {
+    	int tmp = x & (y - 1);
+    	return (x < 0) ? ((tmp == 0)? 0: (tmp | ~(y-1))) : tmp;
+  }
   ```
--
+- ## Blocking Merging
+- ### Before
+- ```C
+  ```
