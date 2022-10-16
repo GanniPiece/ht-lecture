@@ -52,5 +52,5 @@ title:: Lecture 06: Assembler, Linker, Compiler
 -
 - 上一章節： [[Lecture 05: Basic Compiling Process]]
 - 下一章節： [[Lecture 07: Regular Expression]]
-- Other Links : [[Project 03: A Simple C Parser in Python]]
+- Other Links : [[Project 03: A Simple Python Calc Interpreter]]
 -
