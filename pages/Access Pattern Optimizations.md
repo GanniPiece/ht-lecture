@@ -42,4 +42,28 @@
 - ## Blocking Merging
 - ### Before
 - ```C
+  int a, b;
+  void f(int x, int y) {
+    	goto L1;
+  L2:
+    	b = x + y;
+    	goto L3;
+  L1:
+    	a = x + y;
+    	goto L2;
+  L3: 
+    	return;
+  }
+  ```
+- ### After
+- ```C
+  int a, b;
+  void f(int x, int y) {
+      a = x + y;
+      b = x + y;
+      return;
+  }
+  ```
+- ### Common SubExpression ( CSE)
+- ```C
   ```
