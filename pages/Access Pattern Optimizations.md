@@ -13,5 +13,8 @@
   ```
 - ## Constant Propagation / Constant Folding
 - ```C
+  int x = 3;
+  int y = 4 + x;	// y = 7
+  return (x + y);	// return 10;
   ```
--
+- ## Narrowing
