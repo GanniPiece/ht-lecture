@@ -41,8 +41,8 @@ title:: Lecture 06: Assembler, Linker, Compiler
 		- [[Branch Optimizations]]
 		- [[Loop Optimizations]]
 		- [[Access Pattern Optimizations]]
-- ## Bonus: C Practi
-- Calc compiler!!!!! (HW0)
+- ## Bonus: C Practicing
+- Please implement the first homework (Basic Calculator) using C.
 -
 - ## References
   id:: 632dc308-2665-4b01-aa5d-d5c1ddc26f78
