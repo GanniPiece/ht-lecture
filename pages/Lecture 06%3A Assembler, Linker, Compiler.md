@@ -30,6 +30,8 @@ title:: Lecture 06: Assembler, Linker, Compiler
 		- 說明：變數宣告、重複宣告、型別檢查等等任務
 		- 作法：建立 **Symbol table**
 		- ![](https://www.spreered.com/content/images/2020/09/symbol_table.jpg)
+	- ```C
+	  ```
 - ### Middle-end / Back-end
 	- 為什麼需要 Intermedia Representation (IR)?
 		- ![](https://i.stack.imgur.com/PnWnp.png)
