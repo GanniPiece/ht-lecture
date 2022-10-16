@@ -37,6 +37,10 @@ title:: Lecture 06: Assembler, Linker, Compiler
 		-
 	- #### Intermedia code generator / optimizer
 	- #### code generator & optimizer
+		- Branch Optimizer
+			- Original Code
+				- ```
+				  ```
 -
 - ##
 - ## HW
