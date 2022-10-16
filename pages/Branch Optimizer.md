@@ -1,5 +1,5 @@
 - ## If Optimization
-- Before
+- ### Before
 	- ```C
 	  void f (int *p) {
 	    if (p) g(1);
@@ -7,4 +7,16 @@
 	    return;
 	  }
 	  ```
+- After
+	- ```C
+	  void f(int *p) {
+	    if (p) {
+	      g(1);
+	      g(2);
+	    }
+	    return;
+	  }
+	  ```
+- ## Value Range Optimization
+- ### Before
 -
