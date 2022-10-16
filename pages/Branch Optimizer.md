@@ -47,5 +47,11 @@
   ```
 - ### After
 - ```C
+  if (x)
+    	for (int i = 0; i < N; i++) 
+      	a[i] = 0;
+  else 
+    	for (int i = 0; i < N; i++) 
+        	b[i] = 0;
   ```
--
+- ## Tail Recursion 尾端地回
