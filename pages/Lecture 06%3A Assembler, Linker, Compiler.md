@@ -39,7 +39,7 @@ title:: Lecture 06: Assembler, Linker, Compiler
 	- #### code generator & optimizer
 		- [[Branch Optimizer]]
 		- [[Loop Optimizer]]
-		-
+		- ]]A
 - ## HW
 - Calc compiler!!!!! (HW0)
 -

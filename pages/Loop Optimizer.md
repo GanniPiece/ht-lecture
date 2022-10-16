@@ -31,5 +31,15 @@
 - ## Loop fusion
 - ### Before
 - ```C
+  for (int i = 0; i < 300; i++) 
+    	a[i] = a[i] + 3;
+  for (int i = 0; i < 300; i++) 
+    	b[i] = b[i] + 4;
   ```
--
+- ### After
+- ```C
+  for (int i = 0; i < 300; i++) {
+    	a[i] = a[i] + 3;
+    	b[i] = b[i] + 3;
+  }
+  ```
