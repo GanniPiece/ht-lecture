@@ -30,5 +30,6 @@
   ```
 - ## Loop fusion
 - ### Before
--
+- ```C
+  ```
 -
