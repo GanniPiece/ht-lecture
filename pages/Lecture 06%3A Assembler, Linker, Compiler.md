@@ -23,8 +23,6 @@ title:: Lecture 06: Assembler, Linker, Compiler
 		- 作法：LL Parser / LR Parser
 			- Top-down parsing: LL Paser
 			- Button-up parsing: LR Parser
-			- a = 5.f ->(int) a
-			- a as Float
 		- ![](https://www.spreered.com/content/images/2020/09/parser.png)
 	- #### 語意分析：Semantic Analyzer
 		- 輸入：Syntax tree
