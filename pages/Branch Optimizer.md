@@ -68,5 +68,16 @@
     }
   }
   ```
--
+- ### After
+- ```C
+  int f(int i) {
+  entry:
+  	if (i > 0) {
+        g(i);
+        i--;
+        goto entry;
+      }  	
+    	return 0;
+  }
+  ```
 -
