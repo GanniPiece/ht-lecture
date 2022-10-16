@@ -31,11 +31,14 @@
   }
   ```
 - ## Branch Elimination
-- ### Before
 - ```C
   goto L1;
   	// do something
   L1: 
   	goto L2	// L1 branch is unnecessary
+  ```
+- ## Unswitching
+- ### Before
+- ```C
   ```
 -
