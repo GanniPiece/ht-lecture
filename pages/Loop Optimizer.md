@@ -12,5 +12,12 @@
     g();
   }
   ```
--
+- ## Loop Collapsing
+- ### Before
+- ```C
+  int a[100][300];
+  for (i = 0; i < 300; i++) {
+    
+  }
+  ```
 -
