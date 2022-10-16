@@ -22,14 +22,15 @@
     *p++ = 0;
   }
   ```
-- ## Loop fusion
-- ```C
-  int a[100][300];
+- ### After
+- int a[100][300];
   for (i = 0; i < 300; i++) {
     for (int j = 0; j < 300; j++) {
       a[j][i] = 0;
     }
   }
+- ## Loop fusion
+- ```C
   ```
 - ### Before
 - ```C
@@ -40,8 +41,9 @@
   ```
 - ### After
 - ```C
-  for (int i = 0; i < 300; i++) {
+  for (int i = 0; i < 200; i++) {
     	a[i] = a[i] + 3;
     	b[i] = b[i] + 3;
   }
+  
   ```
