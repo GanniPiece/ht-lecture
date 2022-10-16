@@ -40,5 +40,12 @@
 - ## Unswitching
 - ### Before
 - ```C
+  for (int i = 0; i < N; i++) {
+    if (x) a[i] = 0;
+    else b[i] = 0;
+  }
+  ```
+- ### After
+- ```C
   ```
 -
