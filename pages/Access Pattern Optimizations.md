@@ -19,4 +19,11 @@
   ```
 - ## Narrowing
 - ```C
+  unsigned short int s;
+  (s >> 20)		/* s 只有 16 個位元，因此必定為 0 */
+  (s > 0x10000)	/* 16 bit 的值不會大於 17 bit，故必為 0 */
+  (s == -1)		/* unsigned 必為正數，故必為 0 */
   ```
+- ## Integer mode optimization
+- 許多硬體
+-
