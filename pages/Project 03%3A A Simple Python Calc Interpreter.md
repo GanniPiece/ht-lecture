@@ -7,5 +7,6 @@ title:: Project 03: A Simple Python Calc Interpreter
   class CalcInterpreter:
     	def tokenize(self, x: str):
         # e.g. input: '2 + 3 - 5'
-        #	     return: [('2', id), ('+', )]
+        #	     return: [('2', id), ('+', operator), ('3', id), ('-', operator), ('5', id)]
+        return tokens
   ```
