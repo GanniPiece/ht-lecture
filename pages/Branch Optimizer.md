@@ -56,4 +56,17 @@
   ```
 - ## Tail Recursion 尾端遞迴
 - 尾端呼叫可透過 `goto` 來減少 stack frame，從而達到最佳化
+- ### Before
+- ```C
+  int f(int i) {
+    if (i > 0) {
+      g(i);
+      return f(i-1);
+    }
+    else {
+      return 0;
+    }
+  }
+  ```
+-
 -
