@@ -25,5 +25,12 @@
   (s == -1)		/* unsigned 必為正數，故必為 0 */
   ```
 - ## Integer mode optimization
-- 許多硬體
+- 許多硬體在除法指令上需要更多的 CPU cycle，我們可以考慮以功能相同的指令取代。
+- ### Before
+- ```C
+  int f (int x, int y) {
+    	return x % y;
+  }
+  ```
+- ### After
 -
