@@ -31,6 +31,21 @@ title:: Lecture 06: Assembler, Linker, Compiler
 		- 作法：建立 **Symbol table**
 		- ![](https://www.spreered.com/content/images/2020/09/symbol_table.jpg)
 	- ```C
+	  void proc_one () {
+	    int one_1, one_2, one_5;
+	    if (1) {
+	      int one_3, one_4;
+	    }
+	    
+	    while (...) {
+	      int one_6, one_7;
+	    }
+	  }
+	  void proc_two () {
+	    int two_1, two_2, two_5;
+	  }
+	  
+	  
 	  ```
 - ### Middle-end / Back-end
 	- 為什麼需要 Intermedia Representation (IR)?
