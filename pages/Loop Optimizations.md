@@ -24,7 +24,13 @@
   ```
 - ## Loop fusion
 - ```C
-  ```int a[100][300];
+  int a[100][300];
+  for (i = 0; i < 300; i++) {
+    for (int j = 0; j < 300; j++) {
+      a[j][i] = 0;
+    }
+  }
+  ```
 - ### Before
 - ```C
   for (int i = 0; i < 300; i++) 
