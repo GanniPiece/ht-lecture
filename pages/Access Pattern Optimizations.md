@@ -66,4 +66,13 @@
   ```
 - ### Common SubExpression ( CSE)
 - ```C
+  int a, b;
+  void f(int x, int y) {
+    int tmp = x + y;
+    a = b = tmp;
+    return;
+  }
   ```
+- ## Function Inlining
+- 若函示被頻繁的呼叫，可以考慮將其展開到呼叫端
+-
