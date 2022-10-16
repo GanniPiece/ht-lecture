@@ -56,8 +56,7 @@ title:: Lecture 06: Assembler, Linker, Compiler
 		- [[Branch Optimizations]]
 		- [[Loop Optimizations]]
 		- [[Access Pattern Optimizations]]
-	- ```C
-	  ```
+	-
 - ## Bonus: C Practicing
 - Please implement the first homework (Basic Calculator) using C.
 -
