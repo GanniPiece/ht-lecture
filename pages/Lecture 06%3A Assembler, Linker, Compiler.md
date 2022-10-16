@@ -37,9 +37,9 @@ title:: Lecture 06: Assembler, Linker, Compiler
 		-
 	- #### Intermedia code generator / optimizer
 	- #### code generator & optimizer
-		- [[Branch Optimizer]]
-		- [[Loop Optimizer]]
-		- ]]A
+		- [[Branch Optimizations]]
+		- [[Loop Optimizations]]
+		- [[Access Pattern Optimizations]]
 - ## HW
 - Calc compiler!!!!! (HW0)
 -
