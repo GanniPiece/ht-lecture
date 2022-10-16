@@ -26,4 +26,16 @@
   ```
 - ### After
 - ```C
+  for (int i = 1; i < 100; i++) {
+    g();
+  }
   ```
+- ## Branch Elimination
+- ### Before
+- ```C
+  goto L1;
+  	// do something
+  L1: 
+  	goto L2	// L1 branch is unnecessary
+  ```
+-
