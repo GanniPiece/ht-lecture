@@ -55,5 +55,5 @@
         	b[i] = 0;
   ```
 - ## Tail Recursion 尾端遞迴
--
+- 尾端呼叫可透過 `goto` 來減少 stack frame，從而達到最佳化
 -
