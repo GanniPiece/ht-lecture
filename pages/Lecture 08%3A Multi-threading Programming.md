@@ -78,6 +78,7 @@ title:: Lecture 08: Multi-threading Programming
 -
 - ### C
 - ```C
+  // gcc -o [.out] [filename] -lpthread
   #include <stdio.h>
   #include <stdlib.h>
   #include <unistd.h> // sleep
