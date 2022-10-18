@@ -5,6 +5,10 @@
 - ### SJN
 	- Shortest job next
 - ### FIFO
-	-
+	- First in, first out
+- ### LIFO
+	- Last in, first out
+- ### CFS
+	- Completely Fair Scheduler
 	-
 -
