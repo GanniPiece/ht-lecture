@@ -13,5 +13,7 @@ title:: Lecture 08: Multi-threading Programming
 	- 工人 A (能力好 / 多核)
 	- 工人 B (能力差 / 單核)
 - ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Concepts-_Program_vs._Process_vs._Thread.jpg/400px-Concepts-_Program_vs._Process_vs._Thread.jpg){:height 320, :width 712}
+- ##
+-
 - ## Multithreading
 -
