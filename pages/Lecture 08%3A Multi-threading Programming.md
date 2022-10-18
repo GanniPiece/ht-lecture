@@ -46,6 +46,12 @@ title:: Lecture 08: Multi-threading Programming
   
   for t in thread_list:
     t.start()
+    
+  for t in thread_list:
+    t.join()
   ```
+- ```Python
+  ```
+-
 - ### C
 -
