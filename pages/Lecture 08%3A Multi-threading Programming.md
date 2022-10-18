@@ -18,7 +18,7 @@ title:: Lecture 08: Multi-threading Programming
 - 較「輕量」的排程
 - 每個 process 中至少存在一個 kernel thread
 - 假如系統的排程器是搶佔式，則 kernel thread 為搶佔式
-- 具備自己的 stack、re
+- 具備自己的 stack、計數器
 -
 -
 - ## Preemptive (搶佔式) v.s. Cooperative (協同運作)
