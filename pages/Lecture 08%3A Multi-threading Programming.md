@@ -10,8 +10,7 @@ title:: Lecture 08: Multi-threading Programming
 	- 工廠經理 (OS)
 	- 產線班 A (Process)
 	- 產線班 B (Process)
-	- 工人 A (能力好 )
-	- 工人 B (能力差)
-	-
+	- 工人 A (能力好 / 多核)
+	- 工人 B (能力差 / 單核)
 - ## Multithreading
 -
