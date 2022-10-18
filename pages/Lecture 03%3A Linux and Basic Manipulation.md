@@ -26,13 +26,14 @@ title:: Lecture 03: Linux and Basic Manipulation
 		-
 - ## 檔案系統
 	- ### 概述
-		- ![](https://i.imgur.com/BGOhQmT.png)
+		- ![](https://i.imgur.com/BGOhQmT.png){:height 374, :width 502}
 		- 檔案系統是種邏輯概念，抽象個是實體儲存裝置。
 			- 實體儲存裝置：硬碟、網路儲存、主記憶體等等
 			- 邏輯概念：檔案、目錄、路徑、檔案屬性
 		- Virtual file system, VFS
 			- 檔案操作的抽象介面，照著 VFS 介面開發的檔案系統，可以在執行時期掛載到 Linux 核心
 		- Filesystem in Userspace (FUSE)
+		  id:: 632dc308-08a7-4d88-bdbf-2f2bab316319
 			- 在 Userspace 中延伸檔案系統
 			- 透過 FUSE 掛載 Google Drive 的內容，讓遠端物件對應到本地端的檔案系統之中
 	- ### Virtual File System, VFS
