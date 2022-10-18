@@ -51,6 +51,29 @@ title:: Lecture 08: Multi-threading Programming
     t.join()
   ```
 - ```Python
+  import threading
+  
+  class DoSomething:
+    def __init__(self):
+      self.thread_list = []
+      
+    def do_something(self, i):
+      print("Thread: ", i)
+      print("ID: ", str(threading.get_ident()))
+      
+    def run(self):
+      for i in range(5):
+        self.thread_list.append(
+          threading.Thread(target=self.do_something, args=str(i))
+        )
+        
+      for t in self.thread_list:
+        t.join()
+  
+  if __name__ == "__main__":
+    d = DoSomething()
+    d.run()
+  
   ```
 -
 - ### C
