@@ -1,11 +1,11 @@
 - 排程、排班
 - ## Common Scheduling Strategy
 - ### RR
-	- Round-robin scheduling
+	- Round-Robin Scheduling
 - ### SJN
-	- Shortest job next
+	- Shortest Job Next
 - ### FIFO
-	- First In, First out
+	- First In, First Out
 - ### LIFO
 	- Last in, first out
 - ### CFS
