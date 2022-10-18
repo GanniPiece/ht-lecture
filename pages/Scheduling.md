@@ -2,6 +2,7 @@
 - ## Common Scheduling Strategy
 - ### RR
 	- Round-Robin Scheduling
+	- ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Round_Robin_Schedule_Example.jpg/525px-Round_Robin_Schedule_Example.jpg){:height 268, :width 740}
 - ### SJN
 	- Shortest Job Next
 - ### FIFO (FCFS)
