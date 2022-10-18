@@ -39,9 +39,9 @@ title:: Lecture 08: Multi-threading Programming
     print("End ", num)
     
   thread_list = []
-  t1 = threading.Thread(target=main, args(1))
-  t2 = threading.Thread(target=main, args(2))
-  t3 = threading.Thread(target=main, args(3))
+  t1 = threading.Thread(target=main, args(1,))
+  t2 = threading.Thread(target=main, args(2,))
+  t3 = threading.Thread(target=main, args(3,))
   thread_list += [t1, t2, t3]
   
   for t in thread_list:
