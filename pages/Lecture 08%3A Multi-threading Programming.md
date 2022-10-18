@@ -21,6 +21,7 @@ title:: Lecture 08: Multi-threading Programming
 	- 具備自己的 call stack、計數器
 - ### User Threads
 	- 於 userspace 排程 (review: [user/kernel space](logseq://graph/ht-lecture?block-id=632dc308-d8cc-483e-9535-90edc718fc9d))
+	- context switch 的速度較快
 	-
 -
 -
