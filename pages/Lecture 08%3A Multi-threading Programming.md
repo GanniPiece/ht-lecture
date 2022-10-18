@@ -26,5 +26,8 @@ title:: Lecture 08: Multi-threading Programming
 		- I/O block
 - ## Preemptive (搶佔式) v.s. Cooperative (協同運作)
 -
-- ## Multithreading
+- ## Multithreading programming
+- ### Python
+-
+- ### C
 -
