@@ -5,10 +5,11 @@
 - ### SJN
 	- Shortest job next
 - ### FIFO
-	- First in, first out
+	- First In, First out
 - ### LIFO
 	- Last in, first out
 - ### CFS
 	- Completely Fair Scheduler
-	-
+- ### CRM
+	- Critical Path Method
 -
