@@ -5,9 +5,11 @@
 	- ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Round_Robin_Schedule_Example.jpg/525px-Round_Robin_Schedule_Example.jpg){:height 268, :width 740}
 - ### SJN
 	- Shortest Job Next
+	- ![](https://upload.wikimedia.org/wikipedia/commons/e/ec/Shortest_job_first.png)
 - ### FIFO (FCFS)
 	- First In, First Out (First come, first served)
 	- ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Thread_pool.svg/600px-Thread_pool.svg.png)
+	- ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/330px-Data_Queue.svg.png)
 - ### LIFO
 	- Last in, first out
 - ### CFS
