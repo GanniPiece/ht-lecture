@@ -12,8 +12,6 @@
 	- ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/330px-Data_Queue.svg.png)
 - ### LIFO
 	- Last in, first out
-- ### CFS
-	- Completely Fair Scheduler
 - ### CRM
 	- Critical Path Method
 -
