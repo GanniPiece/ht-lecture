@@ -24,10 +24,11 @@ title:: Lecture 08: Multi-threading Programming
 	- context switch 的速度較 process 快
 	- 會有 concurrency ([[Lecture 10: Parallel Programming]])  的問題
 		- I/O block
+		- race condition
 - ## Preemptive (搶佔式) v.s. Cooperative (協同運作)
 -
 - ## Multithreading programming
 - ### Python
--
+- ``````
 - ### C
 -
