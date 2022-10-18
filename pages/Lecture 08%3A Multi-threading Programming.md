@@ -1,5 +1,6 @@
 title:: Lecture 08: Multi-threading Programming
 
 - title:: Lecture 08: Multi-threading Programming
-- ## What is thread?
+- ## 什麼是 Thread?
+- ## Multithreading
 -
