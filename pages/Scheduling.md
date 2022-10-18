@@ -1,4 +1,5 @@
 - 排程、排班
-- ## Serial
-- ## Serializable
+- ## Common Scheduling Strategy
+- ### RR, Round-robin scheduling
+- # SJN, Sho
 -
