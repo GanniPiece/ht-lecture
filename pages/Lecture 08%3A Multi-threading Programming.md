@@ -14,11 +14,13 @@ title:: Lecture 08: Multi-threading Programming
 	- 工人 B (能力差 / 單核)
 - ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Concepts-_Program_vs._Process_vs._Thread.jpg/400px-Concepts-_Program_vs._Process_vs._Thread.jpg){:height 320, :width 712}
 - ## Kernel Threads v.s. User Threads
-- ### Kernel level
-- 較「輕量」的排程
-- 每個 process 中至少存在一個 kernel thread
-- 假如系統的排程器是搶佔式，則 kernel thread 為搶佔式
-- 具備自己的 call stack、計數器
+- ### Kernel Threads
+	- 較「輕量」的排程
+	- 每個 process 中至少存在一個 kernel thread
+	- 假如系統的排程器是搶佔式，則 kernel thread 為搶佔式
+	- 具備自己的 call stack、計數器
+- ### User Threads
+	- 於 userspace 排程 ()
 -
 -
 - ## Preemptive (搶佔式) v.s. Cooperative (協同運作)
