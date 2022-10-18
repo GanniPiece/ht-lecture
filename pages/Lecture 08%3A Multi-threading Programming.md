@@ -15,6 +15,9 @@ title:: Lecture 08: Multi-threading Programming
 - ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Concepts-_Program_vs._Process_vs._Thread.jpg/400px-Concepts-_Program_vs._Process_vs._Thread.jpg){:height 320, :width 712}
 - ## Kernel level v.s. User level
 - ### Kernel level
+- 較「輕量」的排程
+- 每個 process 中至少存在一個 kernel thread
+- 搶佔式
 -
 - ## Preemptive (搶佔式) v.s. Cooperative (協同運作)
 -
