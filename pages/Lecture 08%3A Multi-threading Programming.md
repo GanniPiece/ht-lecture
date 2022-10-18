@@ -17,7 +17,7 @@ title:: Lecture 08: Multi-threading Programming
 - ### Kernel level
 - 較「輕量」的排程
 - 每個 process 中至少存在一個 kernel thread
-- 假如 系統的搶佔式 Preemptive
+- 假如系統的排程器是搶佔式，則 kernel thread 為搶佔式 Preemptive
 -
 -
 - ## Preemptive (搶佔式) v.s. Cooperative (協同運作)
