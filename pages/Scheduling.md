@@ -10,8 +10,11 @@
 	- Round-Robin Scheduling
 	- ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Round_Robin_Schedule_Example.jpg/525px-Round_Robin_Schedule_Example.jpg){:height 268, :width 740}
 - ### SJN
+  collapsed:: true
 	- Shortest Job Next
 	- ![](https://upload.wikimedia.org/wikipedia/commons/e/ec/Shortest_job_first.png)
 - ### Shortest remaining time first
+  collapsed:: true
 	- ![](https://upload.wikimedia.org/wikipedia/commons/3/39/Shortest_remaining_time.png)
--
+- ### EDF
+	- Earliest deadline first (EDF), least time to go
