@@ -1,5 +1,10 @@
 - 排程、排班
 - ## Common Scheduling Strategy
-- ### RR, Round-robin scheduling
-- # SJN, Sho
+- ### RR
+	- Round-robin scheduling
+- ### SJN
+	- Shortest job next
+- ### FIFO
+	-
+	-
 -
