@@ -78,6 +78,26 @@ title:: Lecture 08: Multi-threading Programming
 -
 - ### C
 - ```C
+  #include <stdio.h>
+  #include <stdlib.h>
+  #include <unistd.h> // sleep
+  #include <pthread.h>
+  
+  void *func (void *vargp)
+  {
+    printf("Start %d", *(int*) vargp);
+    sleep(2);
+    printf("End %d", *(int*) vargp);
+    return NULL;
+  }
+  
+  int main ()
+  {
+    pthread_t thread_id;
+    pthread_create(&thread_id, NULL, func, NULL);
+    pthread_join(thread_id, NULL);
+    exit(0);
+  }
   ```
 -
 - ## References
