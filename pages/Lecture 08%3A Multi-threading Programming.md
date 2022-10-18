@@ -22,7 +22,8 @@ title:: Lecture 08: Multi-threading Programming
 - ### User Threads
 	- 於 userspace 排程 (review: [user/kernel space](logseq://graph/ht-lecture?block-id=632dc308-d8cc-483e-9535-90edc718fc9d))
 	- context switch 的速度較 process 快
-	- 會有 concurrency [[Lecture 10: Parallel Programming]]  的問題
+	- 會有 concurrency ([[Lecture 10: Parallel Programming]])  的問題
+		- I/O block
 	-
 -
 -
