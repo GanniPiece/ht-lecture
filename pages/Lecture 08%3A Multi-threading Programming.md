@@ -6,6 +6,8 @@ title:: Lecture 08: Multi-threading Programming
 - OS 中能夠進行 [[Scheduling]] 的最小單位
 - 包含於 [[Process]] 之中，為 Process 的實際運作單位
 - 一個 Process 中可以有多個 Threads 同時並行，分別執行不同任務
-- e.g. 工廠 -> 產線班 -> 工人
+- e.g.
+	- 工廠 -> 產線班 -> 工人
+	-
 - ## Multithreading
 -
