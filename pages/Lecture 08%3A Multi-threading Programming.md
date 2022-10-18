@@ -101,6 +101,34 @@ title:: Lecture 08: Multi-threading Programming
   }
   ```
 - ```C
+  #include <stdio.h>
+  #include <stdlib.h>
+  #include <unistd.h>
+  #include <pthread.h>
+  
+  int g = 0;
+  
+  void *func (void *vargp)
+  {
+    int *id = (int *) vargp;
+    static int s = 0;
+    ++s; ++g;
+    
+    printf("Thread ID: %d, Static: %d, Global: %d\n", *id, ++s, ++g);
+  }
+  
+  int main()
+  {
+    int i;
+    pthread_t tid[3];
+    for (i = 0; i < 3; i++) 
+    {
+      pthread_create(&tid[i], NULL, func, (void *)&tid[i]);
+    }
+    
+    pthread_exit(NULL);
+    return 0;
+  }
   ```
 -
 - ## References
