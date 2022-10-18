@@ -29,6 +29,7 @@ title:: Lecture 08: Multi-threading Programming
 -
 - ## Multithreading programming
 - ### Python
-- ``````
+- ```Python
+  ```
 - ### C
 -
