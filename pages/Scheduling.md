@@ -4,8 +4,9 @@
 	- Round-Robin Scheduling
 - ### SJN
 	- Shortest Job Next
-- ### FIFO
-	- First In, First Out
+- ### FIFO (FCFS)
+	- First In, First Out (First come, first served)
+	- ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Thread_pool.svg/600px-Thread_pool.svg.png)
 - ### LIFO
 	- Last in, first out
 - ### CFS
