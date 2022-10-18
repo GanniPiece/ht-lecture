@@ -32,6 +32,7 @@ title:: Lecture 01: Basic Concept
 		- IO
 	- 示意圖
 		- ![家教-2.jpg](../assets/家教-2_1663053396699_0.jpg)
+		  id:: 632dc308-d8cc-483e-9535-90edc718fc9d
 - ## 系統架構
 	- 什麼是系統？
 		- ![image.png](../assets/image_1663054573426_0.png)
