@@ -25,6 +25,7 @@ title:: Lecture 08: Multi-threading Programming
 	- 會有 concurrency ([[Lecture 10: Parallel Programming]])  的問題
 		- I/O block
 	-
+	-
 -
 -
 - ## Preemptive (搶佔式) v.s. Cooperative (協同運作)
