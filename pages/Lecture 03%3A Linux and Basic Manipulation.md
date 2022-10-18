@@ -27,6 +27,7 @@ title:: Lecture 03: Linux and Basic Manipulation
 - ## 檔案系統
 	- ### 概述
 		- ![](https://i.imgur.com/BGOhQmT.png){:height 374, :width 502}
+		  id:: 632dc308-ace8-4fc6-9faa-b398e104ad97
 		- 檔案系統是種邏輯概念，抽象個是實體儲存裝置。
 			- 實體儲存裝置：硬碟、網路儲存、主記憶體等等
 			- 邏輯概念：檔案、目錄、路徑、檔案屬性
