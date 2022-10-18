@@ -11,4 +11,5 @@
 	- ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Thread_pool.svg/600px-Thread_pool.svg.png)
 	- ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/330px-Data_Queue.svg.png)
 -
--
+- ### Shortest remaining time first
+	- ![](https://upload.wikimedia.org/wikipedia/commons/3/39/Shortest_remaining_time.png)
