@@ -77,7 +77,8 @@ title:: Lecture 08: Multi-threading Programming
   ```
 -
 - ### C
--
+- ```C
+  ```
 -
 - ## References
 - 1. [threading — Thread-based parallelism — Python 3.10.8 documentation](https://docs.python.org/3/library/threading.html)
