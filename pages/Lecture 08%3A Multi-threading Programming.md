@@ -26,10 +26,16 @@ title:: Lecture 08: Multi-threading Programming
 			- I/O block
 			- race condition
 - ## Preemptive (搶佔式) v.s. Cooperative (協同運作)
+	- CPU 排程的時機：
+		- 1. running -> waiting
+		  2. running -> ready
+		  3. waiting -> ready 
+		  4. running -> terminate
 	- ### Non-Preemptive 不可搶奪型
 		- 除非自行放棄 CPU 使用權，否則不會釋放 CPU 資源
 			- 等待 I/O, semaphore wait
 			- processs terminates
+		-
 	-
 	-
 	-
