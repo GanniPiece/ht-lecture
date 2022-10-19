@@ -34,6 +34,7 @@ title:: Lecture 08: Multi-threading Programming
 		  3. waiting -> ready 
 		  4. running -> terminate
 	- ### Non-Preemptive 不可搶奪型
+		- IEnumerator
 		- 除非自行放棄 CPU 使用權，否則不會釋放 CPU 資源
 			- 等待 I/O, semaphore wait
 			- process terminates
