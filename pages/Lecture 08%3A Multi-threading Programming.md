@@ -39,7 +39,10 @@ title:: Lecture 08: Multi-threading Programming
 			- process terminates
 		- 排程時機：1, 4
 	- ### Preemptive
-		-
+		- 無論是否可以繼續執行，CPU使用權都可能被搶奪
+		- 排程時機：1, 2, 3, 4
+		- 應用：real-time system, time sharing system
+		- 缺點：context switch 次數較多
 		-
 	-
 	-
