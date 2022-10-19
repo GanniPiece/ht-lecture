@@ -38,6 +38,7 @@ title:: Lecture 08: Multi-threading Programming
 			- 等待 I/O, semaphore wait
 			- process terminates
 		- 排程時機：1, 4
+	- ### Preemptive
 		-
 		-
 	-
