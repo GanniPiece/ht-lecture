@@ -36,7 +36,9 @@ title:: Lecture 08: Multi-threading Programming
 	- ### Non-Preemptive 不可搶奪型
 		- 除非自行放棄 CPU 使用權，否則不會釋放 CPU 資源
 			- 等待 I/O, semaphore wait
-			- processs terminates
+			- process terminates
+		- 排程時機：1, 4
+		-
 		-
 	-
 	-
