@@ -115,7 +115,8 @@ title:: Lecture 08: Multi-threading Programming
   int main ()
   {
     pthread_t thread_id;
-    pthread_create(&thread_id, NULL, func, NULL);
+    int n = 0;
+    pthread_create(&thread_id, NULL, func, &n);
     pthread_join(thread_id, NULL);
     exit(0);
   }
