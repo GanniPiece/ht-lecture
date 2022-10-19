@@ -16,3 +16,5 @@
 - ### Shortest remaining time first
   collapsed:: true
 	- ![](https://upload.wikimedia.org/wikipedia/commons/3/39/Shortest_remaining_time.png)
+- ### EDF
+-
