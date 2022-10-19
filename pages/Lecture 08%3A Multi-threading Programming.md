@@ -37,6 +37,7 @@ title:: Lecture 08: Multi-threading Programming
 		- 除非自行放棄 CPU 使用權，否則不會釋放 CPU 資源
 			- 等待 I/O, semaphore wait
 			- process terminates
+		- 缺點：有人佔著茅坑不拉屎
 		- 排程時機：1, 4
 	- ### Preemptive
 		- 無論是否可以繼續執行，CPU使用權都可能被搶奪
