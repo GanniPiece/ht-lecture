@@ -5,6 +5,9 @@
  {:block/name "a",
   :block/created-at 1663943156584,
   :block/updated-at 1663943156584}
+ {:block/name "access pattern optimizations",
+  :block/created-at 1666098820116,
+  :block/updated-at 1666098820116}
  {:block/name "animal",
   :block/created-at 1663943433433,
   :block/updated-at 1663943433433}
@@ -23,6 +26,9 @@
  {:block/name "b",
   :block/created-at 1663943156584,
   :block/updated-at 1663943156584}
+ {:block/name "branch optimizations",
+  :block/created-at 1666098820171,
+  :block/updated-at 1666098820171}
  {:block/name "bucket sorting",
   :block/created-at 1663943433208,
   :block/updated-at 1663943433208}
@@ -118,7 +124,7 @@
   :block/updated-at 1663944166618}
  {:block/name "lecture 03: linux and basic manipulation",
   :block/created-at 1663943432205,
-  :block/updated-at 1663944185812}
+  :block/updated-at 1666103922896}
  {:block/name "lecture 04: network programming",
   :block/created-at 1663943432206,
   :block/updated-at 1663943432206}
@@ -133,7 +139,7 @@
   :block/updated-at 1663943432209}
  {:block/name "lecture 08: multi-threading programming",
   :block/created-at 1663943432210,
-  :block/updated-at 1663943432210}
+  :block/updated-at 1666118634583}
  {:block/name "lecture 09: multi-processing programming",
   :block/created-at 1663943432211,
   :block/updated-at 1663943432211}
@@ -152,6 +158,9 @@
  {:block/name "logs",
   :block/created-at 1663943433068,
   :block/updated-at 1663943433068}
+ {:block/name "loop optimizations",
+  :block/created-at 1666098820426,
+  :block/updated-at 1666098820426}
  {:block/name "may 15th, 2022",
   :block/created-at 1663943432966,
   :block/updated-at 1663943432966}
@@ -176,6 +185,12 @@
  {:block/name "privileged port",
   :block/created-at 1663943432655,
   :block/updated-at 1663943432655}
+ {:block/name "process",
+  :block/created-at 1666099177698,
+  :block/updated-at 1666099177698}
+ {:block/name "project 03: a simple python calc interpreter",
+  :block/created-at 1666098820454,
+  :block/updated-at 1666098820454}
  {:block/name "project 1: 1a2b",
   :block/created-at 1663943432216,
   :block/updated-at 1663944200707}
@@ -194,12 +209,18 @@
  {:block/name "rebase",
   :block/created-at 1663943432989,
   :block/updated-at 1663943432989}
+ {:block/name "regular expression",
+  :block/created-at 1666098820468,
+  :block/updated-at 1666098820468}
  {:block/name "relabel gttm database",
   :block/created-at 1663943433245,
   :block/updated-at 1663943433245}
  {:block/name "sandbox",
   :block/created-at 1663943433110,
   :block/updated-at 1663943433110}
+ {:block/name "scheduling",
+  :block/created-at 1666099085050,
+  :block/updated-at 1666119959848}
  {:block/name "segei prokofiev",
   :block/created-at 1663943433109,
   :block/updated-at 1663943433109}
@@ -236,6 +257,9 @@
  {:block/name "sep 7th, 2022",
   :block/created-at 1663943433246,
   :block/updated-at 1663943433246}
+ {:block/name "simple mail server",
+  :block/created-at 1666098820333,
+  :block/updated-at 1666098820333}
  {:block/name "sorting",
   :block/created-at 1663943433211,
   :block/updated-at 1663943433211}
