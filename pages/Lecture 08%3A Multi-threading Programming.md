@@ -26,6 +26,7 @@ title:: Lecture 08: Multi-threading Programming
 			- I/O block
 			- race condition
 - ## Preemptive (搶佔式) v.s. Cooperative (協同運作)
+	- ![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Process_states.svg/600px-Process_states.svg.png)
 	- CPU 排程的時機：
 		- 1. running -> waiting
 		  2. running -> ready
