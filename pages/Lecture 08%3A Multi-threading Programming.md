@@ -106,9 +106,9 @@ title:: Lecture 08: Multi-threading Programming
   
   void *func (void *vargp)
   {
-    printf("Start %d", *(int*) vargp);
+    printf("Start %d\n", *(int*) vargp);
     sleep(2);
-    printf("End %d", *(int*) vargp);
+    printf("End %d\n", *(int*) vargp);
     return NULL;
   }
   
