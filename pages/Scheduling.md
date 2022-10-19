@@ -12,5 +12,4 @@
 	- ![](https://upload.wikimedia.org/wikipedia/commons/e/ec/Shortest_job_first.png)
 - ### Shortest remaining time first
 	- ![](https://upload.wikimedia.org/wikipedia/commons/3/39/Shortest_remaining_time.png)
-- ### EDF
 -
