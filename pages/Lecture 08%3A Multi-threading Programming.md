@@ -38,6 +38,7 @@ title:: Lecture 08: Multi-threading Programming
 			- 等待 I/O, semaphore wait
 			- process terminates
 		- 缺點：有人佔著茅坑不拉屎
+		- 應用：Coroutine,
 		- 排程時機：1, 4
 	- ### Preemptive
 		- 無論是否可以繼續執行，CPU使用權都可能被搶奪
