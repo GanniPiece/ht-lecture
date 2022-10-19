@@ -27,7 +27,9 @@ title:: Lecture 08: Multi-threading Programming
 			- race condition
 - ## Preemptive (搶佔式) v.s. Cooperative (協同運作)
 	- ### Non-Preemptive 不可搶奪型
-		-
+		- 除非自行放棄 CPU 使用權，否則不會釋放 CPU 資源
+			- 等待 I/O, semaphore wait
+			- processs terminates
 	-
 	-
 	-
