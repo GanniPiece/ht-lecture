@@ -19,4 +19,4 @@ public:: true
 - [[Project 1: 1A2B]]
 - [[Project 2: 1A2B (TCP version)]]
 - ## Exam
-- [[Exam 1: Simple Mail Server]]
+- [[Simple Mail Server]]
