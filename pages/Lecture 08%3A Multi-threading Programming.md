@@ -26,7 +26,7 @@ title:: Lecture 08: Multi-threading Programming
 			- I/O block
 			- race condition
 - ## Preemptive (搶佔式) v.s. Cooperative (協同運作)
-	-
+	- ##
 - ## Multithreading programming
 - ### Python
 - ```Python
