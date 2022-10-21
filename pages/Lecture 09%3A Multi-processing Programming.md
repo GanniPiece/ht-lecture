@@ -12,4 +12,16 @@ title:: Lecture 09: Multi-processing Programming
 	- ![](https://www.wongwonggoods.com/wp-content/uploads/2021/06/multiprocess-python-1-1024x333.png.webp){:height 251, :width 747}
 	-
 - ## Multi-processing on Python
+- ```Python
+  import multiprocessing as mp
+  
+  def task(a, b):
+    print('Task in the Process.')
+    print(a, b)
+  
+  if __name__=='__main__':
+    p1 = mp.Process(target=task, args=(1,2))
+    p1.start()
+    p1.join()
+  ```
 - ## Multi-processing on C
