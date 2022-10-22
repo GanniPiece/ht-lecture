@@ -26,7 +26,11 @@ title:: Lecture 09: Multi-processing Programming
   ```
 - ## Multi-processing on C under Linux
 - 核心概念：`fork`
-- ![](https://blog.gtwang.org/wp-content/uploads/2017/08/c-fork-and-pipe-multi-process-program-tutorial-20170807-1.png)
+- ```
+   ------------------
+  |		父行程 
+  |   parent process 
+  ```
 	- `fork()` 回傳值
 		- $< 0$: 子行程建立失敗
 		- $=0$: 行程是新建立的子行程
