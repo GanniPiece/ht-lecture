@@ -25,6 +25,9 @@ title:: Lecture 09: Multi-processing Programming
     p1.join()
   ```
 - ## Multi-processing on C under Linux
-- 核心概念:
+- 核心概念：`fork`
+- ![](https://blog.gtwang.org/wp-content/uploads/2017/08/c-fork-and-pipe-multi-process-program-tutorial-20170807-1.png)
+	- `fork()` 回傳值
+		- $$< 0$
 - ```C
   ```
