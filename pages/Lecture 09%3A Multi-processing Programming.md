@@ -26,7 +26,9 @@ title:: Lecture 09: Multi-processing Programming
     p1.join()
   ```
 - ### Multiprocessing pool
--
+- 多進程池
+- ```Python
+  ```
 - ## Multi-processing on C under Linux
 - ![](https://hackmd.io/_uploads/HJBvf7h-c.png)
 	- > 出處：[forked! (turnoff.us)](https://turnoff.us/geek/forked/)
