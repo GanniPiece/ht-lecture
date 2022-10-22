@@ -24,4 +24,7 @@ title:: Lecture 09: Multi-processing Programming
     p1.start()
     p1.join()
   ```
-- ## Multi-processing on C
+- ## Multi-processing on C under Linux
+- 核心概念:
+- ```C
+  ```
