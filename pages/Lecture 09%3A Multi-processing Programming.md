@@ -25,6 +25,8 @@ title:: Lecture 09: Multi-processing Programming
     p1.join()
   ```
 - ## Multi-processing on C under Linux
+- ![](https://hackmd.io/_uploads/HJBvf7h-c.png)
+	- >
 - 核心概念：`fork`
 - ```
   +-------------------+				    +-------------------+
