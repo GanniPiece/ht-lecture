@@ -44,7 +44,8 @@ title:: Lecture 09: Multi-processing Programming
 	      print(pool_outputs)
 	  ```
 - Async 非同步
--
+	- ```Python
+	  ```
 -
 - ## Multi-processing on C under Linux
 - ![](https://hackmd.io/_uploads/HJBvf7h-c.png)
