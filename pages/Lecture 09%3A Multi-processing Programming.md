@@ -12,7 +12,7 @@ title:: Lecture 09: Multi-processing Programming
 	- ![](https://www.wongwonggoods.com/wp-content/uploads/2021/06/multiprocess-python-1-1024x333.png.webp){:height 251, :width 747}
 	-
 - ## Multi-processing on Python
-- 可以透過 `multip`
+- 可以透過 `multiprocessing.cpu_count()` 來獲得核心數量
 - ```Python
   import multiprocessing as mp
   
@@ -25,6 +25,8 @@ title:: Lecture 09: Multi-processing Programming
     p1.start()
     p1.join()
   ```
+- ### Multiprocessing pool
+-
 - ## Multi-processing on C under Linux
 - ![](https://hackmd.io/_uploads/HJBvf7h-c.png)
 	- > 出處：[forked! (turnoff.us)](https://turnoff.us/geek/forked/)
