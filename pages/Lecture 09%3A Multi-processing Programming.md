@@ -47,4 +47,5 @@ title:: Lecture 09: Multi-processing Programming
   ```
 - ## Practice
 	- 1. 隨機生成 10000 個數字
-	  2. 搜尋
+	  2. 搜尋指定數字
+	  3. 加密壓縮
