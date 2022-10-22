@@ -63,7 +63,6 @@ title:: Lecture 09: Multi-processing Programming
 	      pool_outputs = pool.map_async(main_map, inputs)
 	      print('The answer would be...')
 	  
-	      # close 和 join 是確保主程序結束後，子程序仍然繼續進行
 	      pool.close()
 	      pool.join()
 	  ```
