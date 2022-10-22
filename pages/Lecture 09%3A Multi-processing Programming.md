@@ -93,4 +93,5 @@ title:: Lecture 09: Multi-processing Programming
 - ## Practice
 	- 1. 隨機生成 20000 個數字，寫入檔案之中
 	  2. 在步驟1. 的檔案中搜尋指定數字
-	  3. 加密壓縮
+	  3. 資料壓縮 run-length encoding
+-
