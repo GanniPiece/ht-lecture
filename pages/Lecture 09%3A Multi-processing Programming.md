@@ -26,7 +26,7 @@ title:: Lecture 09: Multi-processing Programming
   ```
 - ## Multi-processing on C under Linux
 - ![](https://hackmd.io/_uploads/HJBvf7h-c.png)
-	- >
+	- > 出處：[forked! (turnoff.us)](https://turnoff.us/geek/forked/)
 - 核心概念：`fork`
 - ```
   +-------------------+				    +-------------------+
