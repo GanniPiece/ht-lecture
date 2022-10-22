@@ -32,5 +32,11 @@ title:: Lecture 09: Multi-processing Programming
 		- $=0$: 行程是新建立的子行程
 		- $> 0$: 當前行程之 ID
 - ```C
+  #include <stdio.h>
   
+  int main()
+  {
+  	fork();
+    	printf("Hello World\n");
+  }
   ```
