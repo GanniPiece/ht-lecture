@@ -28,6 +28,9 @@ title:: Lecture 09: Multi-processing Programming
 - 核心概念：`fork`
 - ![](https://blog.gtwang.org/wp-content/uploads/2017/08/c-fork-and-pipe-multi-process-program-tutorial-20170807-1.png)
 	- `fork()` 回傳值
-		- $$< 0$
+		- $< 0$: 子行程建立失敗
+		- $=0$: 行程是新建立的子行程
+		- ``
+		-
 - ```C
   ```
