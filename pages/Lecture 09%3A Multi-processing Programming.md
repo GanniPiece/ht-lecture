@@ -97,5 +97,9 @@ title:: Lecture 09: Multi-processing Programming
 	  3. 在步驟1. 的檔案中搜尋指定數字
 	  4. 資料壓縮 run-length encoding
 - ```
+  AAA BBB CCCC EEEEEE ...
+  3 A 3 B 4 C 6 E
+  A B C D
+  1 A 1 B 1 C 1 D
   ```
 -
