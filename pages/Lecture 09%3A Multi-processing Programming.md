@@ -27,9 +27,10 @@ title:: Lecture 09: Multi-processing Programming
 - ## Multi-processing on C under Linux
 - 核心概念：`fork`
 - ```
-   ------------------
-  |		父行程 
-  |   parent process 
+  +-------------------+				    +-------------------+
+  |		父行程 	  |		 fork()		  |		  子行程	    |
+  |   parent process  |	----------->	|	child process 	|
+  +-------------------+					+-------------------+
   ```
 	- `fork()` 回傳值
 		- $< 0$: 子行程建立失敗
@@ -44,3 +45,6 @@ title:: Lecture 09: Multi-processing Programming
     	printf("Hello World\n");
   }
   ```
+- ## Practice
+	- 1. 隨機生成 10000 個數字
+	  2. 搜尋
