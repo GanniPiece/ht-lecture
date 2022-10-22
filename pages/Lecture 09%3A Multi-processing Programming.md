@@ -45,6 +45,27 @@ title:: Lecture 09: Multi-processing Programming
 	  ```
 - Async 非同步
 	- ```Python
+	  from multiprocessing import Process, Pool
+	  import os, time
+	  
+	  
+	  def main_map(i):
+	      result = i * i
+	      print(result)
+	      return result
+	  
+	  
+	  if __name__ == ‘__main__’:
+	  
+	      inputs = [0, 1, 2, 3]
+	      pool = Pool(4)
+	  
+	      pool_outputs = pool.map_async(main_map, inputs)
+	      print('The answer would be...')
+	  
+	      # close 和 join 是確保主程序結束後，子程序仍然繼續進行
+	      pool.close()
+	      pool.join()
 	  ```
 -
 - ## Multi-processing on C under Linux
