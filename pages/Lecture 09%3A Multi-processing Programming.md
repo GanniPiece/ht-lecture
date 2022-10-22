@@ -30,7 +30,7 @@ title:: Lecture 09: Multi-processing Programming
 	- `fork()` 回傳值
 		- $< 0$: 子行程建立失敗
 		- $=0$: 行程是新建立的子行程
-		- ``
-		-
+		- $> 0$: 當前行程之 ID
 - ```C
+  
   ```
