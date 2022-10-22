@@ -28,7 +28,21 @@ title:: Lecture 09: Multi-processing Programming
 - ### Multiprocessing pool
 - 多進程池
 - ```Python
+  from multiprocessing import Process, Pool
+  import os, time
+  
+  
+  def main_map(i):
+      result = i * i
+      return result
+  
+  if __name__ == ‘__main__':
+      inputs = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+      pool = Pool(4)
+      pool_outputs = pool.map(main_map, inputs)
+      print(pool_outputs)
   ```
+-
 - ## Multi-processing on C under Linux
 - ![](https://hackmd.io/_uploads/HJBvf7h-c.png)
 	- > 出處：[forked! (turnoff.us)](https://turnoff.us/geek/forked/)
