@@ -28,7 +28,10 @@ title:: Lecture 10: Concurrency Programming
 	- ![](https://i.imgur.com/El3wtFd.png)
 	- Solution
 		- Mutual exclusion 互斥
-		-
+			- 任一時間點，只允許一個 process/thread 進入規範的 CS 內活動
+		- Progress 進展
+			-
+		- Bound waiting 有限等待
 	- ### Mutex
 	- ### Semaphore
 	- ### Spinlock
