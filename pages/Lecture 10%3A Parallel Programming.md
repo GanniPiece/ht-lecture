@@ -2,7 +2,7 @@ title:: Lecture 10: Parallel Programming
 
 - title:: Lecture 10: Parallel Programming
 - ## Parallelism v.s. Concurrency
-	- > Ｃㄗㄧㄟ dk3s
+	- > Concurrency 可能會用到 Parallelism，但不一定要 Parallelism 才能實現 Concurrency
 	- ![](https://miro.medium.com/max/1250/0*D4B7hf_Up9bc9wzg.jpg){:height 329, :width 344}
 - ### Concurrency 並行
 - 將程式拆開成多個獨立運行的工作，但不一定需要平行化
