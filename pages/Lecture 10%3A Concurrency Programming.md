@@ -17,6 +17,7 @@ title:: Lecture 10: Concurrency Programming
 	- ![](https://miro.medium.com/max/720/1*HCZSJX-XJxrOvQlKcabvmQ.png)
 - ### Parallelism 平行
 	- 在多個處理器上同時執行多個程式
+	- ![](https://i.imgur.com/LVcFoz5.png)
 	- 多核心運算
 	- ![](https://miro.medium.com/max/720/1*_CVfYVLNSrpzZhwwB4D1pg.png)
 - ## Why do we need Concurrency?
