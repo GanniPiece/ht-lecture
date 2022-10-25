@@ -4,7 +4,8 @@ title:: Lecture 10: Parallel Programming
 - ## Parallelism v.s. Concurrency
 	- ![](https://miro.medium.com/max/1250/0*D4B7hf_Up9bc9wzg.jpg){:height 329, :width 344}
 - ### Concurrency 並行
--
+- 將程式拆開成多個獨立運行的工作
+	- e.g. 驅動程式
 - ### Parallelism 平行
 	-
 - ## Synchronize
