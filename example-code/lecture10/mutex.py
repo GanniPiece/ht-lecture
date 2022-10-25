@@ -13,3 +13,15 @@ def task_2():
     global var
     print("task 2")
     print("2: ", var)
+    var = var + 2
+    print("2: ", var)
+
+if __name__ == "__main__":
+    t1 = threading.Thread(task_1)
+    t2 = threading.Thread(task_2)
+
+    t1.start()
+    t2.start()
+
+    t1.join()
+    t2.join()
