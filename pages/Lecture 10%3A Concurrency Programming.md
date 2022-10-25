@@ -6,9 +6,8 @@ title:: Lecture 10: Concurrency Programming
 	- ![](https://miro.medium.com/max/1250/0*D4B7hf_Up9bc9wzg.jpg){:height 329, :width 344}
 	- > Concurrency is about dealing with lots of things at once.
 	  Parallelism is about doing lots of things at once. 
-	  
-	  > **Concurrency is not Parallelism** - Rob Pike (The developer of Golang)
-	-
+	  >
+	  > **Concurrency is not Parallelism** - Rob Pike (The developer of the Golang)
 - ### Concurrency 並行
 	- 將程式拆開成多個獨立運行的工作
 		- e.g. 驅動程式
