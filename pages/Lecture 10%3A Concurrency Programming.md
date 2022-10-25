@@ -103,7 +103,39 @@ title:: Lecture 10: Concurrency Programming
 			- 1. initialize : non-negative integer
 			- 2. **if** S is not negative, **then** enter CS and execute P `wait()`, **else** wait
 			- 3. **if** leave CS, **then** execute V `signal()`
-		-
+		- ```Python
+		  from threading import *		
+		  import time		
+		  
+		  obj = Semaphore(3)		
+		  
+		  def display(name):	
+		  	
+		  	# calling acquire method
+		  	obj.acquire()				
+		  	for i in range(5):
+		  		print('Hello, ', end = '')
+		  		time.sleep(1)
+		  		print(name)
+		  		
+		  		# calling release method
+		  		obj.release()	
+		  		
+		  # creating multiple thread
+		  t1 = Thread(target = display , args = ('Thread-1',))
+		  t2 = Thread(target = display , args = ('Thread-2',))
+		  t3 = Thread(target = display , args = ('Thread-3',))
+		  t4 = Thread(target = display , args = ('Thread-4',))
+		  t5 = Thread(target = display , args = ('Thread-5',))
+		  
+		  # calling the threads
+		  t1.start()
+		  t2.start()
+		  t3.start()
+		  t4.start()
+		  t5.start()
+		  
+		  ```
 -
 - ## References
 	- [並行程式設計：概念 - HackMD](https://hackmd.io/@sysprog/concurrency/https%3A%2F%2Fhackmd.io%2F%40sysprog%2FS1AMIFt0D)
