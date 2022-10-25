@@ -16,7 +16,7 @@ title:: Lecture 10: Concurrency Programming
 	- ![](https://miro.medium.com/max/720/1*HCZSJX-XJxrOvQlKcabvmQ.png)
 - ### Parallelism 平行
 	- 在多個處理器上同時執行多個程式
-	-
+	- ![](https://miro.medium.com/max/720/1*_CVfYVLNSrpzZhwwB4D1pg.png)
 - ## Synchronize
 	- ### Critical section
 	- ### Mutex
@@ -24,9 +24,11 @@ title:: Lecture 10: Concurrency Programming
 	- ### Spinlock
 -
 -
--
--
--
+- ## References
+	- [並行程式設計：概念 - HackMD](https://hackmd.io/@sysprog/concurrency/https%3A%2F%2Fhackmd.io%2F%40sysprog%2FS1AMIFt0D)
+	-
+	- [Concurrency與Parallelism的不同之處. 明明都是同時執行，差別在哪？ | by James Shieh | 技術保鮮盒 | Medium](https://medium.com/mr-efacani-teatime/concurrency%E8%88%87parallelism%E7%9A%84%E4%B8%8D%E5%90%8C%E4%B9%8B%E8%99%95-1b212a020e30)
+	-
 -
 -
 -
