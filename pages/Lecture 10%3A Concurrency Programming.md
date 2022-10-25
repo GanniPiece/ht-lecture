@@ -24,7 +24,11 @@ title:: Lecture 10: Concurrency Programming
 		- {{video https://youtu.be/0hNThkQzT9k}}
 		- ![](https://i.imgur.com/hr4gwXs.png){:height 534, :width 480}
 - ## Synchronize
-	- ### Critical section
+	- ### Critical section (CS)
+	- ![](https://i.imgur.com/El3wtFd.png)
+	- Solution
+		- Mutual exclusion 互斥
+		-
 	- ### Mutex
 	- ### Semaphore
 	- ### Spinlock
