@@ -30,7 +30,8 @@ title:: Lecture 10: Concurrency Programming
 		- Mutual exclusion 互斥
 			- 任一時間點，只允許一個 process/thread 進入規範的 CS 內活動
 		- Progress 進展
-			- 不想進入 CS 的 process/thread 不得阻礙其他 process/thread 進入 CS
+			- 不想進入 CS 的 process/thread 不得阻礙其他 process/thread 進入 CS 影響進入 CS 的決策過程
+			- 有限時間內，應該要安排想進入 CS 的 process/thread 進入，帶空位出現即
 		- Bound waiting 有限等待
 	- ### Mutex
 	- ### Semaphore
