@@ -8,7 +8,8 @@ title:: Lecture 10: Parallel Programming
 - 將程式拆開成多個獨立運行的工作，但不一定需要平行化
 	- e.g. 驅動程式
 - ### Parallelism 平行
-	- 同時執行多個程式
+	- 在多個處理器上同時執行多個程式
+	-
 - ## Synchronize
 	- ### Critical section
 	- ### Mutex
