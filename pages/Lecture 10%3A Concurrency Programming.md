@@ -11,6 +11,7 @@ title:: Lecture 10: Concurrency Programming
 - ### Concurrency 併行
 	- 將程式拆開成多個獨立運行的工作
 		- e.g. 驅動程式
+		- ![](https://i.imgur.com/b0hDafx.png)
 	- 不一定需要平行化
 	- 多執行緒
 	- ![](https://miro.medium.com/max/720/1*HCZSJX-XJxrOvQlKcabvmQ.png)
