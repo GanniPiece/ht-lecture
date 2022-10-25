@@ -4,6 +4,8 @@ title:: Lecture 10: Parallel Programming
 - ## Parallelism v.s. Concurrency
 	- Concurrency : 並行
 	- Parallelism : 平行
+	- ![](https://miro.medium.com/max/1250/0*D4B7hf_Up9bc9wzg.jpg){:height 329, :width 344}
+	-
 	- ###
 - ## Synchronize
 	- ### Mutex
