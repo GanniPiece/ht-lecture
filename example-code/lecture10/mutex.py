@@ -4,7 +4,7 @@ var = 0
 
 def task_1():
     global var
-    cnt = 300
+    cnt = 3000
 
     print("task 1")
     print("1: ", var)
@@ -17,7 +17,7 @@ def task_1():
 
 def task_2():
     global var
-    cnt = 200
+    cnt = 3000
 
     print("task 2")
     print("2: ", var)
