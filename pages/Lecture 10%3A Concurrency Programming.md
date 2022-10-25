@@ -21,8 +21,8 @@ title:: Lecture 10: Concurrency Programming
 - ## Why do we need Concurrency?
 	- [The Free (performance) lunch is over](http://www.gotw.ca/publications/concurrency-ddj.htm)
 		- CPU 時脈 vs 散熱/耗電 tradeoff
-		- {{video 0hNThkQzT9k}}
-	- ![](https://i.imgur.com/hr4gwXs.png){:height 534, :width 480}
+		- {{video https://youtu.be/0hNThkQzT9k}}
+		- ![](https://i.imgur.com/hr4gwXs.png){:height 534, :width 480}
 - ## Synchronize
 	- ### Critical section
 	- ### Mutex
