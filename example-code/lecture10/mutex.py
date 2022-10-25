@@ -5,23 +5,26 @@ var = 0
 def task_1():
     global var
     cnt = 300
-    while(cnt):
-        cnt = cnt - 1
 
     print("task 1")
     print("1: ", var)
+
+    while(cnt):
+        cnt = cnt - 1
+
     var = var + 1
     print("1: ", var)
 
 def task_2():
     global var
-
     cnt = 200
-    while(cnt):
-        cnt = cnt - 1
 
     print("task 2")
     print("2: ", var)
+
+    while(cnt):
+        cnt = cnt - 1
+
     var = var + 2
     print("2: ", var)
 
