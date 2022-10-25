@@ -101,7 +101,7 @@ title:: Lecture 10: Concurrency Programming
 			- P 操作減少 semaphore 的數值
 		- 流程
 			- 1. initialize : non-negative integer
-			- 2. enter CS and execute P `wait()`
+			- 2. **if** S is not negative, **then** enter CS and execute P `wait()`, **else** wait
 			- 3.
 			-
 -
