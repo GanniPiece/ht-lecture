@@ -5,7 +5,7 @@ title:: Lecture 10: Parallel Programming
 -
 - ## Sychronize
 - ### Mutex
-- ### Semephore
+- ### Semaphore
 - ### Spinlock
 -
 -
