@@ -5,7 +5,8 @@ var = 0
 def task_1(lock):
     global var
     cnt = 3000
-
+    
+    ############ CS ##################
     with lock:
         print("task 1")
         print("1: ", var)
@@ -20,6 +21,7 @@ def task_2(lock):
     global var
     cnt = 3000
 
+    ########## critical section ###########
     with lock:
         print("task 2")
         print("2: ", var)
