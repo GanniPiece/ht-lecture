@@ -41,6 +41,7 @@ title:: Lecture 10: Concurrency Programming
 		- 應用於 旗標 (flag)、佇列 (queue)、計數器 (counter) 等資源上
 		-
 	- ### Semaphore
+		- 旗號
 	- ### Spinlock
 -
 -
