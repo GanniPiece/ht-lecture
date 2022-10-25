@@ -81,7 +81,7 @@ title:: Lecture 10: Concurrency Programming
 		      global var
 		      cnt = 3000
 		  
-		      ########## critical section ###########
+		      ############ CS ##################
 		      with lock:
 		          print("task 2")
 		          print("2: ", var)
@@ -91,6 +91,7 @@ title:: Lecture 10: Concurrency Programming
 		  
 		          var = var + 2
 		          print("2: ", var)
+		      ############ CS ##################
 		  
 		  if __name__ == "__main__":
 		      lock = threading.Lock()
