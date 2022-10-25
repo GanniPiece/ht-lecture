@@ -97,8 +97,11 @@ title:: Lecture 10: Concurrency Programming
 	- ### Semaphore
 		- 旗號
 		- PV 操作：V (`signal()`), P (`wait()`)
-			- V 增加 semaphore 的數值
-			- P
+			- V 操作增加 semaphore 的數值
+			- P 操作減少 semaphore 的數值
+		- 流程
+			- 1. initialize : non-negative integer
+			  2. execute P `wait()`
 -
 - ## References
 	- [並行程式設計：概念 - HackMD](https://hackmd.io/@sysprog/concurrency/https%3A%2F%2Fhackmd.io%2F%40sysprog%2FS1AMIFt0D)
