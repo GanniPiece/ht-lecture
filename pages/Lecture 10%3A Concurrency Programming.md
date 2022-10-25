@@ -47,7 +47,8 @@ title:: Lecture 10: Concurrency Programming
 		- **MUT**ual **EX**clusion，中文譯作「互斥鎖」
 		- 防止兩條執行緒對公共資源 (e.g. 全域變數) 進行讀寫
 		- 應用於 旗標 (flag)、佇列 (queue)、計數器 (counter) 等資源上
-		-
+		- ```Python
+		  ```
 	- ### Semaphore
 		- 旗號
 	- ### Spinlock
