@@ -17,8 +17,8 @@ def task_2():
     print("2: ", var)
 
 if __name__ == "__main__":
-    t1 = threading.Thread(task_1)
-    t2 = threading.Thread(task_2)
+    t1 = threading.Thread(target=task_1)
+    t2 = threading.Thread(target=task_2)
 
     t1.start()
     t2.start()
