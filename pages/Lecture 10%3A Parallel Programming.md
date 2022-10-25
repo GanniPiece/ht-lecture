@@ -10,6 +10,7 @@ title:: Lecture 10: Parallel Programming
 - ### Parallelism 平行
 	- 同時執行多個程式
 - ## Synchronize
+	- ### Critical section
 	- ### Mutex
 	- ### Semaphore
 	- ### Spinlock
