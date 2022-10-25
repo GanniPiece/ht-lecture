@@ -36,6 +36,7 @@ title:: Lecture 10: Concurrency Programming
 			- process/thread 從提出申請到獲准進入 CS 的等待時間是有限的
 			- 若有 n 個 processes/threads 想進入，則任一 process/thread 至多等待 $n-1$ 次即可進入
 	- ### Mutex
+		- **MUT**ual **EX**clusion,
 	- ### Semaphore
 	- ### Spinlock
 -
