@@ -34,7 +34,7 @@ title:: Lecture 10: Concurrency Programming
 			- 有限時間內，應該要安排想進入 CS 的 process/thread 進入，帶空位出現即可讓其進入
 		- Bound waiting 有限等待
 			- process/thread 從提出申請到獲准進入 CS 的等待時間是有限的
-			- 若有 n 個 processes/threads 想進入，則任一 process/thread 至多等待 $$$$
+			- 若有 n 個 processes/threads 想進入，則任一 process/thread 至多等待 $n-1$ 次即可進入
 	- ### Mutex
 	- ### Semaphore
 	- ### Spinlock
