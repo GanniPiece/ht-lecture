@@ -48,14 +48,6 @@ title:: Lecture 10: Concurrency Programming
 		- 防止兩條執行緒對公共資源 (e.g. 全域變數) 進行讀寫
 		- 應用於 旗標 (flag)、佇列 (queue)、計數器 (counter) 等資源上
 		- ```Python
-		    1 import threading
-		    2
-		    3 var = 0
-		    4
-		    5 def task_1():
-		    6     global var
-		    7     cnt = 300
-		    8
 		  import threading
 		  
 		  var = 0
@@ -104,7 +96,9 @@ title:: Lecture 10: Concurrency Programming
 		  ```
 	- ### Semaphore
 		- 旗號
--
+		- PV 操作：V (`signal()`), P (`wait()`)
+			- V 增加 semaphore 的數值
+			- P
 -
 - ## References
 	- [並行程式設計：概念 - HackMD](https://hackmd.io/@sysprog/concurrency/https%3A%2F%2Fhackmd.io%2F%40sysprog%2FS1AMIFt0D)
