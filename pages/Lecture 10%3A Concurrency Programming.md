@@ -25,7 +25,9 @@ title:: Lecture 10: Concurrency Programming
 		- CPU 時脈 vs 散熱/耗電 tradeoff
 		- {{video https://youtu.be/0hNThkQzT9k}}
 		- ![](https://i.imgur.com/hr4gwXs.png){:height 534, :width 480}
-- >
+- > 平行，是一種選擇
+- ![](https://i.imgur.com/rweOyiD.png){:height 149, :width 491}
+- ![](https://i.imgur.com/Oom3wM5.png)
 - ### How to make sure the results are correct?
 - Split a program
 - Synchronize
