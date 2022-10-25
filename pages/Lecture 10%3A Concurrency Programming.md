@@ -8,12 +8,12 @@ title:: Lecture 10: Concurrency Programming
 	  Parallelism is about doing lots of things at once. 
 	  >
 	  > **Concurrency is not Parallelism** - Rob Pike (The developer of the Golang)
-- ### Concurrency 並行
+- ### Concurrency 併行
 	- 將程式拆開成多個獨立運行的工作
 		- e.g. 驅動程式
 	- 不一定需要平行化
 	- 多執行緒
-	-
+	- ![](https://miro.medium.com/max/720/1*HCZSJX-XJxrOvQlKcabvmQ.png)
 - ### Parallelism 平行
 	- 在多個處理器上同時執行多個程式
 	-
