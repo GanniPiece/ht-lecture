@@ -31,8 +31,10 @@ title:: Lecture 10: Concurrency Programming
 			- 任一時間點，只允許一個 process/thread 進入規範的 CS 內活動
 		- Progress 進展
 			- 不想進入 CS 的 process/thread 不得阻礙其他 process/thread 進入 CS 影響進入 CS 的決策過程
-			- 有限時間內，應該要安排想進入 CS 的 process/thread 進入，帶空位出現即
+			- 有限時間內，應該要安排想進入 CS 的 process/thread 進入，帶空位出現即可讓其進入
 		- Bound waiting 有限等待
+			- process/thread 從提出申請到獲准進入 CS 的等待時間是有限的
+			- 若有 n 個 processes/threads 想進入，則任一 process/thread 至多等待 $$$$
 	- ### Mutex
 	- ### Semaphore
 	- ### Spinlock
