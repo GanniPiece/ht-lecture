@@ -25,6 +25,7 @@ title:: Lecture 10: Concurrency Programming
 		- CPU 時脈 vs 散熱/耗電 tradeoff
 		- {{video https://youtu.be/0hNThkQzT9k}}
 		- ![](https://i.imgur.com/hr4gwXs.png){:height 534, :width 480}
+- >
 - ### How to make sure the results are correct?
 - Split a program
 - Synchronize
