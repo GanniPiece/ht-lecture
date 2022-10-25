@@ -2,12 +2,13 @@ title:: Lecture 10: Parallel Programming
 
 - title:: Lecture 10: Parallel Programming
 - ## Parallelism v.s. Concurrency
+	- > Ｃㄗㄧㄟ dk3s
 	- ![](https://miro.medium.com/max/1250/0*D4B7hf_Up9bc9wzg.jpg){:height 329, :width 344}
 - ### Concurrency 並行
-- 將程式拆開成多個獨立運行的工作
+- 將程式拆開成多個獨立運行的工作，但不一定需要平行化
 	- e.g. 驅動程式
 - ### Parallelism 平行
-	-
+	- 同時執行多個程式
 - ## Synchronize
 	- ### Mutex
 	- ### Semaphore
