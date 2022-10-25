@@ -3,7 +3,7 @@ title:: Lecture 10: Parallel Programming
 - title:: Lecture 10: Parallel Programming
 - ## Parallel v.s. Concurrency
 -
-- ## Sychronize
+- ## Synchronize
 - ### Mutex
 - ### Semaphore
 - ### Spinlock
