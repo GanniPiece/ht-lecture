@@ -1,4 +1,4 @@
-title:: Lecture 10: Parallel/Concurrency Programming
+title:: Lecture 10: Parallel Programming
 
 - title:: Lecture 10: Parallel Programming
 - ## Parallelism v.s. Concurrency

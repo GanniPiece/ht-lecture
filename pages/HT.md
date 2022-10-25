@@ -10,7 +10,7 @@ public:: true
 - [[Lecture 07: Regular Expression]]
 - [[Lecture 08: Multi-threading Programming]]
 - [[Lecture 09: Multi-processing Programming]]
-- [[Lecture 10: Parallel/Concurrency Programming]]
+- [[Lecture 10: Parallel Programming]]
 - [[Lecture 11: Design Pattern (1)]]
 - [[Lecture 12: Design Pattern (2)]]
 - [[Lecture 13: Design Pattern (3)]]
