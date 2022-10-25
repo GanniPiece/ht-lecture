@@ -4,11 +4,11 @@ title:: Lecture 10: Parallel/Concurrency Programming
 - ## Parallelism v.s. Concurrency
 	- Concurrency : 並行
 	- Parallelism : 平行
-	-
+	- ###
 - ## Synchronize
-- ### Mutex
-- ### Semaphore
-- ### Spinlock
+	- ### Mutex
+	- ### Semaphore
+	- ### Spinlock
 -
 -
 -
