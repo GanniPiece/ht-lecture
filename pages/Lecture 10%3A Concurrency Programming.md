@@ -14,12 +14,12 @@ title:: Lecture 10: Concurrency Programming
 		- ![](https://i.imgur.com/b0hDafx.png)
 	- 不一定需要平行化
 	- 多執行緒
-	- ![](https://miro.medium.com/max/720/1*HCZSJX-XJxrOvQlKcabvmQ.png)
+	- ![](https://hackpad-attachments.s3.amazonaws.com/embedded2016.hackpad.com_K6DJ0ZtiecH_p.537916_1460613316743_p1.png)
 - ### Parallelism 平行
 	- 在多個處理器上同時執行多個程式
 	- ![](https://i.imgur.com/LVcFoz5.png)
 	- 多核心運算
-	- ![](https://miro.medium.com/max/720/1*_CVfYVLNSrpzZhwwB4D1pg.png)
+	- ![](https://hackpad-attachments.s3.amazonaws.com/embedded2016.hackpad.com_K6DJ0ZtiecH_p.537916_1460613329719_p2.png)
 - ## Why do we need Concurrency?
 	- [The Free (performance) lunch is over](http://www.gotw.ca/publications/concurrency-ddj.htm)
 		- CPU 時脈 vs 散熱/耗電 tradeoff
