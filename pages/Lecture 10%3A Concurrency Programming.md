@@ -104,7 +104,6 @@ title:: Lecture 10: Concurrency Programming
 		  ```
 	- ### Semaphore
 		- 旗號
-	- ### Spinlock
 -
 -
 - ## References
