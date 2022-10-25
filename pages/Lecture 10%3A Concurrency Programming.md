@@ -19,7 +19,7 @@ title:: Lecture 10: Concurrency Programming
 	- 多核心運算
 	- ![](https://miro.medium.com/max/720/1*_CVfYVLNSrpzZhwwB4D1pg.png)
 - ## Why do we need Concurrency?
-	- Free (performance) lunch
+	- [Free (performance) lunch](http://www.gotw.ca/publications/concurrency-ddj.htm)
 	- ![](https://i.imgur.com/hr4gwXs.png)
 - ## Synchronize
 	- ### Critical section
