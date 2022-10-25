@@ -102,7 +102,7 @@ title:: Lecture 10: Concurrency Programming
 		- 流程
 			- 1. initialize : non-negative integer
 			- 2. **if** S is not negative, **then** enter CS and execute P `wait()`, **else** wait
-			- 3.
+			- 3. **if** leave CS, **then** execute V `signal()`
 			-
 -
 - ## References
