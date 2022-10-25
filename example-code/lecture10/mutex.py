@@ -4,7 +4,7 @@ var = 0
 
 def task_1():
     global var
-    cnt = 20
+    cnt = 300
     while(cnt):
         cnt = cnt - 1
 
@@ -16,7 +16,7 @@ def task_1():
 def task_2():
     global var
 
-    cnt = 20
+    cnt = 200
     while(cnt):
         cnt = cnt - 1
 
