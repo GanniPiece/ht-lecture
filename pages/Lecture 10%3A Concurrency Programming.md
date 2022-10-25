@@ -48,6 +48,58 @@ title:: Lecture 10: Concurrency Programming
 		- 防止兩條執行緒對公共資源 (e.g. 全域變數) 進行讀寫
 		- 應用於 旗標 (flag)、佇列 (queue)、計數器 (counter) 等資源上
 		- ```Python
+		    1 import threading
+		    2
+		    3 var = 0
+		    4
+		    5 def task_1():
+		    6     global var
+		    7     cnt = 300
+		    8
+		  import threading
+		  
+		  var = 0
+		  
+		  def task_1(lock):
+		      global var
+		      cnt = 3000
+		  
+		      ############ CS ##################
+		      with lock:
+		          print("task 1")
+		          print("1: ", var)
+		  
+		          while(cnt):
+		              cnt = cnt - 1
+		  
+		          var = var + 1
+		          print("1: ", var)
+		      ############ CS ##################
+		  
+		  
+		  def task_2(lock):
+		      global var
+		      cnt = 3000
+		  
+		      ########## critical section ###########
+		      with lock:
+		          print("task 2")
+		          print("2: ", var)
+		  
+		          while(cnt):
+		              cnt = cnt - 1
+		  
+		          var = var + 2
+		          print("2: ", var)
+		  
+		  if __name__ == "__main__":
+		      lock = threading.Lock()
+		  
+		      t1 = threading.Thread(target=task_1, args=(lock,))
+		      t2 = threading.Thread(target=task_2, args=(lock,))
+		  
+		      t1.start()
+		      t2.start()
 		  ```
 	- ### Semaphore
 		- 旗號
