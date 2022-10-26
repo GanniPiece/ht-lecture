@@ -2,7 +2,6 @@ title:: Lecture 10: Concurrency Programming
 
 - title:: Lecture 10: Parallel Programming
 - ## Parallelism v.s. Concurrency
-  collapsed:: true
 	- > Concurrency 可能會用到 Parallelism，但不一定要 Parallelism 才能實現 Concurrency
 	- ![](https://miro.medium.com/max/1250/0*D4B7hf_Up9bc9wzg.jpg){:height 329, :width 344}
 	- > Concurrency is about dealing with lots of things at once.
