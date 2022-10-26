@@ -21,7 +21,6 @@ title:: Lecture 10: Concurrency Programming
 	- 多核心運算
 	- ![](https://hackpad-attachments.s3.amazonaws.com/embedded2016.hackpad.com_K6DJ0ZtiecH_p.537916_1460613329719_p2.png)
 - ## Why do we need Concurrency?
-  collapsed:: true
 	- [The Free (performance) lunch is over](http://www.gotw.ca/publications/concurrency-ddj.htm)
 		- CPU 時脈 vs 散熱/耗電 tradeoff
 		- {{video https://youtu.be/0hNThkQzT9k}}
