@@ -135,7 +135,7 @@ title:: Lecture 10: Concurrency Programming
 		  t4.start()
 		  t5.start()
 		  ```
--
+	- ##
 - ## References
 	- [並行程式設計：概念 - HackMD](https://hackmd.io/@sysprog/concurrency/https%3A%2F%2Fhackmd.io%2F%40sysprog%2FS1AMIFt0D)
 	- [Linux 核心設計: 淺談同步機制 - HackMD](https://hackmd.io/@sysprog/linux-sync?type=view)
