@@ -134,7 +134,6 @@ title:: Lecture 10: Concurrency Programming
 		  t3.start()
 		  t4.start()
 		  t5.start()
-		  
 		  ```
 -
 - ## References
