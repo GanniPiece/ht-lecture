@@ -151,12 +151,12 @@ title:: Lecture 10: Concurrency Programming
   
   void *func3(void* param)
   {
-      pthread_mutex_lock(&mutex);
+      // pthread_mutex_lock(&mutex);
       printf("Incrementing the shared variable...\n");
       for (int i = 0; i < 10000; ++i) {
           shared += 1;
       }
-      pthread_mutex_unlock(&mutex);
+      // pthread_mutex_unlock(&mutex);
       return 0;
   }
   
