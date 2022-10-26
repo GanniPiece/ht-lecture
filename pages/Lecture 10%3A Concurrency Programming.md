@@ -9,7 +9,6 @@ title:: Lecture 10: Concurrency Programming
 	  >
 	  > **Concurrency is not Parallelism** - Rob Pike (The developer of the Golang)
 - ### Concurrency 併行
-  collapsed:: true
 	- 將程式拆開成多個獨立運行的工作
 		- e.g. 驅動程式
 		- ![](https://i.imgur.com/b0hDafx.png)
