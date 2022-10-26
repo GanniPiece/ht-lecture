@@ -2,6 +2,7 @@ title:: Lecture 10: Concurrency Programming
 
 - title:: Lecture 10: Parallel Programming
 - ## Parallelism v.s. Concurrency
+  collapsed:: true
 	- > Concurrency 可能會用到 Parallelism，但不一定要 Parallelism 才能實現 Concurrency
 	- ![](https://miro.medium.com/max/1250/0*D4B7hf_Up9bc9wzg.jpg){:height 329, :width 344}
 	- > Concurrency is about dealing with lots of things at once.
@@ -9,6 +10,7 @@ title:: Lecture 10: Concurrency Programming
 	  >
 	  > **Concurrency is not Parallelism** - Rob Pike (The developer of the Golang)
 - ### Concurrency 併行
+  collapsed:: true
 	- 將程式拆開成多個獨立運行的工作
 		- e.g. 驅動程式
 		- ![](https://i.imgur.com/b0hDafx.png)
@@ -16,11 +18,13 @@ title:: Lecture 10: Concurrency Programming
 	- 多執行緒
 	- ![](https://hackpad-attachments.s3.amazonaws.com/embedded2016.hackpad.com_K6DJ0ZtiecH_p.537916_1460613316743_p1.png)
 - ### Parallelism 平行
+  collapsed:: true
 	- 在多個處理器上同時執行多個程式
 	- ![](https://i.imgur.com/LVcFoz5.png)
 	- 多核心運算
 	- ![](https://hackpad-attachments.s3.amazonaws.com/embedded2016.hackpad.com_K6DJ0ZtiecH_p.537916_1460613329719_p2.png)
 - ## Why do we need Concurrency?
+  collapsed:: true
 	- [The Free (performance) lunch is over](http://www.gotw.ca/publications/concurrency-ddj.htm)
 		- CPU 時脈 vs 散熱/耗電 tradeoff
 		- {{video https://youtu.be/0hNThkQzT9k}}
