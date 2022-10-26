@@ -16,7 +16,6 @@ title:: Lecture 10: Concurrency Programming
 	- 多執行緒
 	- ![](https://hackpad-attachments.s3.amazonaws.com/embedded2016.hackpad.com_K6DJ0ZtiecH_p.537916_1460613316743_p1.png)
 - ### Parallelism 平行
-  collapsed:: true
 	- 在多個處理器上同時執行多個程式
 	- ![](https://i.imgur.com/LVcFoz5.png)
 	- 多核心運算
