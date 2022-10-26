@@ -135,7 +135,47 @@ title:: Lecture 10: Concurrency Programming
 		  t4.start()
 		  t5.start()
 		  ```
-	- ##
+- ## Mutex on C
+- ```C
+  #include <stdio.h>
+  #include <stdlib.h>
+  #include <pthread.h>
+  #include <unistd.h>
+  
+  #ifndef NUM_THREADS
+  #define NUM_THREADS 4
+  #endif
+  
+  int shared = 0;
+  pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+  
+  void *func3(void* param)
+  {
+      pthread_mutex_lock(&mutex);
+      printf("Incrementing the shared variable...\n");
+      for (int i = 0; i < 10000; ++i) {
+          shared += 1;
+      }
+      pthread_mutex_unlock(&mutex);
+      return 0;
+  }
+  
+  int main()
+  {
+      pthread_t threads[NUM_THREADS];
+  
+      for (int i = 0; i < NUM_THREADS; ++i) {
+          pthread_create(&threads[i], NULL, func3, NULL);
+      }
+  
+      for (int i = 0; i < NUM_THREADS; ++i) {
+          pthread_join(threads[i], NULL);
+      }
+  
+      printf("%d\n", shared);
+      exit(EXIT_SUCCESS);
+  }
+  ```
 - ## References
 	- [並行程式設計：概念 - HackMD](https://hackmd.io/@sysprog/concurrency/https%3A%2F%2Fhackmd.io%2F%40sysprog%2FS1AMIFt0D)
 	- [Linux 核心設計: 淺談同步機制 - HackMD](https://hackmd.io/@sysprog/linux-sync?type=view)
