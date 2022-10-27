@@ -58,6 +58,12 @@
   ```
 - ### After
 - ```C
+  int a, b;
+  void f(int x, int y) {
+    	a = x + y;
+      b = x + y;
+    	return;
+  }
   ```
 - ## Common SubExpression (CSE)
 - ### Before

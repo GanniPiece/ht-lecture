@@ -7,7 +7,7 @@
   :block/updated-at 1663943156584}
  {:block/name "access pattern optimizations",
   :block/created-at 1666098820116,
-  :block/updated-at 1666098820116}
+  :block/updated-at 1666836073270}
  {:block/name "animal",
   :block/created-at 1663943433433,
   :block/updated-at 1663943433433}
@@ -160,7 +160,7 @@
   :block/updated-at 1663943433068}
  {:block/name "loop optimizations",
   :block/created-at 1666098820426,
-  :block/updated-at 1666098820426}
+  :block/updated-at 1666835640086}
  {:block/name "may 15th, 2022",
   :block/created-at 1663943432966,
   :block/updated-at 1663943432966}
