@@ -65,7 +65,7 @@
       return;
   }
   ```
-- ### Common SubExpression ( CSE)
+- ## Common SubExpression ( CSE)
 - ```C
   int a, b;
   void f(int x, int y) {
