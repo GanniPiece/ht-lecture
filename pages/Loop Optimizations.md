@@ -14,7 +14,6 @@
   ```
 - ## Loop Collapsing
 - ### Before
-- ### After
 - ```C
   int a[100][300];
   int *p = &a[0][0];
@@ -23,12 +22,14 @@
   }
   ```
 - ### After
-- int a[100][300];
+- ```C
+  int a[100][300];
   for (i = 0; i < 300; i++) {
     for (int j = 0; j < 300; j++) {
       a[j][i] = 0;
     }
   }
+  ```
 - ## Loop fusion
 - ```C
   ```
