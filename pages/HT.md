@@ -15,6 +15,8 @@ public:: true
 - [[Lecture 12: Design Pattern (2)]]
 - [[Lecture 13: Design Pattern (3)]]
 -
+-
+-
 - ## Homework
 - [[Project 1: 1A2B]]
 - [[Project 2: 1A2B (TCP version)]]
