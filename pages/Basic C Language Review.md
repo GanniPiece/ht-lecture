@@ -1,5 +1,7 @@
 - dynamic memory management
 	- [Dynamic memory management - cppreference.com](https://en.cppreference.com/w/c/memory)
+- string library
+	- [Strings library - cppreference.com](https://en.cppreference.com/w/c/string)
 - function pointer
 - storage-class specifiers
 	- [Storage-class specifiers - cppreference.com](https://en.cppreference.com/w/c/language/storage_duration)
