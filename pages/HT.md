@@ -15,6 +15,7 @@ public:: true
 - [[Lecture 12: Design Pattern (2)]]
 - [[Lecture 13: Design Pattern (3)]]
 -
+- [[Basic C Language Review]]
 -
 -
 - ## Homework
