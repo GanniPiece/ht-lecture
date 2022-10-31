@@ -4,4 +4,4 @@
 - ### Functions
 - ### Struct
 - ### Union
--
+- ### Enumeration
