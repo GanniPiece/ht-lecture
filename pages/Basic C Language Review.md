@@ -1,6 +1,9 @@
 - [C reference - cppreference.com](https://en.cppreference.com/w/c)
 - ## Basic Concepts
 - ### Keywords
+	- [C keywords - cppreference.com](https://en.cppreference.com/w/c/keyword)
+	- ![image.png](../assets/image_1667219325593_0.png)
+	-
 - ### Identifiers
 	- Objects
 	- Functions
