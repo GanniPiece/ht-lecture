@@ -4,7 +4,9 @@
 	- [C keywords - cppreference.com](https://en.cppreference.com/w/c/keyword)
 	- 不可重新被定義
 		- ![image.png](../assets/image_1667219325593_0.png)
-	- `_`：一個底線 (underscore) 開頭的 keyword 通常是
+	- `_`：一個底線 (underscore) 開頭的 keyword 通常會使用他們定義的巨集
+		- ![image.png](../assets/image_1667219630343_0.png)
+	-
 - ### Identifiers
 	- Objects
 	- Functions
