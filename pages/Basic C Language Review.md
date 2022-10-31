@@ -5,5 +5,5 @@
 - writing OOP in C
 	- struct
 	- function pointer
--
+- ![image.png](../assets/image_1667227700073_0.png){:height 270, :width 539}
 	-
