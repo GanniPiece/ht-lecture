@@ -2,8 +2,9 @@
 - ## Basic Concepts
 - ### Keywords
 	- [C keywords - cppreference.com](https://en.cppreference.com/w/c/keyword)
-	- ![image.png](../assets/image_1667219325593_0.png)
-	-
+	- 不可重新被定義
+		- ![image.png](../assets/image_1667219325593_0.png)
+	- `_`：一個底線 (underscore) 開頭的 keyword 通常是
 - ### Identifiers
 	- Objects
 	- Functions
