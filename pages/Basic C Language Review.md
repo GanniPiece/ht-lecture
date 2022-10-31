@@ -1,7 +1,9 @@
 - [C reference - cppreference.com](https://en.cppreference.com/w/c)
 - ## Basic Concepts
-- ### Objects
-- ### Functions
-- ### Struct
-- ### Union
-- ### Enumeration
+- ### Keywords
+- ### Identifiers
+	- Objects
+	- Functions
+	- Struct
+	- Union
+	- Enumeration
