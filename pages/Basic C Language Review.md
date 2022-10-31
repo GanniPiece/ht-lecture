@@ -1,3 +1,4 @@
+- dynamic memory allocating
 - function pointer
 - storage-class specifiers
 	- [Storage-class specifiers - cppreference.com](https://en.cppreference.com/w/c/language/storage_duration)
@@ -6,4 +7,4 @@
 	- struct
 	- function pointer
 - ![image.png](../assets/image_1667227700073_0.png){:height 270, :width 539}
-	-
+- call back
