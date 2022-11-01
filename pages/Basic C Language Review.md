@@ -1,5 +1,10 @@
 - ## Function
-- ### Function Arg
+- ### Function Declarations
+- ```C
+  ```
+- ### Function Arguments
+- call by value
+- call by reference
 - ## Bitwise Operation
 - ## String
 	- [Strings library - cppreference.com](https://en.cppreference.com/w/c/string)
