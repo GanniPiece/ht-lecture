@@ -144,7 +144,12 @@
 	  ```
 - 此處 `type` 即是我們要指向的變數型態。所以我們可以將
 	- `int *` 看作指向 `int` 變數的指標
-	- `double *`
+	- `double *` 看作指向 `double` 變數的指標
+	- `float *` 看作指向 `float` 變數的指標
+	- `char *` 看作指向 `char` 變數的指標
+- 我們可以透過 `sizeof` 來看看不同指標的大小
+	- ```C
+	  ```
 ### Function Pointer
 - ## Bitwise Operation
 - ## String
