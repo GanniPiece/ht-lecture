@@ -12,4 +12,4 @@
 	- struct
 	- function pointer
 - ![image.png](../assets/image_1667227700073_0.png){:height 270, :width 539}
-- call back
+- ## Writing Call Back Function in C
