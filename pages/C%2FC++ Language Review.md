@@ -178,6 +178,9 @@
   ```
 - ### Pointer to Pointer
 - ![](https://www.tutorialspoint.com/cprogramming/images/pointer_to_pointer.jpg){:height 149, :width 558}
+- ```C
+  int ** var;
+  ```
 -
 ### Function Pointer
 - ## Bitwise Operation
