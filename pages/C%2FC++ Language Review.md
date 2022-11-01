@@ -76,7 +76,8 @@
   ```
 - ## Array
 - 陣列是一種用來儲存 **fixed-size**, **sequential**, **same-type** 元素的資料結構。
-	- 與 python 的
+	- 與 python 的 list 大不相同，在 python 中我們可以儲存任意型態的資料
+	- ![](https://www.tutorialspoint.com/cprogramming/images/arrays.jpg)
 ## Pointer
 ### Function Pointer
 - ## Bitwise Operation
