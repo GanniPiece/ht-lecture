@@ -80,7 +80,11 @@
 	- ![](https://www.tutorialspoint.com/cprogramming/images/arrays.jpg)
 - ### Declaring Arrays
 - 在 C 中，要宣告一個陣列我們必須先指定「元素的型態」與「元素的大小」。
-	-
+	- 靜態宣告的陣列使用 stack 的記憶體空間
+	- ```C
+	  type arrayName [ arrSize ];
+	  ```
+-
 ## Pointer
 ### Function Pointer
 - ## Bitwise Operation
