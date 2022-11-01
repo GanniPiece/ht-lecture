@@ -74,12 +74,13 @@
   }                                                                                      ㏑:7/15☰
   
   ```
+- ## Array
+- 陣列是一種用來儲存 **fixed-size** 資料結構
+## Pointer
+### Function Pointer
 - ## Bitwise Operation
 - ## String
 	- [Strings library - cppreference.com](https://en.cppreference.com/w/c/string)
-- ## Array
-- ## Pointer
-- ### Function Pointer
 - ## struct  / union / enum
 - ## Dynamic Memory Management
 	- [Dynamic memory management - cppreference.com](https://en.cppreference.com/w/c/memory)
