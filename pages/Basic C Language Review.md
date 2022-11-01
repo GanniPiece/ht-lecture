@@ -11,7 +11,42 @@
 	  int* findMaxIndex (int a[10]);
 	  ```
 - ### Calling a Function
-- 如同我們在 python 中呼叫函式的方法，我們只需要將所需的變數輸入函式之中。若函式有回傳值，我們可以用一個變數去接此回傳值？
+- 如同我們在 python 中呼叫函式的方法，我們只需要將所需的變數輸入函式之中。若函式有回傳值，我們可以用一個變數去儲存此回傳值。
+	- ```C
+	  #include <stdio.h>
+	   
+	  /* function declaration */
+	  int max(int num1, int num2);
+	   
+	  int main () {
+	  
+	     /* local variable definition */
+	     int a = 100;
+	     int b = 200;
+	     int ret;
+	   
+	     /* calling a function to get max value */
+	     ret = max(a, b);
+	   
+	     printf( "Max value is : %d\n", ret );
+	   
+	     return 0;
+	  }
+	   
+	  /* function returning the max between two numbers */
+	  int max(int num1, int num2) {
+	  
+	     /* local variable declaration */
+	     int result;
+	   
+	     if (num1 > num2)
+	        result = num1;
+	     else
+	        result = num2;
+	   
+	     return result; 
+	  }
+	  ```
 - ### Function Arguments
 - call by value
 - call by reference
