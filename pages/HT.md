@@ -11,11 +11,8 @@ public:: true
 - [[Lecture 08: Multi-threading Programming]]
 - [[Lecture 09: Multi-processing Programming]]
 - [[Lecture 10: Concurrency Programming]]
-- [[Lecture 11: Design Pattern (1)]]
-- [[Lecture 12: Design Pattern (2)]]
-- [[Lecture 13: Design Pattern (3)]]
--
 - [[Lecture 11: C/C++ Language Review]]
+- [[Lecture 12: C/C++ Language Review (2)]]
 -
 -
 - ## Homework

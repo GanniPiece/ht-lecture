@@ -185,15 +185,3 @@
 -
 ### Function Pointer
 - ## Bitwise Operation
-- ## String
-	- [Strings library - cppreference.com](https://en.cppreference.com/w/c/string)
-- ## struct  / union / enum
-- ## Dynamic Memory Management
-	- [Dynamic memory management - cppreference.com](https://en.cppreference.com/w/c/memory)
-- ## storage-class specifiers
-	- [Storage-class specifiers - cppreference.com](https://en.cppreference.com/w/c/language/storage_duration)
-- ## writing OOP in C
-	- struct
-	- function pointer
-- ![image.png](../assets/image_1667227700073_0.png){:height 270, :width 539}
-- ## Writing Call Back Function in C
