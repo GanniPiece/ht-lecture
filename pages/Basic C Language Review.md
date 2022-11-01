@@ -11,7 +11,7 @@
 	  int* findMaxIndex (int a[10]);
 	  ```
 - ### Calling a Function
--
+- 如同我們在 python 中呼叫函式的方法，我們
 - ### Function Arguments
 - call by value
 - call by reference
