@@ -78,6 +78,9 @@
 - 陣列是一種用來儲存 **fixed-size**, **sequential**, **same-type** 元素的資料結構。
 	- 與 python 的 list 大不相同，在 python 中我們可以儲存任意型態的資料
 	- ![](https://www.tutorialspoint.com/cprogramming/images/arrays.jpg)
+- ### Declaring Arrays
+- 在 C 中，要宣告一個陣列我們必須先指定「元素的型態」與「元素的大小」。
+	-
 ## Pointer
 ### Function Pointer
 - ## Bitwise Operation
