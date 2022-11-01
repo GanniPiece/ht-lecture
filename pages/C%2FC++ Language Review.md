@@ -181,6 +181,7 @@
 - ```C
   int ** var;
   ```
+- ![](https://i.imgur.com/4QFTxQB.png){:height 387, :width 581}
 -
 ### Function Pointer
 - ## Bitwise Operation
