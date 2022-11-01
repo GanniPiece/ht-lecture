@@ -75,7 +75,8 @@
   
   ```
 - ## Array
-- 陣列是一種用來儲存 **fixed-size** 資料結構
+- 陣列是一種用來儲存 **fixed-size**, **sequential**, **same-type** 元素的資料結構。
+	- 與 python 的
 ## Pointer
 ### Function Pointer
 - ## Bitwise Operation
