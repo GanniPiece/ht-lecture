@@ -4,12 +4,13 @@
 	- ```C
 	  return_type function_name ( parameter list );
 	  ```
-- 在函式宣告中，變數的名稱不需要被指定，但型態
-- ```C
-  void func1 (int num1, int num2);
-  int max(int, int);
-  int* findMaxIndex (int a[10]);
-  ```
+- 在函式宣告中，型態為必須被指定，但變數名稱則可以省略。
+	- ```C
+	  void func1 (int num1, int num2);
+	  int max(int, int);
+	  int* findMaxIndex (int a[10]);
+	  ```
+-
 - ### Function Arguments
 - call by value
 - call by reference
