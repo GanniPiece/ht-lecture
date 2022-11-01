@@ -50,7 +50,28 @@
 		- 也就是說，透過 call by reference 傳入函式的數值，會影響到原本的變數。
 	- C 語言中預設以 call by value 作為參數的傳遞。也就是說，傳入 function 中的數值無法以此改變。
 - ```C++
-                                                                                         ㏑:7/15☰
+  #include <iostream>
+  
+  int add_val (int x, int y) {
+      x = x + y;
+      return x;
+  }
+  
+  int add_ref (int &x, int &y) {
+      x = x + y;
+      return x;
+  }
+  
+  int main () {
+      int x = 1;
+      int y = 2;
+      std::cout << "add(val) x + y = " << add_val(x, y) << std::endl;
+      std::cout << "After add(val): x=" << x << " y=" << y << std::endl;
+      std::cout << "add(ref) x + y = " << add_ref(x, y) << std::endl;
+      std::cout << "After add(val): x=" << x << " y=" << y << std::endl;
+  
+      return 0;
+  }                                                                                      ㏑:7/15☰
   
   ```
 - ## Bitwise Operation
