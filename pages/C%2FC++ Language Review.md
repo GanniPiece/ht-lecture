@@ -149,8 +149,6 @@
 	- `char *` 看作指向 `char` 變數的指標
 - 我們可以透過 `sizeof` 來看看不同指標的大小
 	- ```C
-	  #incldue <stdio.h>
-	  
 	  ```
 ### Function Pointer
 - ## Bitwise Operation
