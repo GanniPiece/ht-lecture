@@ -176,6 +176,8 @@
   if (ptr)
   if (!ptr)
   ```
+- ### Pointer to Pointer
+- ![](https://www.tutorialspoint.com/cprogramming/images/pointer_to_pointer.jpg){:height 149, :width 558}
 -
 ### Function Pointer
 - ## Bitwise Operation
