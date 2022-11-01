@@ -10,6 +10,7 @@
 	  int max(int, int);
 	  int* findMaxIndex (int a[10]);
 	  ```
+- ### Calling a Function
 -
 - ### Function Arguments
 - call by value
