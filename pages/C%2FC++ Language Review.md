@@ -84,7 +84,12 @@
 	- ```C
 	  type arrayName [ arrSize ];
 	  ```
--
+	- ```C
+	  double balance [10];
+	  ```
+- ### Initializing Arrays
+- ```C
+  ```
 ## Pointer
 ### Function Pointer
 - ## Bitwise Operation
