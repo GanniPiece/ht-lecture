@@ -89,6 +89,10 @@
 	  ```
 - ### Initializing Arrays
 - ```C
+  double balance[5] = {1000.0, 2.0, 3.4, 1.5, 50.0};
+  ```
+- ```C
+  double balance[] = {1000.0, 2.0, 3.4, 1.5, 50.0};
   ```
 ## Pointer
 ### Function Pointer
