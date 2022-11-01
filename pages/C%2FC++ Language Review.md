@@ -49,6 +49,7 @@
 	  此方法會複製變數的地址至函式的 formal parameter 之中。在函式中，該地址會作為取用地址中的實際數值。
 		- 也就是說，透過 call by reference 傳入函式的數值，會影響到原本的變數。
 	- C 語言中預設以 call by value 作為參數的傳遞。也就是說，傳入 function 中的數值無法以此改變。
+	-
 - ## Bitwise Operation
 - ## String
 	- [Strings library - cppreference.com](https://en.cppreference.com/w/c/string)

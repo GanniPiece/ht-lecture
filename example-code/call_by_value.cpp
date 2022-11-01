@@ -1,13 +1,13 @@
 #include <iostream>
 
 int add_val (int x, int y) {
-	int z = x + y;
-	return z;
+	x = x + y;
+	return x;
 }
 
 int add_ref (int &x, int &y) {
-	int z = x + y;
-	return z;
+	x = x + y;
+	return x;
 }
 
 int main () {
