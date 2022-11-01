@@ -1,6 +1,13 @@
 - ## Function
 - ### Function Declarations
+- Function 宣告
 - ```C
+  return_type function_name ( parameter list );
+  ```
+- ```C
+  void func1 (int num1, int num2);
+  int max(int, int);
+  int* findMaxIndex (int a[10]);
   ```
 - ### Function Arguments
 - call by value
