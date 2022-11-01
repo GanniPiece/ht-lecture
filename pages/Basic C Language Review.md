@@ -1,3 +1,5 @@
+- ## Array
+- ## Dynamic Memory Management
 - dynamic memory management
 	- [Dynamic memory management - cppreference.com](https://en.cppreference.com/w/c/memory)
 - string library
