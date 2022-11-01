@@ -94,6 +94,16 @@
 - ```C
   double balance[] = {1000.0, 2.0, 3.4, 1.5, 50.0};
   ```
+- ### Multi-dimensional arrays
+- ```C
+  int a[10][10];
+  ```
+- ### Passing arrays to function
+- ```C
+  void func (int *param);
+  ```
+- ```C
+  ```
 ## Pointer
 ### Function Pointer
 - ## Bitwise Operation
