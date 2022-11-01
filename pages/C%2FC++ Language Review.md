@@ -110,6 +110,10 @@
   ```
 - ### Return array from a function
 - ```C
+  int * func ();
+  ```
+- ### Pointer to an array
+- ```C
   ```
 ## Pointer
 ### Function Pointer
