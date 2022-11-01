@@ -120,7 +120,8 @@
   p = balance;
   ```
 ## Pointer
-- 對於動態配置的記憶體，我們必須要使用指標來進行
+- 對於動態配置的記憶體，我們必須要使用指標來進行操作。
+- 所有的變數都是一個記憶體空間，每個記憶體空間都有它獨立的記憶體
 ### Function Pointer
 - ## Bitwise Operation
 - ## String
