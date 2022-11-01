@@ -161,7 +161,7 @@
 	  }
 	  ```
 - ### NULL Pointer
--
+- 在不知道指標要指向誰之前，先將指標指向 `NULL`
 ### Function Pointer
 - ## Bitwise Operation
 - ## String
