@@ -15,7 +15,7 @@ public:: true
 - [[Lecture 12: Design Pattern (2)]]
 - [[Lecture 13: Design Pattern (3)]]
 -
-- [[C/C++ Language Review]]
+- [[Lecture 11: C/C++ Language Review]]
 -
 -
 - ## Homework
