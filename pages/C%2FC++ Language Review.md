@@ -114,6 +114,10 @@
   ```
 - ### Pointer to an array
 - ```C
+  double *p;
+  double balance[10];
+  
+  p = balance;
   ```
 ## Pointer
 ### Function Pointer
