@@ -160,6 +160,8 @@
 	  	return 0;
 	  }
 	  ```
+- ### NULL Pointer
+-
 ### Function Pointer
 - ## Bitwise Operation
 - ## String
