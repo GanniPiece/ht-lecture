@@ -136,7 +136,9 @@
 	     return 0;
 	  }
 	  ```
-- 基本上呢，pointer 就是一個儲
+- 基本上呢，pointer 就是一個儲存變數位置的變數。
+	- ![](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ee2897be-e7c8-4cc5-989e-231842b8e4f2/d81mvxb-5444093c-7726-4ba0-b26f-2eb69a6ab125.png/v1/fill/w_400,h_302,q_80,strp/mr_bean_what___meme_by_josael281999_d81mvxb-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzAyIiwicGF0aCI6IlwvZlwvZWUyODk3YmUtZTdjOC00Y2M1LTk4OWUtMjMxODQyYjhlNGYyXC9kODFtdnhiLTU0NDQwOTNjLTc3MjYtNGJhMC1iMjZmLTJlYjY5YTZhYjEyNS5wbmciLCJ3aWR0aCI6Ijw9NDAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.zeNSI7UBLEKQR7Qes7rRNGyZSibDY7YDUcAo4xdGIUA)
+-
 ### Function Pointer
 - ## Bitwise Operation
 - ## String
