@@ -142,7 +142,9 @@
 	- ```C
 	  type *var-name;
 	  ```
--
+- 此處 `type` 即是我們要指向的變數型態。所以我們可以將
+	- `int *` 看作指向 `int` 變數的指標
+	- `double *`
 ### Function Pointer
 - ## Bitwise Operation
 - ## String
