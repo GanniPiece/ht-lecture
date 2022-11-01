@@ -121,7 +121,21 @@
   ```
 ## Pointer
 - 對於動態配置的記憶體，我們必須要使用指標來進行操作。
-- 所有的變數都是一個記憶體空間，每個記憶體空間都有它獨立的記憶體
+- 所有的變數都是一個記憶體空間，每個記憶體空間都有它獨立的記憶體位置。
+- ```C
+  #include <stdio.h>
+  
+  int main () {
+  
+     int  var1;
+     char var2[10];
+  
+     printf("Address of var1 variable: %x\n", &var1);
+     printf("Address of var2 variable: %x\n", &var2);
+  
+     return 0;
+  }
+  ```
 ### Function Pointer
 - ## Bitwise Operation
 - ## String
