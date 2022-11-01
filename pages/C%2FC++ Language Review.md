@@ -43,8 +43,10 @@
 - ### Function Arguments
 - 當我們呼叫函式時，有兩個傳遞參數的方法
 	- call by value
-		- 這個方法會複製一份實際的數值，然後將
-	- call by reference
+		- 這個方法會複製一份實際的數值，然後將複製的值傳入函式的 formal parameter 之中。
+		- 以 call by value 的方式傳入函式的數值，不會影響到原本的變數。
+		- call by reference
+		  此方法會
 - ## Bitwise Operation
 - ## String
 	- [Strings library - cppreference.com](https://en.cppreference.com/w/c/string)
