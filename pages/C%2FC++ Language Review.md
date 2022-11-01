@@ -161,7 +161,9 @@
 	  }
 	  ```
 - ### NULL Pointer
-- 在不知道指標要指向誰之前，先將指標指向 `NULL`
+- 在不知道指標要指向誰之前，先將指標指向 `NULL` 式良好的習慣。
+- `NULL` pointer 在多個標準函式庫中被定義為數值為 `0` 的常數。
+-
 ### Function Pointer
 - ## Bitwise Operation
 - ## String
