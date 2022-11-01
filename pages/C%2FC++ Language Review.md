@@ -103,6 +103,13 @@
   void func (int *param);
   ```
 - ```C
+  void func (int param[10]);
+  ```
+- ```C
+  void func (int param[]);
+  ```
+- ### Return array from a function
+- ```C
   ```
 ## Pointer
 ### Function Pointer
