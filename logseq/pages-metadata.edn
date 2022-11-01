@@ -38,9 +38,6 @@
  {:block/name "c#",
   :block/created-at 1663943433107,
   :block/updated-at 1663943433107}
- {:block/name "c/c++ language review",
-  :block/created-at 1667217830127,
-  :block/updated-at 1667294550649}
  {:block/name "canceled",
   :block/created-at 1663943156584,
   :block/updated-at 1663943156584}
@@ -103,7 +100,7 @@
   :block/updated-at 1663943433397}
  {:block/name "ht",
   :block/created-at 1663943432218,
-  :block/updated-at 1667217830127}
+  :block/updated-at 1667295313505}
  {:block/name "idea",
   :block/created-at 1663943433394,
   :block/updated-at 1663943433394}
@@ -149,9 +146,18 @@
  {:block/name "lecture 10: concurrency programming",
   :block/created-at 1663943432212,
   :block/updated-at 1666784652798}
+ {:block/name "lecture 11: c/c++ language review (1)",
+  :block/created-at 1667217830127,
+  :block/updated-at 1667294550649}
  {:block/name "lecture 11: design pattern (1)",
   :block/created-at 1663943432213,
   :block/updated-at 1663943432213}
+ {:block/name "lecture 12: c",
+  :block/created-at 1667295313504,
+  :block/updated-at 1667295313504}
+ {:block/name "lecture 12: c/c++ language review (2)",
+  :block/created-at 1667295313502,
+  :block/updated-at 1667295313502}
  {:block/name "lecture 12: design pattern (2)",
   :block/created-at 1663943432214,
   :block/updated-at 1663943432214}

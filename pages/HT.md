@@ -11,7 +11,7 @@ public:: true
 - [[Lecture 08: Multi-threading Programming]]
 - [[Lecture 09: Multi-processing Programming]]
 - [[Lecture 10: Concurrency Programming]]
-- [[Lecture 11: C/C++ Language Review]]
+- [[Lecture 11: C/C++ Language Review (1)]]
 - [[Lecture 12: C/C++ Language Review (2)]]
 -
 -
