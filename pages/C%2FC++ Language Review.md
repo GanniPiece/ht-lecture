@@ -149,6 +149,16 @@
 	- `char *` 看作指向 `char` 變數的指標
 - 我們可以透過 `sizeof` 來看看不同指標的大小
 	- ```C
+	  #include <stdio.h>
+	  
+	  int main () {
+	  	printf("size of char * %lu\n", sizeof(char*));
+	  	printf("size of short * %lu\n", sizeof(short*));
+	  	printf("size of int * %lu\n", sizeof(int*));
+	  	printf("size of long * %lu\n", sizeof(long*));
+	  
+	  	return 0;
+	  }
 	  ```
 ### Function Pointer
 - ## Bitwise Operation
