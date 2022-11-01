@@ -26,9 +26,6 @@
  {:block/name "b",
   :block/created-at 1663943156584,
   :block/updated-at 1663943156584}
- {:block/name "basic c language review",
-  :block/created-at 1667217830127,
-  :block/updated-at 1667228100557}
  {:block/name "branch optimizations",
   :block/created-at 1666098820171,
   :block/updated-at 1666098820171}
@@ -41,6 +38,9 @@
  {:block/name "c#",
   :block/created-at 1663943433107,
   :block/updated-at 1663943433107}
+ {:block/name "c/c++ language review",
+  :block/created-at 1667217830127,
+  :block/updated-at 1667289356446}
  {:block/name "canceled",
   :block/created-at 1663943156584,
   :block/updated-at 1663943156584}
