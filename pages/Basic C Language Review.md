@@ -1,9 +1,9 @@
 - ## Function
 - ### Function Declarations
-- Function 宣告
-- ```C
-  return_type function_name ( parameter list );
-  ```
+- Function 宣告可以讓 compiler 知道 `function name` 以及如何呼叫該 `function`。實際的函式定義如下
+	- ```C
+	  return_type function_name ( parameter list );
+	  ```
 - ```C
   void func1 (int num1, int num2);
   int max(int, int);
