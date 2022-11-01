@@ -41,9 +41,10 @@
 	  }
 	  ```
 - ### Function Arguments
--
-- call by value
-- call by reference
+- 當我們呼叫函式時，有兩個傳遞參數的方法
+	- call by value
+		- 這個方法會複製一份實際的數值，然後將
+	- call by reference
 - ## Bitwise Operation
 - ## String
 	- [Strings library - cppreference.com](https://en.cppreference.com/w/c/string)
