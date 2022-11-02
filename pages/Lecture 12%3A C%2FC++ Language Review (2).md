@@ -84,6 +84,18 @@
 	- [Struct declaration - cppreference.com](https://en.cppreference.com/w/c/language/struct)
 	- 我們在第一堂課學如何查看文件時，已然看過 `struct` 與 `union` 的宣告方式。現在是時候來學習怎麼使用 `struct`，並透過 `struct` 來實作常見的資料結構 `linked list`。
 	- ```C
+	  struct s {
+	  	int a;
+	    	int* b;
+	  };
+	  
+	  // initialize
+	  struct s t1 = {0, {1}};
+	  // member access
+	  printf("%d\n", t1.a)
+	  printf("%d\n", t1->b[0]);
+	  
+	  
 	  ```
 - ## Bitwise operator
 ## storage-class specifiers
