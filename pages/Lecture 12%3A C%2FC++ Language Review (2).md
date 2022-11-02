@@ -1,8 +1,8 @@
+- ## Dynamic Memory Management
+	- [Dynamic memory management - cppreference.com](https://en.cppreference.com/w/c/memory)
 - ## String
 	- [Strings library - cppreference.com](https://en.cppreference.com/w/c/string)
 ## struct  / union / enum
-## Dynamic Memory Management
-	- [Dynamic memory management - cppreference.com](https://en.cppreference.com/w/c/memory)
 - ## Bitwise operator
 ## storage-class specifiers
 	- [Storage-class specifiers - cppreference.com](https://en.cppreference.com/w/c/language/storage_duration)
