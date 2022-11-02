@@ -42,6 +42,22 @@
 		  void free (void *ptr);
 		  ```
 		- 若 `ptr` 為空指標，則此函式不作用。
+		- ```C
+		  #include <stdlib.h>
+		   
+		  int main(void)
+		  {
+		      int *p1 = malloc(10*sizeof *p1);
+		      free(p1); // every allocated pointer must be freed
+		   
+		      int *p2 = calloc(10, sizeof *p2);
+		      int *p3 = realloc(p2, 1000*sizeof *p3);
+		      if(p3) // p3 not null means p2 was freed by realloc
+		         free(p3);
+		      else // p3 null means p2 was not freed
+		         free(p2);
+		  }
+		  ```
 		- {{video https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcT_jnKHuEsu3AQCZNQQKGzNcMWr8c7Q5av7vA}}
 - ### Stack overflow / Heap overflow
 -
