@@ -177,10 +177,12 @@
   if (!ptr)
   ```
 - ### Pointer to Pointer
-- ![](https://www.tutorialspoint.com/cprogramming/images/pointer_to_pointer.jpg){:height 149, :width 558}
 - ```C
   int ** var;
   ```
+- 雙指標 (X)
+-
+- ![](https://www.tutorialspoint.com/cprogramming/images/pointer_to_pointer.jpg){:height 149, :width 558}
 - ![](https://i.imgur.com/4QFTxQB.png){:height 387, :width 581}
 ### Function Pointer
 - ```C
