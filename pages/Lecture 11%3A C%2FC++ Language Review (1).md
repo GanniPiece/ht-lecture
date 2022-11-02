@@ -198,6 +198,10 @@
     	func_ptr(2);
   }
   ```
+- Question:
+	- ```C
+	  int *func
+	  ```
 - ### cdecl
 -
 - ## Bitwise Operation
