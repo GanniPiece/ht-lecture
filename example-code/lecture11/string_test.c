@@ -3,7 +3,8 @@
 #include <string.h>
 
 int main () {
-	char* a = "cat";
+	char a[] = "cat";
 
-	printf("%c%c%c%c\n", *a, *(a+1), *(a+2), *(a+3));
+	printf("sizeof cat = %lu\n", sizeof(a));
+	printf("strlen cat = %lu\n", strlen(a));
 }
