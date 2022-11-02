@@ -16,7 +16,15 @@
 		- ```C
 		  void *calloc (size_t num, size_t size);
 		  ```
-		- 也就是，如果我們想要配置一個長度為 $10$ 的整數陣列，我們可以透過一般的陣列宣告方式 ((6361cf31-91ef-477c-8d51-077f7a38cca6))在 **stack** 中生成，或是動態的透過 `calloc` 於 **heap**
+		- 也就是，如果我們想要配置一個長度為 $10$ 的整數陣列，我們可以透過一般的陣列宣告方式 ((6361cf31-91ef-477c-8d51-077f7a38cca6))在 **stack** 中生成，或是動態的透過 `calloc` 於 **heap** 中生成。
+		- ```C
+		  // stack
+		  int a[10];
+		  // heap
+		  int *b;
+		  b = calloc(10, sizeof(int)); 
+		  ```
+		-
 	- realloc
 	- free
 	  id:: 63620953-55d8-4e39-8dbd-43e15c5869b0
