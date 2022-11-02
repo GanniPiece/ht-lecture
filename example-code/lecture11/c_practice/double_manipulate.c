@@ -1,17 +1,17 @@
 #include "double_manipulate.h"
 
-double add (double a, double b) {
+double double_add (double a, double b) {
     return 0.0;    
 }
 
-double sub (double a, double b) {
+double double_sub (double a, double b) {
     return 0.0;
 }
 
-double mul (double a, double b) {
+double double_mul (double a, double b) {
     return 0.0;
 }
 
-double div (double a, double b) {
+double double_div (double a, double b) {
     return 0.0;
 }
