@@ -5,5 +5,5 @@
 int main () {
 	char* a = "cat";
 
-	printf("%d\n", a);
+	printf("%c%c%c%c\n", *a, *(a+1), *(a+2), *(a+3));
 }
