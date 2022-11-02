@@ -1,7 +1,8 @@
 CC = gcc
 
 main: Calculator.c
-	cc Calculator.c -o main
+	CC Calculator.c -o main
 
 mainpulate: manipulate.c
+	CC manipulate.c int_manipulate.c double_manipulate.c -o manipulalte
 	
