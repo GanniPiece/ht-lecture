@@ -3,5 +3,5 @@
 
 
 int main () {
-    
+    double (*manipulate_double) (double, double);
 }
