@@ -32,7 +32,7 @@
 		-
 	- free
 	  id:: 63620953-55d8-4e39-8dbd-43e15c5869b0
-	- ![](https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcT_jnKHuEsu3AQCZNQQKGzNcMWr8c7Q5av7vA)
+		- {{video https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcT_jnKHuEsu3AQCZNQQKGzNcMWr8c7Q5av7vA}}
 - ### Stack overflow / Heap overflow
 -
 - ## String
