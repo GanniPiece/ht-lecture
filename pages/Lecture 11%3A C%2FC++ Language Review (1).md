@@ -181,7 +181,8 @@
   int ** var;
   ```
 - 雙指標 (X)
--
+- 指標的指標 (O)
+- > **雙馬尾** 與 **馬尾的馬尾** 是完全不同的兩件事情 - jserv
 - ![](https://www.tutorialspoint.com/cprogramming/images/pointer_to_pointer.jpg){:height 149, :width 558}
 - ![](https://i.imgur.com/4QFTxQB.png){:height 387, :width 581}
 ### Function Pointer
