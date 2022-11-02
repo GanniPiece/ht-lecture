@@ -3,5 +3,6 @@
 
 int main() {
 	int *a;
-	printf("%lu\n", sizeof *a);
+	a = malloc(10 * sizeof *a);
+	printf("%lu\n", sizeof(a));
 }
