@@ -33,7 +33,6 @@
 			- 此空間必須為先前透過 `malloc()`、`calloc()`或是 `realloc()`配置，並且尚未被 `free()` 的空間。
 			- 若不符上述條件，則 `realloc()`的結果未被定義。
 			- ```C
-			  void *realloc (void *ptr, size_t new_size);
 			  ```
 	- free
 	  id:: 63620953-55d8-4e39-8dbd-43e15c5869b0
@@ -58,7 +57,6 @@
 		  }
 		  ```
 		- ```C
-		  long a[100000][100000];
 		  ```
 	- heap overflow
 		- ```C
@@ -83,6 +81,7 @@
 	  }
 	  ```
 - ## struct  / union
+	- [Struct declaration - cppreference.com](https://en.cppreference.com/w/c/language/struct)
 	- 我們在第一堂課學如何查看文件時，已然看過 `struct` 與 `union` 的宣告方式。現在是時候來學習怎麼使用 struct，並透過 `struct` 來實作常見的資料結構 `linked list`。
 	-
 - ## Bitwise operator
