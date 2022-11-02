@@ -183,7 +183,8 @@
   ```
 - ![](https://i.imgur.com/4QFTxQB.png){:height 387, :width 581}
 ### Function Pointer
--
+- ```C
+  ```
 - ### cdecl
 -
 - ## Bitwise Operation
