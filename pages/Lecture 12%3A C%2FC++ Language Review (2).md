@@ -1,6 +1,12 @@
 - ## Dynamic Memory Management
 	- [Dynamic memory management - cppreference.com](https://en.cppreference.com/w/c/memory)
 	- malloc
+		- 動態配置記憶體
+		- ```C
+		  // defined in header <stdlib.h>
+		  void *malloc (size_t size);
+		  ```
+	-
 	- calloc
 	- realloc
 	- free
