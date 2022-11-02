@@ -183,7 +183,7 @@
 - 雙指標 (X)
 - 指標的指標 (O)
 - > **雙馬尾** 與 **馬尾的馬尾** 是完全不同的兩件事情 - jserv
-- | ![](https://image.shutterstock.com/image-photo/portrait-beautiful-warmblood-horse-looking-260nw-361498082.jpg){} | ![](https://p2.bahamut.com.tw/B/2KU/45/0001353745.JPG?w=1000) |
+- | ![](https://image.shutterstock.com/image-photo/portrait-beautiful-warmblood-horse-looking-260nw-361498082.jpg){:height 179, :width 287}| ![](https://p2.bahamut.com.tw/B/2KU/45/0001353745.JPG?w=1000){:height 300, :width 200} |
 -
 - ![](https://www.tutorialspoint.com/cprogramming/images/pointer_to_pointer.jpg){:height 149, :width 558}
 - ![](https://i.imgur.com/4QFTxQB.png){:height 387, :width 581}
