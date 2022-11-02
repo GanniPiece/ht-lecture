@@ -32,6 +32,8 @@
 		- 重新配置給定區域的記憶體空間。
 			- 此空間必須為先前透過 `malloc()`、`calloc()`或是 `realloc()`配置，並且尚未被 `free()` 的空間。
 			- 若不符上述條件，則 `realloc()`的結果未被定義。
+			- ```C
+			  ```
 	- free
 	  id:: 63620953-55d8-4e39-8dbd-43e15c5869b0
 		- {{video https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcT_jnKHuEsu3AQCZNQQKGzNcMWr8c7Q5av7vA}}
