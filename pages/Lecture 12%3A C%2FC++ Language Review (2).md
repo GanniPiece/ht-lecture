@@ -8,7 +8,7 @@
 		  ```
 		- 透過 `malloc` 配置的記憶體空間並不會被初始化。
 		- 如果透過 `malloc` 配置成功，則該函式會回傳該空間的起始位置。此 `void *` 的指標可以指向任何具有基本 alignment 的`object` 型態。
-		- 如果 `size` 為 $0$ 的話，回傳的行為則是 **implementation-defined**。何謂 implementation-defined？即是由 compiler 的實作決定。一般來說，`malloc(0)`的回傳值會是 `null pointer`
+		- 如果 `size` 為 $0$ 的話，回傳的行為則是 **implementation-defined**。何謂 implementation-defined？即是由 compiler 的實作決定。一般來說，`malloc(0)`的回傳值會是 ((6361cf31-9ca3-4f21-a5de-62d5674df65b))
 	- calloc
 	- realloc
 	- free
