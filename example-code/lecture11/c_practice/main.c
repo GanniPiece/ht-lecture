@@ -2,7 +2,7 @@
 #include "calculator.h"
 
 int main () {
-    
+    void (*int_candidate) (int*,int*,int*) = {&int_add, &int_sub, &int_mul, &int_div};
 
     int a = 5, b = 3, ans_int;
     add = &int_add;
