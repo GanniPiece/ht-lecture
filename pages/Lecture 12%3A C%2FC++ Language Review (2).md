@@ -96,8 +96,8 @@
 	  	printf("strlen cat = %lu\n", strlen(a));
 	  }
 	  ```
-## struct  / union / enum
--
+- ## struct  / union
+	- 我們在第一堂課時，教過
 - ## Bitwise operator
 ## storage-class specifiers
 	- [Storage-class specifiers - cppreference.com](https://en.cppreference.com/w/c/language/storage_duration)
