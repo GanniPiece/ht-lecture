@@ -75,7 +75,11 @@
 		  long a[100000][100000];
 		  ```
 	- heap overflow
-		-
+		- ```C
+		  for (int i = 0; i < 1000000; i++) {
+		    int *a = malloc(1000*sizeof(int));
+		  }
+		  ```
 - ## String
 	- [Strings library - cppreference.com](https://en.cppreference.com/w/c/string)
 ## struct  / union / enum
