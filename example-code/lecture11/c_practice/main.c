@@ -2,6 +2,8 @@
 #include "calculator.h"
 
 int main () {
+    
+
     int a = 5, b = 3, ans_int;
     add = &int_add;
     add(&ans_int, &a, &b);
