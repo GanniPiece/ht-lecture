@@ -1,10 +1,11 @@
 - ## Dynamic Memory Management
 	- [Dynamic memory management - cppreference.com](https://en.cppreference.com/w/c/memory)
-	- ### malloc
-	- ### calloc
-	- ### realloc
-	- ### free
-	-
+	- malloc
+	- calloc
+	- realloc
+	- free
+- ### Stack overflow / Heap overflow
+-
 - ## String
 	- [Strings library - cppreference.com](https://en.cppreference.com/w/c/string)
 ## struct  / union / enum
