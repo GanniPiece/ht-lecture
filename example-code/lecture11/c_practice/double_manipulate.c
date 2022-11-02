@@ -1,6 +1,8 @@
+#include <stdio.h>
 #include "double_manipulate.h"
 
 double double_add (void *a, void *b) {
+    printf("%lf %lf\n", *(double*)a, *(double*) b);
     return *((double*) a) + *((double*) b);    
 }
 
