@@ -8,5 +8,5 @@ int main () {
 
     double c = 8.3, d = 9.1;
     add = &double_add;
-    printf("%d\n", add(&a, &b));
+    printf("%\n", add(&a, &b));
 }
