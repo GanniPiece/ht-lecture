@@ -212,8 +212,11 @@
 - ```bash
   $ cdecl
   cdecl> declare a as array of pointer to function returning pointer to function returning pointer to char
+  cdecl> declare array of pointer to function returning struct tag
   ```
 - ```Bash
+  $ cdecl
+  cdecl> explain char *(*fptab[])(int)
   ```
 - ## Bitwise Operation
 -
