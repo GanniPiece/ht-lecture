@@ -1,6 +1,7 @@
 CC = gcc
 
-objects = main.o manipulate.o int_manipulate.o double_manipulate.o 
-all = $(objects)
+main: Calculator.c
+	cc Calculator.c -o main
 
-$(objects): %.o: %.c
+mainpulate: manipulate.c
+	
