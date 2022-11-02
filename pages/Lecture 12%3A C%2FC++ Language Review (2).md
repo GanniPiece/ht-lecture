@@ -24,7 +24,7 @@
 		  int *b;
 		  b = calloc(10, sizeof(int)); 
 		  ```
-		-
+		- > `calloc` 是 **thread-safe** 的
 	- realloc
 	- free
 	  id:: 63620953-55d8-4e39-8dbd-43e15c5869b0
