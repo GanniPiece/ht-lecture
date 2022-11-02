@@ -38,7 +38,10 @@
 	- free
 	  id:: 63620953-55d8-4e39-8dbd-43e15c5869b0
 		- 取消配置先前配置的記憶體空間。
-		-
+		- ```C
+		  void free (void *ptr);
+		  ```
+		- 若 `ptr` 為空指標，則此函式不作用。
 		- {{video https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcT_jnKHuEsu3AQCZNQQKGzNcMWr8c7Q5av7vA}}
 - ### Stack overflow / Heap overflow
 -
