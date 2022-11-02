@@ -6,7 +6,7 @@
 		  // defined in header <stdlib.h>
 		  void *malloc (size_t size);
 		  ```
-	-
+		- 透過 `malloc` 配置的記憶體空間並不會被初始化，
 	- calloc
 	- realloc
 	- free
