@@ -84,6 +84,18 @@
 	- [Strings library - cppreference.com](https://en.cppreference.com/w/c/string)
 	- Null-terminated byte string, NTBS
 		- `{'\x63','\x61','\x74','\0'}` == `cat`
+	- ```C
+	  #include <stdio.h>
+	  #include <stdlib.h>
+	  #include <string.h>
+	  
+	  int main () {
+	  	char a[] = "cat";
+	  
+	  	printf("sizeof cat = %lu\n", sizeof(a));
+	  	printf("strlen cat = %lu\n", strlen(a));
+	  }
+	  ```
 ## struct  / union / enum
 - ## Bitwise operator
 ## storage-class specifiers
