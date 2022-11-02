@@ -61,16 +61,21 @@
 		- {{video https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcT_jnKHuEsu3AQCZNQQKGzNcMWr8c7Q5av7vA}}
 - ### Stack overflow / Heap overflow
 	- ![](https://cdn-images-1.medium.com/max/1200/1*8b9-Z3FV6X9SP9We8gSC3Q.jpeg)
-	- ```C
-	  // stack overflow
-	  int calc (int a) {
-	    calc (a--);
-	  }
-	  
-	  int main () {
-	    calc(10);
-	  }
-	  ```
+	- stack overflow
+		- ```C
+		  int calc (int a) {
+		    calc (a--);
+		  }
+		  
+		  int main () {
+		    calc(10);
+		  }
+		  ```
+		- ```C
+		  long a[100000][100000];
+		  ```
+	- heap overflow
+		-
 - ## String
 	- [Strings library - cppreference.com](https://en.cppreference.com/w/c/string)
 ## struct  / union / enum
