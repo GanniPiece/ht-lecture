@@ -83,7 +83,7 @@
 - ## String
 	- [Strings library - cppreference.com](https://en.cppreference.com/w/c/string)
 	- Null-terminated byte string, NTBS
-		- `{'\x63','\x61','\x74','**\0**'`
+		- `{'\x63','\x61','\x74','\0'}` == `cat`
 ## struct  / union / enum
 - ## Bitwise operator
 ## storage-class specifiers
