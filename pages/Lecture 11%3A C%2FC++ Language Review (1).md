@@ -184,6 +184,7 @@
 - ![](https://i.imgur.com/4QFTxQB.png){:height 387, :width 581}
 ### Function Pointer
 - ```C
+  int *func_ptr();
   ```
 - ### cdecl
 -
