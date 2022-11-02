@@ -154,7 +154,7 @@
   :block/updated-at 1667354417591}
  {:block/name "lecture 11: c/c++ language review (1)",
   :block/created-at 1667217830127,
-  :block/updated-at 1667356323188}
+  :block/updated-at 1667374444250}
  {:block/name "lecture 11: design pattern (1)",
   :block/created-at 1663943432213,
   :block/updated-at 1663943432213}
@@ -163,7 +163,7 @@
   :block/updated-at 1667295313504}
  {:block/name "lecture 12: c/c++ language review (2)",
   :block/created-at 1667295313502,
-  :block/updated-at 1667373601044}
+  :block/updated-at 1667374580421}
  {:block/name "lecture 12: design pattern (2)",
   :block/created-at 1663943432214,
   :block/updated-at 1663943432214}
