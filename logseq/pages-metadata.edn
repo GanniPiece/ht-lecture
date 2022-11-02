@@ -146,9 +146,12 @@
  {:block/name "lecture 10: concurrency programming",
   :block/created-at 1663943432212,
   :block/updated-at 1666784652798}
+ {:block/name "lecture 11: c",
+  :block/created-at 1667354417591,
+  :block/updated-at 1667354417591}
  {:block/name "lecture 11: c/c++ language review (1)",
   :block/created-at 1667217830127,
-  :block/updated-at 1667353543053}
+  :block/updated-at 1667354886711}
  {:block/name "lecture 11: design pattern (1)",
   :block/created-at 1663943432213,
   :block/updated-at 1663943432213}
