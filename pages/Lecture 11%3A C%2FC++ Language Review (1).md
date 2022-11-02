@@ -218,5 +218,4 @@
   $ cdecl
   cdecl> explain char *(*fptab[])(int)
   ```
-- ## Bitwise Operation
 -
