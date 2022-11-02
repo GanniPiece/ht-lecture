@@ -5,5 +5,5 @@
 int main () {
 	char* a = "cat";
 
-	printf("sizeof cat = %lu\n", a+1);
+	printf("0x%x 0x%x\n",a, a+1);
 }
