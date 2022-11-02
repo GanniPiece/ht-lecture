@@ -11,6 +11,7 @@
 		- 如果 `size` 為 $0$ 的話，回傳的行為則是 **implementation-defined**。何謂 implementation-defined？即是由 compiler 的實作決定。
 			- 一般來說，`malloc(0)`的回傳值會是 ((6361cf31-9ca3-4f21-a5de-62d5674df65b))。
 			- 不過也是有可能為非 null pointer 的值，儘管如此，回傳的 pointer 不能被 [[dereferenced]]，而且應該要被 ((63620953-55d8-4e39-8dbd-43e15c5869b0))，以避免 [[memory leak]] 。
+		- ![](https://i.redd.it/b2r9qjaicsp21.jpg){:height 372, :width 505}
 	- calloc
 		- 配置數量為 `num` 個，大小為 `size` 的記憶體空間，並且將此空間初始化為 $0$。
 		- ```C
@@ -31,6 +32,7 @@
 		-
 	- free
 	  id:: 63620953-55d8-4e39-8dbd-43e15c5869b0
+	- ![](https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcT_jnKHuEsu3AQCZNQQKGzNcMWr8c7Q5av7vA)
 - ### Stack overflow / Heap overflow
 -
 - ## String
