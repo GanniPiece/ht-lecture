@@ -6,3 +6,5 @@ main: Calculator.c
 mainpulate: manipulate.c
 	CC manipulate.c int_manipulate.c double_manipulate.c -o manipulalte
 	
+clean:
+	rm -f main.o manipulate.o 
