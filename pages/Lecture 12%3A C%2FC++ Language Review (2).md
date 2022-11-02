@@ -24,7 +24,8 @@
 		  int *b;
 		  b = calloc(10, sizeof(int)); 
 		  ```
-		- > `calloc` 是 **thread-safe** 的 [doc](https://en.cppreference.com/w/c/memory/calloc#:~:text=calloc%20is%20thread,(since%20C11))
+		- > `calloc` 是 **thread-safe** 的 **[[doc](https://en.cppreference.com/w/c/memory/calloc#:~:text=calloc%20is%20thread,(since%20C11))]**
+		- 若 `calloc`
 	- realloc
 	- free
 	  id:: 63620953-55d8-4e39-8dbd-43e15c5869b0

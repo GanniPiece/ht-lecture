@@ -65,6 +65,9 @@
  {:block/name "debugger",
   :block/created-at 1663943433069,
   :block/updated-at 1663943433069}
+ {:block/name "dereferenced",
+  :block/created-at 1667370381308,
+  :block/updated-at 1667370381308}
  {:block/name "doing",
   :block/created-at 1663943156584,
   :block/updated-at 1663943156584}
@@ -160,7 +163,7 @@
   :block/updated-at 1667295313504}
  {:block/name "lecture 12: c/c++ language review (2)",
   :block/created-at 1667295313502,
-  :block/updated-at 1667369812625}
+  :block/updated-at 1667371001710}
  {:block/name "lecture 12: design pattern (2)",
   :block/created-at 1663943432214,
   :block/updated-at 1663943432214}
@@ -176,6 +179,9 @@
  {:block/name "may 15th, 2022",
   :block/created-at 1663943432966,
   :block/updated-at 1663943432966}
+ {:block/name "memory leak",
+  :block/created-at 1667370417274,
+  :block/updated-at 1667370469949}
  {:block/name "merge",
   :block/created-at 1663943432988,
   :block/updated-at 1663943432988}
