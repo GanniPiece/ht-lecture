@@ -3,5 +3,6 @@
 
 int main () {
     int a = 5, b = 3;
-    printf("%d\n", *((int*) add((void*) &a, (void*) &b)));
+    add = &int_add;
+    printf("%d\n", add(&a, &b));
 }
