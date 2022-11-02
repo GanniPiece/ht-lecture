@@ -1,17 +1,17 @@
 #include "int_manipulate.h"
 
-int int_add (int *a, int *b) {
-    return (*a + *b);
+void int_add (int* ans, int *a, int *b) {
+    *ans = *a + *b;
 }
 
-int int_sub (int *a, int *b) {
+void int_sub (int* ans, int *a, int *b) {
     return 0;
 }
 
-int int_mul (int *a, int *b) {
+void int_mul (int* ans, int *a, int *b) {
     return 0;
 }
 
-int int_div (int *a, int *b) {
+void int_div (int* ans, int *a, int *b) {
     return 0;
 }
