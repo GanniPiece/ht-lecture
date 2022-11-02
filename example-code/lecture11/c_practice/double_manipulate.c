@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "double_manipulate.h"
 
-double double_add (void *a, void *b) {    
+void double_add (void *a, void *b) {    
 }
 
 double double_sub (double *a, double *b) {
