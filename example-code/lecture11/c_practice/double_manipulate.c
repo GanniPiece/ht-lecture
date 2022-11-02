@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include "double_manipulate.h"
 
-void double_add (void *a, void *b) {    
+void double_add (void *ans, void *a, void *b) {    
 }
 
-double double_sub (double *a, double *b) {
+void double_sub (void *ans, void *a, void *b)  {
     return 0.0;
 }
 
-double double_mul (double *a, double *b) {
+void double_mul (void *ans, void *a, void *b)  {
     return 0.0;
 }
 
-double double_div (double *a, double *b) {
+void double_div (void *ans, void *a, void *b)  {
     return 0.0;
 }
