@@ -1,6 +1,6 @@
 #include "double_manipulate.h"
 
-
+void (*) (double*, double*, double*)
 
 void double_add (double *ans, double *a, double *b) {    
     *ans = *a + *b;
