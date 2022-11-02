@@ -184,7 +184,19 @@
 - ![](https://i.imgur.com/4QFTxQB.png){:height 387, :width 581}
 ### Function Pointer
 - ```C
-  int *func_ptr();
+  #include <stdio.h>
+  
+  void show_number (int a) printf("%d\n", a);
+  void show_number_with_dash (int a) printf("--%d--\n", a);
+  
+  int main() {
+  	void (*func_ptr) ();
+    	func_ptr = &show_number;
+      func_ptr(2);
+    
+    	func_ptr = &show_number_with_dash;
+    	func_ptr(2);
+  }
   ```
 - ### cdecl
 -
