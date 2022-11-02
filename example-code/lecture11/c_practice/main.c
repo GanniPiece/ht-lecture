@@ -3,11 +3,11 @@
 
 int main () {
     void (*int_candidate) (int*,int*,int*) = {&int_add, &int_sub, &int_mul, &int_div};
-
+    void (*manipulate_int) (int*, int*, int*);
 
     int a = 5, b = 3, ans_int;
     for (int i = 0; i < 4; i++) {
-        manipulate_int = &int_add;
+        manipulate_int = int_candidate[i];
         add(&ans_int, &a, &b);
         printf("%d\n", ans_int);
 
