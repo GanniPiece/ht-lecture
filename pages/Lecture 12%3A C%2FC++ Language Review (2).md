@@ -7,7 +7,8 @@
 		  void *malloc (size_t size);
 		  ```
 		- 透過 `malloc` 配置的記憶體空間並不會被初始化。
-		- 如果透過 `malloc` 配置成功，則該函式會回傳該空間的起始位置。此 `void *` 的指標可以指向任何具有基本 alignment `object` 型態的。
+		- 如果透過 `malloc` 配置成功，則該函式會回傳該空間的起始位置。此 `void *` 的指標可以指向任何具有基本 alignment 的`object` 型態。
+		- 如果 `size` 為 $0$ 的話，
 	- calloc
 	- realloc
 	- free
