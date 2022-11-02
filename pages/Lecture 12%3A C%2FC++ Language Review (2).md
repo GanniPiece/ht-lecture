@@ -116,7 +116,13 @@
 	  	printf("%d %d\n", id.employee, id.part_time);
 	  }
 	  ```
-	-
+	- ### linked-list
+	- ```C
+	  struct node {
+	    int val;
+	    struct node * next;
+	  }
+	  ```
 - ## Bitwise operator
 ## storage-class specifiers
 	- [Storage-class specifiers - cppreference.com](https://en.cppreference.com/w/c/language/storage_duration)
