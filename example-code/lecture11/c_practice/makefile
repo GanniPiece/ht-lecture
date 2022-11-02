@@ -1,13 +1,13 @@
 CC = gcc
 
 main: calcuator.o manipulalte.o
-	CC calcuator.o manipulate.o -o main
+	$(CC) calcuator.o manipulate.o -o main
 
-calculator.o: Calculator.c
-	CC -c Calculator.c -o calcuator.o
+calculator: Calculator.c
+	$(CC) -c Calculator.c -o calcuator.o
 
-mainpulate.o: manipulate.c
-	CC -c manipulate.c int_manipulate.c double_manipulate.c -o manipulate
+mainpulate: manipulate.c
+	$(CC) -c manipulate.c int_manipulate.c double_manipulate.c -o manipulate.o
 
 clean:
 	rm -f main.o manipulate.o 
