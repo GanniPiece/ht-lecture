@@ -1,10 +1,10 @@
 CC = gcc
 
-main: Calculator.c
-	CC Calculator.c -o main
+main: Calculator.o
+	CC Calculator.c manipulate.o -o main
 
-mainpulate: manipulate.c
-	CC manipulate.c int_manipulate.c double_manipulate.c -o manipulalte
+mainpulate.o: manipulate.c
+	CC -c manipulate.c int_manipulate.c double_manipulate.c -o manipulalte
 	
 clean:
 	rm -f main.o manipulate.o 
