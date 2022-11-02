@@ -97,7 +97,8 @@
 	  }
 	  ```
 - ## struct  / union
-	- 我們在第一堂課學如何查看文件時，已然看過 `struct` 與 `union` 的宣告方式。現在是時候來學習怎麼使用 struct，並透過 `struct` 來實作常見的資料結構 `linked list`>
+	- 我們在第一堂課學如何查看文件時，已然看過 `struct` 與 `union` 的宣告方式。現在是時候來學習怎麼使用 struct，並透過 `struct` 來實作常見的資料結構 `linked list`。
+	-
 - ## Bitwise operator
 ## storage-class specifiers
 	- [Storage-class specifiers - cppreference.com](https://en.cppreference.com/w/c/language/storage_duration)
