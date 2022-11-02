@@ -98,6 +98,10 @@
 	  ```
 	- ### union
 	- ```C
+	  union u {
+	    	int employee;
+	    	int part_time;
+	  }
 	  ```
 - ## Bitwise operator
 ## storage-class specifiers
