@@ -198,9 +198,10 @@
     	func_ptr(2);
   }
   ```
-- Question:
+- **Question**: What are the differences between these two examples?
 	- ```C
-	  int *func
+	  int  *func  (void);
+	  int (*func) (void);
 	  ```
 - ### cdecl
 -
