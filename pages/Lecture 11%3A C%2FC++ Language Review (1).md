@@ -209,5 +209,11 @@
 	  int (*func) (void);
 	  ```
 - ### cdecl
--
+- ```bash
+  $ cdecl
+  cdecl> declare a as array of pointer to function returning pointer to function returning pointer to char
+  ```
+- ```Bash
+  ```
 - ## Bitwise Operation
+-
