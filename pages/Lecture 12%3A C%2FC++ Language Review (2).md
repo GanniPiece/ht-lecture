@@ -29,7 +29,8 @@
 		- 若 `calloc` 成功的話，回傳一個指標指向新配置空間的開頭。如同 `malloc`時的操作，透過 `calloc`配置的記憶體應該在不需使用時回收。
 		- 若 `calloc` 操作失敗，則回傳 null pointer。
 	- realloc
-		-
+		- 重新配置給定區域的記憶體空間。
+		- 此空間必須為先前透過 `malloc`、`calloc`或是 `realloc()`
 	- free
 	  id:: 63620953-55d8-4e39-8dbd-43e15c5869b0
 		- {{video https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcT_jnKHuEsu3AQCZNQQKGzNcMWr8c7Q5av7vA}}
